@@ -1,0 +1,61 @@
+{
+ "name": "cl_Ti6O12",
+ "title": "(TiO2)6 cluster",
+ "category": "cluster",
+ "description": "Gas-phase (TiO2)6, a standard titania-nanocluster global-optimisation target; DFT global minima of small (TiO2)n are compact, with 4-/5-fold coordinated Ti and one or two terminal Ti=O groups (Qu & Kroes, JPCB 110, 8998 (2006); Lamiel-Garcia et al., Nanoscale 9, 1049 (2017)). The NEP89 putative GM has these features (two titanyl O at 1.69 A, four 4- and two 5-fold Ti, nine 4-membered Ti2O2 rings, no O-O bonds), but its identity with the DFT GM was not verified; the default repulsive guard (Ti-O r0 = 1.695 A) is marginally active on the titanyl bonds (0.3 meV).",
+ "search_symbols": [
+  "Ti",
+  "Ti",
+  "Ti",
+  "Ti",
+  "Ti",
+  "Ti",
+  "O",
+  "O",
+  "O",
+  "O",
+  "O",
+  "O",
+  "O",
+  "O",
+  "O",
+  "O",
+  "O",
+  "O"
+ ],
+ "cell": [
+  [
+   26.0,
+   0,
+   0
+  ],
+  [
+   0,
+   26.0,
+   0
+  ],
+  [
+   0,
+   0,
+   26.0
+  ]
+ ],
+ "pbc": [
+  true,
+  true,
+  true
+ ],
+ "region": {
+  "type": "sphere",
+  "center": [
+   13.0,
+   13.0,
+   13.0
+  ],
+  "radius": 4.5
+ },
+ "connected": true,
+ "budget": 47500,
+ "fmax": 0.05,
+ "e_tol": 0.02
+}

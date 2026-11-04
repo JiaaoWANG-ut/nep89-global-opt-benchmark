@@ -1,0 +1,52 @@
+{
+ "name": "bu_Mg2Al4O8",
+ "title": "MgAl2O4 spinel (Mg2Al4O8) crystal",
+ "category": "bulk",
+ "description": "Variable-cell crystal-structure prediction of the spinel MgAl2O4 with two formula units (14 atoms, the fcc primitive cell of spinel) per cell. Experimental ground state: normal spinel (Fd-3m; Mg tetrahedral, Al octahedral); inverse cation orderings and MgO + Al2O3 (corundum) compete. NEP89 caveat: the inverse spinel (Al tetrahedral, Mg + Al octahedral) is 62 meV/atom below normal spinel, which is even 49 meV/atom above MgO + Al2O3, so the NEP89 global minimum is the inverse spinel.",
+ "search_symbols": [
+  "Mg",
+  "Mg",
+  "Al",
+  "Al",
+  "Al",
+  "Al",
+  "O",
+  "O",
+  "O",
+  "O",
+  "O",
+  "O",
+  "O",
+  "O"
+ ],
+ "cell": [
+  [
+   5.2608,
+   0,
+   0
+  ],
+  [
+   0,
+   5.2608,
+   0
+  ],
+  [
+   0,
+   0,
+   5.2608
+  ]
+ ],
+ "pbc": [
+  true,
+  true,
+  true
+ ],
+ "variable_cell": true,
+ "volume_per_atom": 10.4,
+ "region": {
+  "type": "cell"
+ },
+ "budget": 28000,
+ "fmax": 0.05,
+ "e_tol": 0.02
+}

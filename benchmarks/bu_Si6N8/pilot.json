@@ -1,0 +1,95 @@
+{
+ "budget_pilot": 150000,
+ "e_best": -117.2991,
+ "e_best_per_atom": -8.3785,
+ "e_best_source": "pilot-bbu1/bh/10",
+ "e_tol": 0.02,
+ "bh": {
+  "n": 20,
+  "sr": 0.55,
+  "ert": 99825,
+  "med_hit": 29489,
+  "med_gap": 0.0001,
+  "budgets": [
+   50000,
+   150000
+  ]
+ },
+ "rs": {
+  "n": 20,
+  "sr": 0.25,
+  "ert": 333239,
+  "med_hit": 78159,
+  "med_gap": 0.5462,
+  "budgets": [
+   50000,
+   150000
+  ]
+ },
+ "ms_per_step": 1.74,
+ "budget_pilot_runs": {
+  "50000": 20,
+  "150000": 20
+ },
+ "at_budget": {
+  "budget": 88000,
+  "bh": {
+   "n": 10,
+   "sr": 0.7,
+   "ert": 70548
+  },
+  "rs": {
+   "n": 10,
+   "sr": 0.3,
+   "ert": 260033
+  }
+ },
+ "n_hit_runs": 16,
+ "hit_e_spread": 0.0018,
+ "reference_polymorphs": {
+  "beta_Si3N4": {
+   "e_per_atom": -8.36665,
+   "volume_per_atom": 10.514,
+   "e_cell": -117.1332,
+   "n_atoms": 14,
+   "fits_cell": true,
+   "e_per_atom_ideal_start": -8.36665,
+   "e_per_atom_rattled_start": -8.36665,
+   "dmin": 1.735,
+   "coordination": {
+    "Si": [
+     4
+    ],
+    "N": [
+     3
+    ]
+   },
+   "converged": true,
+   "guard_calls": 0,
+   "de_mev_per_atom": 0.0
+  },
+  "gamma_Si3N4": {
+   "e_per_atom": -8.31011,
+   "volume_per_atom": 8.31,
+   "e_cell": -116.3415,
+   "n_atoms": 14,
+   "fits_cell": true,
+   "e_per_atom_ideal_start": -8.31011,
+   "e_per_atom_rattled_start": -8.31011,
+   "dmin": 1.777,
+   "coordination": {
+    "Si": [
+     4,
+     6
+    ],
+    "N": [
+     4
+    ]
+   },
+   "converged": true,
+   "guard_calls": 0,
+   "de_mev_per_atom": 56.5
+  }
+ },
+ "notes": "Pilot: seeds 0-9 at budget 50000 (campaign pilot-bbu1-x1, identical problem hash) + seeds 10-19 at budget 150000 (pilot-bbu1), BH and RS. NEP89 putative GM (-8.3785 eV/atom) is NOT beta-Si3N4 (+11.9 meV/atom; found as BH trap) but a hypothetical denser (9.81 vs 10.51 A^3/atom) network: all Si tetrahedral (Si-N 1.73-1.75 A), all N 3-coordinated but pyramidal (Si-N-Si ~112 deg instead of the planar ~120 deg of beta), no homopolar bonds, Niggli cell 4.11/5.00/7.66 A, 77.7/74.5/65.8 deg. A second hypothetical network (bcc cell a=5.58 A, -117.176 eV) is also below beta. Physical but wrong phase ordering (NEP89 favours pyramidal N). RS rarely finds the GM (5/20 runs). Hit-energy spread < 1 meV -> default e_tol 0.02 eV."
+}

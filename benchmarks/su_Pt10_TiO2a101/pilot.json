@@ -1,0 +1,34 @@
+{
+ "budget_pilot": 40000,
+ "campaign": "pilot-bsu1-v2",
+ "e_best": -1996.7712,
+ "e_tol": 0.02,
+ "budget_final": 21500,
+ "n_atoms": 226,
+ "n_search": 10,
+ "bh": {
+  "n": 10,
+  "sr": 0.8,
+  "ert": 21809.2,
+  "med_hit": 7142.0,
+  "med_gap": 0.0002
+ },
+ "bh_at_final_budget": {
+  "sr": 0.7,
+  "ert": 18413.0
+ },
+ "rs": {
+  "n": 10,
+  "sr": 0.3,
+  "ert": 114879.0,
+  "med_hit": 13948.0,
+  "med_gap": 0.0451
+ },
+ "rs_at_final_budget": {
+  "sr": 0.2,
+  "ert": 98783.0
+ },
+ "ms_per_step": 18.14,
+ "wall_at_final_budget_s": 390,
+ "notes": "Campaign pilot-bsu1-v2. GM: 3D Pt5+5 bilayer; interface Pt bonded to 5-fold Ti (Pt-Ti 2.49-2.65 A) and 2-fold O (Pt-O 2.09-2.12 A); Pt-Pt 2.53-2.58 A, periodic-image gap 9.2 A. Tight re-relaxation (fmax 0.005): runs that found the GM scatter by <= 0.005 eV except one RS run (s004) stored at +0.059 eV (fmax 0.05); the next distinct isomer is at +0.028 eV (tight), so e_tol 0.05 would count it and still miss s004: e_tol kept at 0.02. NEP89 Pt adatom: Ti5c/O bridge (Pt-Ti 2.44 A, Pt-O 2.41 A). Dropped: Pt7 variant (BH ERT 3400, RS SR 0.9: too easy)."
+}

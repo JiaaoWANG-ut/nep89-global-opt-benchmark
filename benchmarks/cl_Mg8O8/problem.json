@@ -1,0 +1,59 @@
+{
+ "name": "cl_Mg8O8",
+ "title": "(MgO)8 cluster",
+ "category": "cluster",
+ "description": "Gas-phase (MgO)8. IR spectroscopy combined with DFT global optimisation (Haertelt et al., PCCP 14, 2849 (2012)) assigns cage-like structures containing hexagonal (MgO)3 rings, not rocksalt cuboids, to (MgO)n with n != 3k. NEP89 instead favours rocksalt fragments: its putative GM (a 3x3x2 rocksalt slab missing one corner MgO pair; Mg 3-5-fold coordinated, Mg-O 1.94-2.31 A, no O-O or Mg-Mg bonds) lies 0.25 eV below the 2x2x4 cuboid and 2.7 eV below a hand-built hexagonal-ring cage.",
+ "search_symbols": [
+  "Mg",
+  "Mg",
+  "Mg",
+  "Mg",
+  "Mg",
+  "Mg",
+  "Mg",
+  "Mg",
+  "O",
+  "O",
+  "O",
+  "O",
+  "O",
+  "O",
+  "O",
+  "O"
+ ],
+ "cell": [
+  [
+   26.0,
+   0,
+   0
+  ],
+  [
+   0,
+   26.0,
+   0
+  ],
+  [
+   0,
+   0,
+   26.0
+  ]
+ ],
+ "pbc": [
+  true,
+  true,
+  true
+ ],
+ "region": {
+  "type": "sphere",
+  "center": [
+   13.0,
+   13.0,
+   13.0
+  ],
+  "radius": 4.5
+ },
+ "connected": true,
+ "budget": 7000,
+ "fmax": 0.05,
+ "e_tol": 0.02
+}

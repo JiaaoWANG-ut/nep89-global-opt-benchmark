@@ -1,0 +1,77 @@
+{
+ "name": "cl_Ag27Cu7",
+ "title": "Ag27Cu7 nanoalloy",
+ "category": "cluster",
+ "description": "Gas-phase Ag27Cu7 nanoalloy (geometry plus homotop / chemical-ordering search). With the Gupta potential the GM is a perfect core-shell polyicosahedron (pIh7, D5h) with a Cu7 pentagonal-bipyramid core under a 27-atom Ag shell (Rossi et al., PRL 93, 105503 (2004)); NEP89 reproduces this structure.",
+ "search_symbols": [
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Cu",
+  "Cu",
+  "Cu",
+  "Cu",
+  "Cu",
+  "Cu",
+  "Cu"
+ ],
+ "cell": [
+  [
+   28.0,
+   0,
+   0
+  ],
+  [
+   0,
+   28.0,
+   0
+  ],
+  [
+   0,
+   0,
+   28.0
+  ]
+ ],
+ "pbc": [
+  true,
+  true,
+  true
+ ],
+ "region": {
+  "type": "sphere",
+  "center": [
+   14.0,
+   14.0,
+   14.0
+  ],
+  "radius": 6.6
+ },
+ "connected": true,
+ "budget": 100000,
+ "fmax": 0.05,
+ "e_tol": 0.02
+}

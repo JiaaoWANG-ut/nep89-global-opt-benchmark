@@ -1,0 +1,36 @@
+{
+ "name": "ze_Pt9_MOR",
+ "title": "Pt9 @ MOR",
+ "category": "zeolite",
+ "description": "Pt9 cluster in the 12-ring main channel (6.5 x 7.0 A, with 8-ring side pockets) of a frozen all-silica mordenite framework (NEP89-relaxed 1x1x2 primitive supercell, 144 atoms); Pt/H-mordenite is the industrial light-naphtha isomerisation catalyst (Shell Hysomer process). Framework Al/H+ sites and framework relaxation are absent and NEP89 binds Pt to siloxane O atoms (Pt-O ~2.0 A), so the global minimum is a model-PES optimum (Pt is used because NEP89 spuriously embeds Rh/Ir atoms into silica walls).",
+ "search_symbols": [
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt"
+ ],
+ "substrate_file": "substrate.extxyz",
+ "pbc": [
+  true,
+  true,
+  true
+ ],
+ "region": {
+  "type": "sphere",
+  "center": [
+   9.0412,
+   0.0,
+   7.6015
+  ],
+  "radius": 2.7
+ },
+ "connected": true,
+ "budget": 13900,
+ "fmax": 0.05,
+ "e_tol": 0.02
+}

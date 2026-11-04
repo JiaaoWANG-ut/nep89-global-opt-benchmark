@@ -1,0 +1,32 @@
+{
+ "campaign": "pilot-bsu2-v2",
+ "seeds": "0-19",
+ "budget_pilot": 30000,
+ "e_best": -1253.0691,
+ "e_best_run": "dev-softmode-rob/softmode/0",
+ "e_tol": 0.05,
+ "budget_final": 12500,
+ "n_atoms": 144,
+ "n_search": 16,
+ "bh": {
+  "n": 20,
+  "sr": 0.95,
+  "ert": 11146,
+  "med_hit": 4233,
+  "med_gap": 0.0051,
+  "sr_final": 0.65,
+  "ert_final": 10611
+ },
+ "rs": {
+  "n": 20,
+  "sr": 0.3,
+  "ert": 81735,
+  "med_hit": 9714,
+  "med_gap": 0.0957,
+  "sr_final": 0.15,
+  "ert_final": 76200
+ },
+ "ms_per_step": 9.53,
+ "wall_final_s": 119,
+ "notes": "Campaign pilot-bsu2-v2, seeds 0-9 + 10-19 (added after the restart). e_tol = 0.05 eV: runs that reached the GM structure (Pd13 icosahedron + 3 caps standing on one vertex above a C6 hollow) differ by up to 24 meV because the orientation landscape on graphene is very flat; other capping isomers within 31 meV therefore also count as hits, the next family is at +0.074 eV. At e_tol = 0.02 the BH SR/ERT/median hit would be 0.80/18426/8472. The best known energy (-1253.0691 eV, same structure) comes from dev-softmode-rob/softmode/s0, 2.2 meV below the best pilot run. Final budget = 3 x 4233."
+}

@@ -1,0 +1,39 @@
+{
+ "name": "ze_Pt8_MWW",
+ "title": "Pt8 @ MWW",
+ "category": "zeolite",
+ "description": "Pt8 cluster in the 12-ring supercage (7.1 x 18.2 A, 10-ring windows) of a frozen all-silica MWW (MCM-22/ITQ-1) framework (NEP89-relaxed hexagonal cell, 216 atoms); subnanometric Pt clusters encapsulated in MCM-22 cavities are sinter-resistant, size-selective catalysts (Liu et al., Nat. Mater. 16, 132 (2017)). Framework Al/H+ sites and framework relaxation are absent, NEP89 places this framework 0.8 kJ/mol SiO2 below alpha-quartz and attracts Pt to the cage wall by ~0.7 eV/atom even at Pt-O distances > 3 A, so the global minimum is a model-PES optimum.",
+ "search_symbols": [
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt"
+ ],
+ "substrate_file": "substrate.extxyz",
+ "pbc": [
+  true,
+  true,
+  true
+ ],
+ "region": {
+  "type": "box",
+  "lo": [
+   1.5702,
+   4.1813,
+   5.539
+  ],
+  "hi": [
+   5.5702,
+   8.1813,
+   19.539
+  ]
+ },
+ "connected": true,
+ "budget": 5300,
+ "fmax": 0.05,
+ "e_tol": 0.01
+}

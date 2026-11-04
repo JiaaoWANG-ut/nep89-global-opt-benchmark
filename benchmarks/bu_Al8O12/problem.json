@@ -1,0 +1,58 @@
+{
+ "name": "bu_Al8O12",
+ "title": "Al2O3 (Al8O12) crystal",
+ "description": "Crystal structure prediction of Al2O3 with 4 formula units (20 atoms) per cell. The experimental ground state corundum (alpha-Al2O3, R-3c; this cell is twice its rhombohedral primitive cell) is also the NEP89 global minimum; theta-Al2O3 (beta-Ga2O3 type, mixed tetrahedral/octahedral Al, +36 meV/atom with NEP89) is a deep competing funnel.",
+ "category": "bulk",
+ "search_symbols": [
+  "Al",
+  "Al",
+  "Al",
+  "Al",
+  "Al",
+  "Al",
+  "Al",
+  "Al",
+  "O",
+  "O",
+  "O",
+  "O",
+  "O",
+  "O",
+  "O",
+  "O",
+  "O",
+  "O",
+  "O",
+  "O"
+ ],
+ "cell": [
+  [
+   5.718,
+   0.0,
+   0.0
+  ],
+  [
+   0.0,
+   5.718,
+   0.0
+  ],
+  [
+   0.0,
+   0.0,
+   5.718
+  ]
+ ],
+ "pbc": [
+  true,
+  true,
+  true
+ ],
+ "variable_cell": true,
+ "volume_per_atom": 9.35,
+ "region": {
+  "type": "cell"
+ },
+ "budget": 10000,
+ "fmax": 0.05,
+ "e_tol": 0.02
+}

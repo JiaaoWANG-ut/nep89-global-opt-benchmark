@@ -1,0 +1,33 @@
+{
+ "name": "ze_Cu6_AEI",
+ "title": "Cu6 @ AEI",
+ "category": "zeolite",
+ "description": "Cu6 cluster in the pear-shaped aei cage (8-ring windows, 3.8 A) of a frozen all-silica AEI (SSZ-39) framework (NEP89-relaxed conventional cell, 144 atoms); Cu-SSZ-39 is a hydrothermally stable NH3-SCR deNOx catalyst (Moliner et al., Chem. Commun. 48, 8264 (2012)) in which Cu can agglomerate into clusters. Framework Al, ionic/oxidic Cu and framework relaxation are not modelled, NEP89 binds Cu atoms to the cage wall (Cu-O ~2.1 A, Cu-Si ~2.4 A) and places this framework 6.7 kJ/mol SiO2 below alpha-quartz (calorimetry: all-silica zeolites lie ~7-14 kJ/mol above), so the global minimum is a model-PES optimum.",
+ "search_symbols": [
+  "Cu",
+  "Cu",
+  "Cu",
+  "Cu",
+  "Cu",
+  "Cu"
+ ],
+ "substrate_file": "substrate.extxyz",
+ "pbc": [
+  true,
+  true,
+  true
+ ],
+ "region": {
+  "type": "sphere",
+  "center": [
+   6.8052,
+   6.3849,
+   9.2747
+  ],
+  "radius": 3.02
+ },
+ "connected": true,
+ "budget": 16700,
+ "fmax": 0.05,
+ "e_tol": 0.02
+}

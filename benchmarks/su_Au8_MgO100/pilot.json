@@ -1,0 +1,34 @@
+{
+ "budget_pilot": 40000,
+ "campaign": "pilot-bsu1-v2",
+ "e_best": -1304.4666,
+ "e_tol": 0.015,
+ "budget_final": 19500,
+ "n_atoms": 224,
+ "n_search": 8,
+ "bh": {
+  "n": 10,
+  "sr": 1.0,
+  "ert": 7824.6,
+  "med_hit": 6469.0,
+  "med_gap": 0.0002
+ },
+ "bh_at_final_budget": {
+  "sr": 1.0,
+  "ert": 7824.6
+ },
+ "rs": {
+  "n": 10,
+  "sr": 0.5,
+  "ert": 50085.0,
+  "med_hit": 4040.0,
+  "med_gap": 0.0153
+ },
+ "rs_at_final_budget": {
+  "sr": 0.4,
+  "ert": 35943.5
+ },
+ "ms_per_step": 18.5,
+ "wall_at_final_budget_s": 361,
+ "notes": "Campaign pilot-bsu1-v2 (6x6 cell). GM: flat Au8 island, all 8 Au in contact (thickness 0.3 A, Au-Au 2.74-2.83 A, Au-O 2.33 A), periodic-image gap 10.5 A. Tight re-relaxation (fmax 0.005) of all runs within 0.05 eV: 15 runs found the GM, with stored gaps 0-0.011 eV (scatter from fmax 0.05); distinct flat isomers lie at +0.019, +0.019, +0.021, +0.041 eV (tight; stored +0.020 to +0.044). e_tol 0.05 would count them as hits, so e_tol = 0.015 (budget = 3x the BH median hit at this e_tol). NEP89 checks: a single Au prefers O-top (Au-O 2.22 A; bridge +0.08 eV, Mg-top +0.22 eV), as in DFT; the best 3D Au8 isomers from 20 starts (fcc 6+2 bilayers) are >= 0.69 eV above the flat GM, while DFT finds 3D Au8 on bulk MgO(001). Dropped: 5x5 cell (Au8 and Au10 GMs were ribbons bonded to their own periodic image)."
+}

@@ -1,0 +1,81 @@
+{
+ "name": "cl_Cu38",
+ "title": "Cu38 cluster",
+ "category": "cluster",
+ "description": "Gas-phase Cu38. For many-body potentials (Gupta, Sutton-Chen) the GM is the Oh fcc truncated octahedron, separated from icosahedral/decahedral structures as in the LJ38 double funnel (Doye & Wales, New J. Chem. 22, 733 (1998); Cambridge Cluster Database). NEP89 agrees; the best non-fcc structure found lies 0.11 eV higher.",
+ "search_symbols": [
+  "Cu",
+  "Cu",
+  "Cu",
+  "Cu",
+  "Cu",
+  "Cu",
+  "Cu",
+  "Cu",
+  "Cu",
+  "Cu",
+  "Cu",
+  "Cu",
+  "Cu",
+  "Cu",
+  "Cu",
+  "Cu",
+  "Cu",
+  "Cu",
+  "Cu",
+  "Cu",
+  "Cu",
+  "Cu",
+  "Cu",
+  "Cu",
+  "Cu",
+  "Cu",
+  "Cu",
+  "Cu",
+  "Cu",
+  "Cu",
+  "Cu",
+  "Cu",
+  "Cu",
+  "Cu",
+  "Cu",
+  "Cu",
+  "Cu",
+  "Cu"
+ ],
+ "cell": [
+  [
+   27.0,
+   0,
+   0
+  ],
+  [
+   0,
+   27.0,
+   0
+  ],
+  [
+   0,
+   0,
+   27.0
+  ]
+ ],
+ "pbc": [
+  true,
+  true,
+  true
+ ],
+ "region": {
+  "type": "sphere",
+  "center": [
+   13.5,
+   13.5,
+   13.5
+  ],
+  "radius": 6.2
+ },
+ "connected": true,
+ "budget": 150000,
+ "fmax": 0.05,
+ "e_tol": 0.02
+}

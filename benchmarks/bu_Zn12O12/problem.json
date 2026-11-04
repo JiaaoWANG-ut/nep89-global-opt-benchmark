@@ -1,0 +1,62 @@
+{
+ "name": "bu_Zn12O12",
+ "title": "ZnO (Zn12O12) crystal",
+ "description": "Crystal structure prediction of ZnO with 12 formula units (24 atoms) per cell. The experimental ground state wurtzite (P6_3mc) is also the NEP89 global minimum; the nearly degenerate tetrahedral stacking polytypes (4H +5, zinc blende +7 meV/atom) and rocksalt (+47 meV/atom) are competing minima.",
+ "category": "bulk",
+ "search_symbols": [
+  "Zn",
+  "Zn",
+  "Zn",
+  "Zn",
+  "Zn",
+  "Zn",
+  "Zn",
+  "Zn",
+  "Zn",
+  "Zn",
+  "Zn",
+  "Zn",
+  "O",
+  "O",
+  "O",
+  "O",
+  "O",
+  "O",
+  "O",
+  "O",
+  "O",
+  "O",
+  "O",
+  "O"
+ ],
+ "cell": [
+  [
+   6.8,
+   0.0,
+   0.0
+  ],
+  [
+   0.0,
+   6.8,
+   0.0
+  ],
+  [
+   0.0,
+   0.0,
+   6.8
+  ]
+ ],
+ "pbc": [
+  true,
+  true,
+  true
+ ],
+ "variable_cell": true,
+ "volume_per_atom": 13.1,
+ "region": {
+  "type": "cell"
+ },
+ "budget": 20000,
+ "fmax": 0.05,
+ "e_tol": 0.02
+}

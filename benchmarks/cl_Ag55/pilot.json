@@ -1,0 +1,34 @@
+{
+ "budget_pilot": 100000,
+ "budget_final": 43000,
+ "e_best": -143.9036,
+ "e_best_source": "pilot-bcl1/bh/4",
+ "bh": {
+  "n": 10,
+  "sr": 1.0,
+  "ert": 17945.0,
+  "med_hit": 14330.0,
+  "med_gap": 0.0,
+  "ms_per_step": 2.81
+ },
+ "rs": {
+  "n": 10,
+  "sr": 0.0,
+  "ert": null,
+  "med_hit": null,
+  "med_gap": 1.361,
+  "ms_per_step": 3.19
+ },
+ "bh_truncated_at_final_budget": {
+  "sr": 1.0,
+  "ert": 17945.0
+ },
+ "ms_per_step": 2.81,
+ "gm_motif": "perfect Mackay icosahedron (coordination 12x6, 30x8, 13x12), Ag-Ag >= 2.70 A",
+ "reference_motifs_eV": {
+  "Mackay icosahedron": -143.9043,
+  "Ino decahedron": -141.9199,
+  "cuboctahedron": -141.6874
+ },
+ "notes": "Pilot: 10 BH + 10 RS seeds at 100000 steps (campaign pilot-bcl1). The NEP89 GM is the Mackay icosahedron, in agreement with the Cambridge Cluster Database (many-body potentials) and DFT/photoelectron spectra of Ag55- (Haekkinen et al., PRL 93, 093401 (2004)); the Ino decahedron and cuboctahedron are about 2 eV higher. RS never got within 0.68 eV (median gap 1.36 eV). The 10 BH hits are identical (spread 0.2 meV), so e_tol = 0.02. Final budget 43000 = 3 x median BH hit step (14330); all BH pilot hits were at <= 41408 steps."
+}

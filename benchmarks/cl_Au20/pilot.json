@@ -1,0 +1,32 @@
+{
+ "budget_pilot": 60000,
+ "budget_final": 55000,
+ "e_best": -54.218,
+ "e_best_source": "pilot-bcl1/bh/9",
+ "bh": {
+  "n": 10,
+  "sr": 1.0,
+  "ert": 19826.0,
+  "med_hit": 18100.0,
+  "med_gap": 0.0,
+  "ms_per_step": 0.79
+ },
+ "rs": {
+  "n": 10,
+  "sr": 0.1,
+  "ert": 560000.0,
+  "med_hit": 20000.0,
+  "med_gap": 0.192,
+  "ms_per_step": 1.06
+ },
+ "bh_truncated_at_final_budget": {
+  "sr": 1.0,
+  "ert": 19826.0
+ },
+ "ms_per_step": 0.79,
+ "gm_motif": "low-symmetry structure with one interior atom (coordination 4x4, 4x5, 11x7, 1x11; CNA 200/311/421), Au-Au >= 2.73 A",
+ "reference_motifs_eV": {
+  "Td pyramid (Li et al. 2003)": -54.105
+ },
+ "notes": "Pilot: 10 BH + 10 RS seeds at 60000 steps (campaign pilot-bcl1). The NEP89 GM is not the DFT/photoelectron-spectroscopy Td pyramid: the relaxed Td pyramid is 0.113 eV higher (an NEP89 deficiency relative to DFT). The lowest distinct competitor found is at +0.076 eV. All 11 runs within e_tol (10 BH, 1 RS) found the same structure (spread 2.7 meV), so e_tol = 0.02. Final budget 55000 = 3 x median BH hit step (18100), rounded up; all BH pilot hits were at <= 41846 steps."
+}

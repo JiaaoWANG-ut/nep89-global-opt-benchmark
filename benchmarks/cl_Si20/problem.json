@@ -1,0 +1,63 @@
+{
+ "name": "cl_Si20",
+ "title": "Si20 cluster",
+ "category": "cluster",
+ "description": "Gas-phase Si20. Ion-mobility measurements and DFT show prolate Si_n clusters built from stacked tricapped-trigonal-prism units up to n ~ 25, with compact isomers close in energy around n = 20 (Ho et al., Nature 392, 582 (1998)). NEP89 has two near-degenerate putative minima, a compact oblate GM and a prolate isomer only 2 meV higher (tight relaxation), both with 4-7-fold coordinated Si and Si-Si >= 2.41 A, so a hit (E <= E_best + e_tol) can be either isomer.",
+ "search_symbols": [
+  "Si",
+  "Si",
+  "Si",
+  "Si",
+  "Si",
+  "Si",
+  "Si",
+  "Si",
+  "Si",
+  "Si",
+  "Si",
+  "Si",
+  "Si",
+  "Si",
+  "Si",
+  "Si",
+  "Si",
+  "Si",
+  "Si",
+  "Si"
+ ],
+ "cell": [
+  [
+   28.0,
+   0,
+   0
+  ],
+  [
+   0,
+   28.0,
+   0
+  ],
+  [
+   0,
+   0,
+   28.0
+  ]
+ ],
+ "pbc": [
+  true,
+  true,
+  true
+ ],
+ "region": {
+  "type": "sphere",
+  "center": [
+   14.0,
+   14.0,
+   14.0
+  ],
+  "radius": 5.0
+ },
+ "connected": true,
+ "budget": 34000,
+ "fmax": 0.05,
+ "e_tol": 0.02
+}

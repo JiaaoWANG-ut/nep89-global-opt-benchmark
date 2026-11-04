@@ -1,0 +1,55 @@
+{
+ "name": "cl_B12",
+ "title": "B12 cluster",
+ "category": "cluster",
+ "description": "Gas-phase B12. Photoelectron spectroscopy and ab initio calculations establish a quasi-planar C3v global minimum (Zhai et al., Nat. Mater. 2, 827 (2003)), with 3D isomers such as the icosahedron several eV higher. NEP89 reverses this ordering: its putative GM is the Ih icosahedron (B-B 1.73 A, the building block of bulk boron), 2.7 eV below the relaxed quasi-planar C3v structure, so this benchmark probes search on the NEP89 landscape rather than boron-cluster chemistry.",
+ "search_symbols": [
+  "B",
+  "B",
+  "B",
+  "B",
+  "B",
+  "B",
+  "B",
+  "B",
+  "B",
+  "B",
+  "B",
+  "B"
+ ],
+ "cell": [
+  [
+   24.0,
+   0,
+   0
+  ],
+  [
+   0,
+   24.0,
+   0
+  ],
+  [
+   0,
+   0,
+   24.0
+  ]
+ ],
+ "pbc": [
+  true,
+  true,
+  true
+ ],
+ "region": {
+  "type": "sphere",
+  "center": [
+   12.0,
+   12.0,
+   12.0
+  ],
+  "radius": 4.0
+ },
+ "connected": true,
+ "budget": 20000,
+ "fmax": 0.05,
+ "e_tol": 0.02
+}

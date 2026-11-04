@@ -1,0 +1,36 @@
+{
+ "budget_pilot": 150000,
+ "budget_pilot_detail": {
+  "bh": "10 seeds x 100000 (campaign pilot-bcl1) + 20 seeds x 150000 (campaign pilot-bcl1-long)",
+  "rs": "10 seeds x 100000"
+ },
+ "budget_final": 150000,
+ "e_best": -124.4694,
+ "e_best_source": "pilot-bcl1/bh/1",
+ "bh": {
+  "n": 30,
+  "sr": 0.3,
+  "ert": 386275.0,
+  "med_hit": 89558.0,
+  "med_gap": 0.107,
+  "ms_per_step": 2.13
+ },
+ "rs": {
+  "n": 10,
+  "sr": 0.0,
+  "ert": null,
+  "med_hit": null,
+  "med_gap": 0.25,
+  "ms_per_step": 2.42
+ },
+ "bh_truncated_at_final_budget": {
+  "sr": 0.3,
+  "ert": 386275.0
+ },
+ "ms_per_step": 2.13,
+ "gm_motif": "perfect fcc truncated octahedron (coordination 24x6, 8x9, 6x12; CNA 421/311/211/200), Cu-Cu 2.46-2.48 A",
+ "reference_motifs_eV": {
+  "truncated octahedron (Oh)": -124.4701
+ },
+ "notes": "The NEP89 GM is the fcc truncated octahedron, as for Gupta/Sutton-Chen Cu38 (Doye & Wales, New J. Chem. 22, 733 (1998); Cambridge Cluster Database). The main trap is a non-fcc (decahedral/icosahedral, CNA 555/422) structure at +0.107 eV, giving an LJ38-like double funnel. BH found the TO in 9 of 30 runs (3/10 at 100000, 6/20 at 150000); RS never did (best gap 0.129 eV). The 9 hits are all the TO (spread 5.5 meV, one less tightly relaxed), so e_tol = 0.02. 3 x median BH hit step (89558) = 268700 exceeds the cap, so the final budget is clamped to 150000 (about 5.3 min per BH run). This is the hardest benchmark of the set: BH SR is about 0.3."
+}

@@ -1,0 +1,61 @@
+{
+  "bench": "ze_Pt9_LTA",
+  "campaign": "pilot-bze1*",
+  "bench_hash": "d12db4e315ad",
+  "budget_pilot": 40000,
+  "e_best": -1175.2529,
+  "e_tol": 0.01,
+  "bh": {
+    "n": 10,
+    "sr": 0.9,
+    "ert": 18044,
+    "med_hit": 13788,
+    "med_gap": 0.0001
+  },
+  "rs": {
+    "n": 10,
+    "sr": 0.1,
+    "ert": 369561,
+    "med_hit": 9561,
+    "med_gap": 0.064
+  },
+  "ms_per_step": 8.81,
+  "budget_final": 41000,
+  "wall_at_budget_s": 361,
+  "size_scan_bh_rs_ert_40k": {
+    "Pt6": [
+      2369,
+      6581
+    ],
+    "Pt8": [
+      2301,
+      6182
+    ],
+    "Pt9": [
+      18044,
+      369561
+    ],
+    "Pt10": [
+      165006,
+      115636
+    ]
+  },
+  "framework": {
+    "cell": "fcc-type 2x supercell of the cubic LTA cell, 144 atoms, heights 13.82 A",
+    "si_o_A": [
+      1.621,
+      1.631
+    ],
+    "o_si_o_deg": [
+      107.7,
+      110.0
+    ],
+    "si_o_si_deg": [
+      142.8,
+      156.6
+    ],
+    "volume_per_T_nep_over_iza": 1.012
+  },
+  "gm": "planar Pt9 (16 Pt-Pt bonds 2.54-2.60 A) lying flat on the alpha-cage wall, anchored by two Pt-O 2.26 A contacts, Pt-Si >= 3.07 A; binding to the frozen framework -4.3 eV",
+  "notes": "Pilot: 10 seeds x BH/RS, 40k steps (campaign pilot-bze1-v2). Size scan (BH/RS ERT): Pt6 2.4k/6.6k and Pt8 2.3k/6.2k too easy, Pt10 165k/116k too hard, Pt9 chosen. 10/20 runs reached the GM (energy spread 1.3 meV). A distinct adsorption mode of the same planar isomer (Pt-O 2.15 A, 0.3 A further off-centre) lies only +0.021-0.024 eV higher (5 runs), so e_tol = 0.01 eV instead of 0.02 to keep it from counting as a hit. Budget = 3 x median BH hit (13.8k) = 41k steps (~6 min/run). NEP89 is not fitted to metal/zeolite interfaces; the -4.3 eV cluster-framework binding is probably overestimated."
+}

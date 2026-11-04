@@ -1,0 +1,41 @@
+{
+ "name": "su_Pt10_CeO2_111",
+ "title": "Pt10 / CeO2(111)",
+ "category": "surface",
+ "description": "Pt10 on a frozen O-terminated CeO2(111) slab (3 O-Ce-O trilayers, 5x5 cell, 225 atoms; NEP89 a = 5.438 A vs exp. 5.411 A), a model of Pt/ceria oxidation and three-way catalysts. The NEP89 putative GM is a 3D Pt7+3 bilayer bound to surface O (Pt-O 1.99 A), and NEP89 Pt8 is planar, in line with the DFT 2D-to-3D transition above Pt8 for Pt_N on CeO2(111) (Paz-Borbon et al., Phys. Chem. Chem. Phys. 19, 17845 (2017)). NEP89 is charge-neutral: the Pt-to-ceria electron transfer and Ce4+ -> Ce3+ reduction found by DFT are not described, and the frozen slab excludes O spillover and vacancy formation.",
+ "search_symbols": [
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt"
+ ],
+ "substrate_file": "substrate.extxyz",
+ "pbc": [
+  true,
+  true,
+  true
+ ],
+ "region": {
+  "type": "box",
+  "lo": [
+   0.0,
+   0.0,
+   9.3685
+  ],
+  "hi": [
+   19.2251,
+   16.6494,
+   15.8685
+  ]
+ },
+ "connected": true,
+ "budget": 20000,
+ "fmax": 0.05,
+ "e_tol": 0.02
+}

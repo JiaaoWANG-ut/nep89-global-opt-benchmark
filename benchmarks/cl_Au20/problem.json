@@ -1,0 +1,63 @@
+{
+ "name": "cl_Au20",
+ "title": "Au20 cluster",
+ "category": "cluster",
+ "description": "Gas-phase Au20. DFT and photoelectron spectroscopy give a tetrahedral (Td) pyramid, a 20-atom fcc fragment (Li, Li, Zhai & Wang, Science 299, 864 (2003)). NEP89 instead prefers a low-symmetry structure with one interior atom; the relaxed Td pyramid is 0.11 eV higher.",
+ "search_symbols": [
+  "Au",
+  "Au",
+  "Au",
+  "Au",
+  "Au",
+  "Au",
+  "Au",
+  "Au",
+  "Au",
+  "Au",
+  "Au",
+  "Au",
+  "Au",
+  "Au",
+  "Au",
+  "Au",
+  "Au",
+  "Au",
+  "Au",
+  "Au"
+ ],
+ "cell": [
+  [
+   26.0,
+   0,
+   0
+  ],
+  [
+   0,
+   26.0,
+   0
+  ],
+  [
+   0,
+   0,
+   26.0
+  ]
+ ],
+ "pbc": [
+  true,
+  true,
+  true
+ ],
+ "region": {
+  "type": "sphere",
+  "center": [
+   13.0,
+   13.0,
+   13.0
+  ],
+  "radius": 5.6
+ },
+ "connected": true,
+ "budget": 55000,
+ "fmax": 0.05,
+ "e_tol": 0.02
+}

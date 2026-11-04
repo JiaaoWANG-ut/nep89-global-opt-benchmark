@@ -1,0 +1,35 @@
+{
+ "name": "ze_Pt8_FAU",
+ "title": "Pt8 @ FAU (supercage)",
+ "category": "zeolite",
+ "description": "Pt8 cluster in the supercage (~11.2 A) of a frozen all-silica faujasite (siliceous Y; NEP89-relaxed rhombohedral primitive cell, 144 framework atoms). Pt clusters in the supercages of Y zeolite are the classic encapsulated noble-metal catalyst (Gallezot et al., J. Catal. 39, 334 (1975)). Caveat: NEP89 is not fitted to metal/zeolite interfaces and the framework is rigid, so cluster-wall binding is qualitative (NEP89 GM: flat Pt8 anchored to the wall by four Pt-O).",
+ "search_symbols": [
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt"
+ ],
+ "substrate_file": "substrate.extxyz",
+ "pbc": [
+  true,
+  true,
+  true
+ ],
+ "region": {
+  "type": "sphere",
+  "center": [
+   9.135277,
+   9.135277,
+   9.135277
+  ],
+  "radius": 4.76
+ },
+ "connected": true,
+ "budget": 12000,
+ "fmax": 0.05,
+ "e_tol": 0.02
+}

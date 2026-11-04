@@ -1,0 +1,53 @@
+{
+ "name": "bu_Ga6N6",
+ "title": "GaN (Ga6N6) crystal",
+ "category": "bulk",
+ "description": "Variable-cell crystal-structure prediction of GaN with six formula units (12 atoms) per cell. Experimental ground state: wurtzite (P6_3mc); zinc blende (~10 meV/atom higher in DFT), the 6H polytype and the high-pressure rocksalt phase compete. NEP89 caveat: NEP89 puts zinc blende 33 meV/atom below wurtzite (wrong polytype ordering), so its global minimum is zinc blende. Artefact screening: NEP89 has an N-N bonded collapsed hole (N-N 1.17 A, Ga-Ga 2.02 A, 12-fold Ga, 2.7 eV below zinc blende), found by symmetry-constrained random search. An N-N guard floor of 1.9 A (guard_pairs; physical N-N >= 3.1 A) lifts it by 46 eV and leaves the physical minima unchanged.",
+ "search_symbols": [
+  "Ga",
+  "Ga",
+  "Ga",
+  "Ga",
+  "Ga",
+  "Ga",
+  "N",
+  "N",
+  "N",
+  "N",
+  "N",
+  "N"
+ ],
+ "cell": [
+  [
+   5.3274,
+   0,
+   0
+  ],
+  [
+   0,
+   5.3274,
+   0
+  ],
+  [
+   0,
+   0,
+   5.3274
+  ]
+ ],
+ "pbc": [
+  true,
+  true,
+  true
+ ],
+ "variable_cell": true,
+ "volume_per_atom": 12.6,
+ "region": {
+  "type": "cell"
+ },
+ "budget": 10000,
+ "fmax": 0.05,
+ "e_tol": 0.02,
+ "guard_pairs": {
+  "N-N": 1.9
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "name": "su_Pt10_TiO2a101",
+ "title": "Pt10 / anatase TiO2(101)",
+ "category": "surface",
+ "description": "Pt10 on a frozen 3-layer stoichiometric anatase TiO2(101) slab (oblique 15.2 x 15.3 A cell, 216 atoms; NEP89 a = 3.819 A, c = 9.296 A vs exp. 3.785, 9.514 A), the majority facet of anatase-supported Pt photo- and thermal catalysts. The NEP89 putative GM is a 3D Pt5+5 bilayer anchored on the terrace by 5-fold Ti (Pt-Ti 2.49-2.65 A) and 2-fold O (Pt-O 2.09 A), consistent with the strong Pt binding on anatase(101) terraces found by DFT and STM (Gong et al., J. Am. Chem. Soc. 130, 370 (2008)). Caveats: NEP89 Pt-Ti contacts are short (2.76 A in Pt3Ti), NEP89 is charge-neutral and its anatase c axis is 2.3% too short.",
+ "search_symbols": [
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt"
+ ],
+ "substrate_file": "substrate.extxyz",
+ "pbc": [
+  true,
+  true,
+  true
+ ],
+ "region": {
+  "type": "box",
+  "lo": [
+   0.0,
+   0.0,
+   10.771
+  ],
+  "hi": [
+   15.1955,
+   15.156,
+   16.871
+  ]
+ },
+ "connected": true,
+ "budget": 21500,
+ "fmax": 0.05,
+ "e_tol": 0.02
+}

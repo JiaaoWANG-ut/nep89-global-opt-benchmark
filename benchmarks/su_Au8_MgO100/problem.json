@@ -1,0 +1,39 @@
+{
+ "name": "su_Au8_MgO100",
+ "title": "Au8 / MgO(001)",
+ "category": "surface",
+ "description": "Au8 on a frozen 3-layer MgO(001) slab (6x6 primitive surface cells, 216 atoms; NEP89 a = 4.203 A vs exp. 4.212 A), the classic model of size-selected Au_n/MgO catalysts (Ricci et al., Phys. Rev. Lett. 97, 036106 (2006)). The NEP89 putative GM is a flat Au8 island with all 8 Au in contact with the surface (Au-Au 2.74-2.83 A); NEP89 puts single Au atoms on top of O as DFT does, but places the best 3D isomers found (fcc 6+2 bilayers) >= 0.69 eV above the flat GM, whereas DFT finds 3D Au8 on bulk MgO(001) and planar Au8 only on metal-supported MgO films that charge the cluster (Ricci et al. 2006), i.e. NEP89 over-stabilises wetting. e_tol is 0.015 eV because distinct flat isomers lie 0.019 eV above the GM.",
+ "search_symbols": [
+  "Au",
+  "Au",
+  "Au",
+  "Au",
+  "Au",
+  "Au",
+  "Au",
+  "Au"
+ ],
+ "substrate_file": "substrate.extxyz",
+ "pbc": [
+  true,
+  true,
+  true
+ ],
+ "region": {
+  "type": "box",
+  "lo": [
+   0.0,
+   0.0,
+   5.8009
+  ],
+  "hi": [
+   17.8328,
+   17.8328,
+   11.7009
+  ]
+ },
+ "connected": true,
+ "budget": 19500,
+ "fmax": 0.05,
+ "e_tol": 0.015
+}

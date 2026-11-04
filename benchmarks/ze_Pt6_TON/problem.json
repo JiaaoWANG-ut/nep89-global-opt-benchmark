@@ -1,0 +1,37 @@
+{
+ "name": "ze_Pt6_TON",
+ "title": "Pt6 @ TON",
+ "category": "zeolite",
+ "description": "Pt6 cluster in the one-dimensional 10-ring channel (4.6 x 5.7 A) of a frozen all-silica TON (ZSM-22/Theta-1) framework (NEP89-relaxed from a symmetry-broken start, 1x1x3 supercell, 216 atoms; density within 0.3 % of Theta-1); Pt/ZSM-22 is the classic shape-selective n-alkane hydroisomerisation catalyst (Martens and co-workers). Framework Al/H+ sites and framework relaxation are absent, NEP89 binds Pt to siloxane O (Pt-O ~2.2 A) and places this framework 3.6 kJ/mol SiO2 below alpha-quartz, so the global minimum is a model-PES optimum (Pt is used because NEP89 spuriously embeds Ir/Rh atoms into silica walls).",
+ "search_symbols": [
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt"
+ ],
+ "substrate_file": "substrate.extxyz",
+ "pbc": [
+  true,
+  true,
+  true
+ ],
+ "region": {
+  "type": "box",
+  "lo": [
+   5.5794,
+   7.6712,
+   4.0214
+  ],
+  "hi": [
+   8.5794,
+   9.6712,
+   11.0214
+  ]
+ },
+ "connected": true,
+ "budget": 17900,
+ "fmax": 0.05,
+ "e_tol": 0.01
+}

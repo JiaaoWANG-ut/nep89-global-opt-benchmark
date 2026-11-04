@@ -1,0 +1,39 @@
+{
+ "name": "su_Pt4Sn4_Al2O3",
+ "title": "Pt4Sn4 / alpha-Al2O3(0001)",
+ "category": "surface",
+ "description": "Pt4Sn4 on a frozen Al-terminated alpha-Al2O3(0001) slab ((2sqrt3 x 2sqrt3)R30, Al96O144; NEP89 a/c = 4.753/12.895 A vs exp. 4.759/12.991 A), a model of Pt-Sn/Al2O3 propane-dehydrogenation catalysts (sub-nanometre Pt and PtSn clusters on alumina: Baxter et al., ACS Catal. 7, 3322 (2017); Liu et al., ACS Catal. 13, 2802 (2023)). In the NEP89 putative GM the oxophilic Sn atoms bind surface O (Sn-O 2.37-2.55 A) and carry the Pt atoms on top (only Pt-Sn and Pt-Pt bonds, no Sn-Sn); note that NEP89 relaxes the surface Al 0.4 A below the top O plane (DFT: about 0.1 A above).",
+ "search_symbols": [
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt",
+  "Sn",
+  "Sn",
+  "Sn",
+  "Sn"
+ ],
+ "substrate_file": "substrate.extxyz",
+ "pbc": [
+  true,
+  true,
+  true
+ ],
+ "region": {
+  "type": "box",
+  "lo": [
+   0.0,
+   0.0,
+   8.79549999
+  ],
+  "hi": [
+   16.464218258402887,
+   14.258431265227827,
+   14.79549999
+  ]
+ },
+ "connected": true,
+ "budget": 15500,
+ "fmax": 0.05,
+ "e_tol": 0.02
+}

@@ -1,0 +1,32 @@
+{
+ "campaign": "pilot-bsu2",
+ "seeds": "0-19",
+ "budget_pilot": 30000,
+ "e_best": -1796.8639,
+ "e_best_run": "pilot-bsu2/bh/8",
+ "e_tol": 0.02,
+ "budget_final": 15500,
+ "n_atoms": 248,
+ "n_search": 8,
+ "bh": {
+  "n": 20,
+  "sr": 1.0,
+  "ert": 5405,
+  "med_hit": 5184,
+  "med_gap": 0.0001,
+  "sr_final": 1.0,
+  "ert_final": 5405
+ },
+ "rs": {
+  "n": 20,
+  "sr": 0.85,
+  "ert": 13993,
+  "med_hit": 8381,
+  "med_gap": 0.0013,
+  "sr_final": 0.7,
+  "ert_final": 13367
+ },
+ "ms_per_step": 25.82,
+ "wall_final_s": 400,
+ "notes": "Seeds 0-9 + 10-19 (added after the restart). GM: the four Sn bind surface O (Sn-O 2.37-2.55 A) and carry the Pt on top; no Sn-Sn bonds; all 37 hits agree within 1 meV. RS is comparatively strong here (SR 0.85 at 30000 steps). NEP89 relaxes the top Al 0.4 A below the top O plane (DFT about 0.1 A above). Final budget = 3 x 5184."
+}

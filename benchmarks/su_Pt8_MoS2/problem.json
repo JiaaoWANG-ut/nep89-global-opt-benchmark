@@ -1,0 +1,39 @@
+{
+ "name": "su_Pt8_MoS2",
+ "title": "Pt8 / MoS2 monolayer",
+ "category": "surface",
+ "description": "Pt8 on a frozen 1H-MoS2 monolayer (6x6, 108 atoms; NEP89 a = 3.150 A vs exp. 3.160 A), a model of Pt/MoS2 catalysts; DFT finds that Pt_n clusters on the MoS2 basal plane become 3D from n = 5 and that Pt particles bind to S (Saidi, Cryst. Growth Des. 15, 642 (2015)). The NEP89 putative GM is a 3D 5+3 Pt bilayer whose five lower Pt sit above Mo atoms, each bonded to three S (Pt-S 2.31-2.35 A, Pt-Pt 2.58-2.60 A); the lowest competing isomer, a 4+4 bilayer, is 0.16 eV higher.",
+ "search_symbols": [
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt"
+ ],
+ "substrate_file": "substrate.extxyz",
+ "pbc": [
+  true,
+  true,
+  true
+ ],
+ "region": {
+  "type": "box",
+  "lo": [
+   0.0,
+   0.0,
+   4.635502219999999
+  ],
+  "hi": [
+   18.89859898487819,
+   16.36666681683937,
+   10.63550222
+  ]
+ },
+ "connected": true,
+ "budget": 27500,
+ "fmax": 0.05,
+ "e_tol": 0.02
+}

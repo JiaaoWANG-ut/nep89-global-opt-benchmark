@@ -1,0 +1,93 @@
+{
+ "budget_pilot": 100000,
+ "e_best": -122.9971,
+ "e_best_per_atom": -6.14985,
+ "e_best_source": "pilot-bbu1-x3/bh/6",
+ "e_tol": 0.02,
+ "bh": {
+  "n": 20,
+  "sr": 0.65,
+  "ert": 67747,
+  "med_hit": 10624,
+  "med_gap": 0.0003,
+  "budgets": [
+   100000
+  ]
+ },
+ "rs": {
+  "n": 20,
+  "sr": 0.95,
+  "ert": 37377,
+  "med_hit": 34394,
+  "med_gap": 0.0019,
+  "budgets": [
+   100000
+  ]
+ },
+ "ms_per_step": 2.6,
+ "budget_pilot_runs": {
+  "100000": 40
+ },
+ "at_budget": {
+  "budget": 32000,
+  "bh": {
+   "n": 20,
+   "sr": 0.55,
+   "ert": 36543
+  },
+  "rs": {
+   "n": 20,
+   "sr": 0.4,
+   "ert": 56399
+  }
+ },
+ "n_hit_runs": 32,
+ "hit_e_spread": 0.0066,
+ "reference_polymorphs": {
+  "beta_Ga2O3": {
+   "e_per_atom": -6.14986,
+   "volume_per_atom": 10.615,
+   "e_cell": -122.9973,
+   "n_atoms": 20,
+   "fits_cell": true,
+   "e_per_atom_ideal_start": -6.14986,
+   "e_per_atom_rattled_start": -6.14986,
+   "dmin": 1.846,
+   "coordination": {
+    "Ga": [
+     4,
+     6
+    ],
+    "O": [
+     3,
+     4
+    ]
+   },
+   "converged": true,
+   "guard_calls": 0,
+   "de_mev_per_atom": 0.0
+  },
+  "alpha_Ga2O3": {
+   "e_per_atom": -6.1212,
+   "volume_per_atom": 9.835,
+   "e_cell": -122.424,
+   "n_atoms": 20,
+   "fits_cell": true,
+   "e_per_atom_ideal_start": -6.1212,
+   "e_per_atom_rattled_start": -6.1212,
+   "dmin": 1.931,
+   "coordination": {
+    "Ga": [
+     6
+    ],
+    "O": [
+     4
+    ]
+   },
+   "converged": true,
+   "guard_calls": 0,
+   "de_mev_per_atom": 28.7
+  }
+ },
+ "notes": "Pilot: seeds 0-19 (campaign pilot-bbu1-x3, run on a scratch copy with identical problem hash), BH and RS, budget 100000. NEP89 putative GM = beta-Ga2O3 (experimental ground state, 2 primitive cells; Ga 4-c + 6-c, O 3-c + 4-c, min dist 1.846 A, 10.61 A^3/atom; energy equal to the relaxed beta reference). BH misses: 5/20 trapped in corundum-type alpha-Ga2O3 (+0.573 eV = +28.7 meV/atom, 9.84 A^3/atom) and 2/20 in a competitor at +0.090 eV (+4.5 meV/atom, same density as beta); the RS miss is at +0.507 eV. RS is slower but more reliable (19/20 hits within 100000 vs 13/20 for BH). Mirror image of bu_Al8O12 (corundum GM, beta-Ga2O3-type theta trap). Hit-energy spread <= 7 meV -> default e_tol 0.02 eV. Replaces the Ga4O6 cell (RS ERT ~1400: too easy)."
+}

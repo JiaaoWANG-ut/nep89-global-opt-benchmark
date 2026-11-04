@@ -1,0 +1,65 @@
+{
+  "bench": "ze_Au6_MFI",
+  "campaign": "pilot-bze1*",
+  "bench_hash": "fd83c5f4d4da",
+  "budget_pilot": 40000,
+  "e_best": -2275.943,
+  "e_tol": 0.02,
+  "bh": {
+    "n": 10,
+    "sr": 0.9,
+    "ert": 8614,
+    "med_hit": 3806,
+    "med_gap": 0.0002
+  },
+  "rs": {
+    "n": 10,
+    "sr": 0.7,
+    "ert": 31501,
+    "med_hit": 15489,
+    "med_gap": 0.0121
+  },
+  "ms_per_step": 22.68,
+  "budget_final": 11000,
+  "wall_at_budget_s": 249,
+  "size_scan_bh_rs_ert_40k": {
+    "Au5": [
+      5654,
+      25371
+    ],
+    "Au6": [
+      8614,
+      31501
+    ],
+    "Au7": [
+      11755,
+      9249
+    ],
+    "Pd4_dropped": [
+      45745,
+      371926
+    ]
+  },
+  "framework": {
+    "cell": "orthorhombic Pnma cell, 288 atoms, 20.14 x 19.51 x 13.10 A",
+    "si_o_A": [
+      1.619,
+      1.647
+    ],
+    "o_si_o_deg": [
+      106.6,
+      112.8
+    ],
+    "si_o_si_deg": [
+      122.7,
+      160.4
+    ],
+    "si_o_si_deg_iza_cif": [
+      132,
+      164
+    ],
+    "volume_per_T_nep_over_iza": 0.988
+  },
+  "gm": "buckled Au6 (10 Au-Au bonds, mean 2.75 A) anchored to the wall of the channel intersection by four Au-O 2.24-2.29 A contacts, Au-Si >= 2.88 A; binding to the frozen framework -1.8 eV",
+  "notes": "Pilot: 10 seeds x BH/RS, 40k steps (campaign pilot-bze1-v3). The originally planned Pd4 (and Pd6, Pd8; campaign pilot-bze1) was dropped: NEP89 bonds Pd (and Pt) atoms to SiO4 edges of MFI with M-Si 2.40-2.47 A, an artefact; Au does not do this (Au-Si >= 2.88 A). Au size scan (BH/RS ERT): Au5 5.7k/25k (distinct isomer exactly at +0.020 eV), Au6 8.6k/31.5k, Au7 11.8k/9.2k (no harder for RS than for BH); Au6 chosen. 13/20 runs reached the GM (energy spread 1.2 meV); 3 RS runs ended in distorted variants of the GM at +0.011-0.019 eV (hits with e_tol 0.02); distinct isomers start at +0.057 eV, so BH SR does not depend on e_tol in [0.002, 0.056]. Budget = 3 x median BH hit (3.8k) = 11k steps (~4 min/run). NEP89 narrows the smallest Si-O-Si angles of MFI (min 122.7 vs 132 deg in the IZA CIF); NEP89 is not fitted to metal/zeolite interfaces, cluster-framework binding is qualitative."
+}

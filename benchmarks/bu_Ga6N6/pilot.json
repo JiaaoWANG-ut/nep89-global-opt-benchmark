@@ -1,0 +1,58 @@
+{
+ "budget_pilot": 60000,
+ "e_best": -73.4229,
+ "e_best_per_atom": -6.11857,
+ "e_tol": 0.02,
+ "bh": {
+  "n": 10,
+  "sr": 0.8,
+  "ert": 19392,
+  "med_hit": 3280,
+  "med_gap": 0.0001
+ },
+ "rs": {
+  "n": 10,
+  "sr": 1.0,
+  "ert": 21819,
+  "med_hit": 16842,
+  "med_gap": 0.0006
+ },
+ "ms_per_step": 1.36,
+ "budget_final": 10000,
+ "pilot_campaigns": [
+  "pilot-bbu2"
+ ],
+ "notes": "Pilot pilot-bbu2 (BH/RS seeds 0-9, 60k steps). NEP89 GM = zinc blende GaN (all atoms 4-coordinated, Ga-N 1.958 A, V 11.56 A^3/atom); runs that found it agree within 1.5 meV. Wurtzite (exp. ground state) is +33 meV/atom (+0.40 eV/cell) and 6H +0.14 eV/cell in NEP89: wrong but physical polytype ordering (DFT: wurtzite ~10 meV/atom below zinc blende). Rocksalt +2.80, h-BN-like +2.62 eV/cell. Failed BH runs (2/10) are trapped at +2.9-3.1 eV in structures with N2 units (N-N 1.11 A) and Ga-Ga bonds. Budget = 3 x median BH hit step (3280); RS needs ~17k steps (median).",
+ "reference_polymorphs": {
+  "wurtzite (exp. ground state)": {
+   "e_per_atom": -6.08541,
+   "volume_per_atom": 11.649,
+   "n_atoms": 12
+  },
+  "zinc blende": {
+   "e_per_atom": -6.11858,
+   "volume_per_atom": 11.562,
+   "n_atoms": 12
+  },
+  "6H polytype": {
+   "e_per_atom": -6.10691,
+   "volume_per_atom": 11.588,
+   "n_atoms": 12
+  },
+  "rocksalt (high pressure)": {
+   "e_per_atom": -5.88502,
+   "volume_per_atom": 9.569,
+   "n_atoms": 12
+  },
+  "h-BN-like 5-5 layered": {
+   "e_per_atom": -5.89986,
+   "volume_per_atom": 10.807,
+   "n_atoms": 12
+  }
+ },
+ "decomposition": {
+  "alpha-Ga + N2": {
+   "e_per_atom": -5.81807
+  }
+ }
+}

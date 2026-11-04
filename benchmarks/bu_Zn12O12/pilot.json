@@ -1,0 +1,133 @@
+{
+ "budget_pilot": 60000,
+ "e_best": -106.3972,
+ "e_best_per_atom": -4.43322,
+ "e_best_source": "dev-softmode-rob/softmode/0",
+ "e_tol": 0.02,
+ "bh": {
+  "n": 20,
+  "sr": 1.0,
+  "ert": 7394,
+  "med_hit": 6723,
+  "med_gap": 0.0008,
+  "budgets": [
+   60000
+  ]
+ },
+ "rs": {
+  "n": 20,
+  "sr": 1.0,
+  "ert": 5333,
+  "med_hit": 3415,
+  "med_gap": 0.0031,
+  "budgets": [
+   60000
+  ]
+ },
+ "ms_per_step": 2.88,
+ "budget_pilot_runs": {
+  "60000": 40
+ },
+ "at_budget": {
+  "budget": 20000,
+  "bh": {
+   "n": 20,
+   "sr": 1.0,
+   "ert": 7394
+  },
+  "rs": {
+   "n": 20,
+   "sr": 0.95,
+   "ert": 5245
+  }
+ },
+ "n_hit_runs": 40,
+ "hit_e_spread": 0.0067,
+ "reference_polymorphs": {
+  "wurtzite": {
+   "e_per_atom": -4.43323,
+   "volume_per_atom": 11.934,
+   "e_cell": -106.3976,
+   "n_atoms": 24,
+   "fits_cell": true,
+   "e_per_atom_ideal_start": -4.43323,
+   "e_per_atom_rattled_start": -4.43323,
+   "dmin": 1.966,
+   "coordination": {
+    "Zn": [
+     4
+    ],
+    "O": [
+     4
+    ]
+   },
+   "converged": true,
+   "guard_calls": 0,
+   "de_mev_per_atom": 0.0
+  },
+  "polytype_4H": {
+   "e_per_atom": -4.42809,
+   "volume_per_atom": 11.911,
+   "e_cell": -106.2742,
+   "n_atoms": 24,
+   "fits_cell": true,
+   "e_per_atom_ideal_start": -4.42809,
+   "e_per_atom_rattled_start": -4.42809,
+   "dmin": 1.964,
+   "coordination": {
+    "Zn": [
+     4
+    ],
+    "O": [
+     4
+    ]
+   },
+   "converged": true,
+   "guard_calls": 0,
+   "de_mev_per_atom": 5.1
+  },
+  "zinc_blende": {
+   "e_per_atom": -4.42626,
+   "volume_per_atom": 11.868,
+   "e_cell": -106.2303,
+   "n_atoms": 24,
+   "fits_cell": true,
+   "e_per_atom_ideal_start": -4.42626,
+   "e_per_atom_rattled_start": -4.42625,
+   "dmin": 1.975,
+   "coordination": {
+    "Zn": [
+     4
+    ],
+    "O": [
+     4
+    ]
+   },
+   "converged": true,
+   "guard_calls": 0,
+   "de_mev_per_atom": 7.0
+  },
+  "rocksalt": {
+   "e_per_atom": -4.38581,
+   "volume_per_atom": 10.079,
+   "e_cell": -105.2595,
+   "n_atoms": 24,
+   "fits_cell": true,
+   "e_per_atom_ideal_start": -4.38581,
+   "e_per_atom_rattled_start": -4.38581,
+   "dmin": 2.16,
+   "coordination": {
+    "Zn": [
+     6
+    ],
+    "O": [
+     6
+    ]
+   },
+   "converged": true,
+   "guard_calls": 0,
+   "de_mev_per_atom": 47.4
+  }
+ },
+ "notes": "Pilot: seeds 0-9 (campaign pilot-bbu1-x2, identical problem hash) + seeds 10-19 (pilot-bbu1), BH and RS, budget 60000. NEP89 putative GM = wurtzite (experimental ground state, 6 primitive cells); 4H and zinc-blende stacking polytypes are 5 and 7 meV/atom higher, rocksalt +47. Zn8O8 (RS ERT ~1300) and smaller cells were too easy; MgO cells (rocksalt) were trivial. Hit-energy spread <= 7 meV -> default e_tol 0.02 eV."
+}

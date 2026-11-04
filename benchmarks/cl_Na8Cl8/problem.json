@@ -1,0 +1,59 @@
+{
+ "name": "cl_Na8Cl8",
+ "title": "(NaCl)8 cluster",
+ "category": "cluster",
+ "description": "Gas-phase (NaCl)8. Small alkali-halide clusters adopt rocksalt-cuboid structures in ab initio and Tosi-Fumi studies (Aguado et al., PRB 56, 15353 (1997); Doye & Wales, PRB 59, 2292 (1999)), and the NEP89 putative GM is the 2x2x4 rocksalt cuboid (Na-Cl 2.56-2.65 A). The landscape is soft: fmax = 0.05 relaxations of the same GM differ by up to 0.016 eV (0.3 meV after tight relaxation), hence e_tol = 0.05 eV.",
+ "search_symbols": [
+  "Na",
+  "Na",
+  "Na",
+  "Na",
+  "Na",
+  "Na",
+  "Na",
+  "Na",
+  "Cl",
+  "Cl",
+  "Cl",
+  "Cl",
+  "Cl",
+  "Cl",
+  "Cl",
+  "Cl"
+ ],
+ "cell": [
+  [
+   30.0,
+   0,
+   0
+  ],
+  [
+   0,
+   30.0,
+   0
+  ],
+  [
+   0,
+   0,
+   30.0
+  ]
+ ],
+ "pbc": [
+  true,
+  true,
+  true
+ ],
+ "region": {
+  "type": "sphere",
+  "center": [
+   15.0,
+   15.0,
+   15.0
+  ],
+  "radius": 5.5
+ },
+ "connected": true,
+ "budget": 84000,
+ "fmax": 0.05,
+ "e_tol": 0.05
+}

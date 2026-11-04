@@ -1,0 +1,122 @@
+{
+ "budget_pilot": 100000,
+ "campaign": [
+  "pilot-bcl2"
+ ],
+ "e_best": -79.1084,
+ "e_best_source": [
+  "pilot-bcl2",
+  "bh",
+  "3"
+ ],
+ "e_tol": 0.02,
+ "bh": {
+  "n": 10,
+  "sr": 1.0,
+  "ert": 3988,
+  "med_hit": 2340,
+  "ms_per_step": 0.7186,
+  "hits": [
+   1002,
+   1185,
+   1480,
+   2120,
+   2287,
+   2393,
+   2498,
+   3628,
+   11128,
+   12163
+  ],
+  "gaps": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0001
+  ]
+ },
+ "rs": {
+  "n": 10,
+  "sr": 1.0,
+  "ert": 24464,
+  "med_hit": 16940,
+  "ms_per_step": 0.9414,
+  "hits": [
+   2653,
+   6177,
+   7576,
+   9301,
+   12578,
+   21302,
+   29443,
+   39605,
+   46766,
+   69239
+  ],
+  "gaps": [
+   0.0001,
+   0.0001,
+   0.0002,
+   0.0002,
+   0.0004,
+   0.0004,
+   0.0005,
+   0.0005,
+   0.0005,
+   0.0011
+  ]
+ },
+ "ms_per_step": 0.7186,
+ "final_budget": 7000,
+ "at_final_budget": {
+  "bh": {
+   "n": 10,
+   "sr": 0.8,
+   "ert": 3824,
+   "med_hit": 2204,
+   "ms_per_step": 0.7186
+  },
+  "rs": {
+   "n": 10,
+   "sr": 0.2,
+   "ert": 32415,
+   "med_hit": 4415,
+   "ms_per_step": 0.9414
+  }
+ },
+ "wall_s_at_final_budget": {
+  "bh": 5.0,
+  "rs": 6.6
+ },
+ "references_nep89": {
+  "2x2x4 rocksalt cuboid": -78.8564,
+  "octagonal tube (2 x (MgO)4 ring)": -75.8594,
+  "hexagonal tube + caps (hand-built hexagonal-ring cage)": -76.3847
+ },
+ "gm": {
+  "motif": "3x3x2 rocksalt slab minus one corner MgO pair (16 planar Mg2O2 4-rings, no 6-rings); Mg and O CN 3(x5),4(x2),5(x1); Mg-O 1.941-2.313 A, O-O >= 2.81 A, Mg-Mg >= 2.78 A (across 4-rings)",
+  "literature": "IR-UV spectroscopy + DFT GA (Haertelt et al., PCCP 14, 2849 (2012)): (MgO)3k hexagonal tubes, n != 3k cage-like structures with hexagonal (MgO)3 rings; only (MgO)4 bulk-like"
+ },
+ "notes": "NEP89 favours rocksalt fragments for (MgO)8 (GM 0.25 eV below the 2x2x4 cuboid; hand-built hexagonal-ring cage +2.7 eV) unlike DFT/IR; structure is chemically sensible (no O-O, Mg-Mg bonds). Final budget 7000 = 3 x BH median hit 2340 (BH SR 0.8, RS SR 0.2 at 7000). All same-structure GM energies within 1 meV -> e_tol 0.02.",
+ "bulk_reference_nep89": {
+  "phase": "rocksalt MgO, a=4.204 A",
+  "e_bulk_eV_per_atom": -6.1642,
+  "e_gm_eV_per_atom": -4.9443,
+  "gm_minus_bulk_eV_per_atom": 1.22,
+  "gm_minus_bulk_eV_per_MgO": 2.44,
+  "verdict": "cluster less stable than bulk (no NEP89-hole signature)"
+ },
+ "validate_gm": {
+  "dE_eV": -1.71e-08,
+  "dmin_ratio": 0.94,
+  "components": 1,
+  "top3_consistent": true,
+  "flag": null
+ }
+}

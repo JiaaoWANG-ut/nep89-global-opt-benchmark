@@ -1,0 +1,34 @@
+{
+ "budget_pilot": 40000,
+ "campaign": "pilot-bsu1",
+ "e_best": -2015.3372,
+ "e_tol": 0.02,
+ "budget_final": 20000,
+ "n_atoms": 235,
+ "n_search": 10,
+ "bh": {
+  "n": 10,
+  "sr": 1.0,
+  "ert": 6425.1,
+  "med_hit": 6696.5,
+  "med_gap": 0.0004
+ },
+ "bh_at_final_budget": {
+  "sr": 1.0,
+  "ert": 6425.1
+ },
+ "rs": {
+  "n": 10,
+  "sr": 0.3,
+  "ert": 112133.7,
+  "med_hit": 23050.0,
+  "med_gap": 0.149
+ },
+ "rs_at_final_budget": {
+  "sr": 0.1,
+  "ert": 183488.0
+ },
+ "ms_per_step": 17.02,
+ "wall_at_final_budget_s": 340,
+ "notes": "Campaign pilot-bsu1. GM: 3D Pt7+3 bilayer (7 Pt on the surface, thickness 2.2 A), Pt-Pt 2.53-2.72 A, Pt-O 1.99 A (7 contacts), Pt-Ce min 2.79 A, periodic-image gap 12.3 A. Tight re-relaxation (fmax 0.005): stored scatter of runs that found the GM <= 0.001 eV; a slightly distorted variant at +0.0014 eV (tight) also counts as a hit; next isomer family at +0.14 eV. e_tol 0.02. NEP89 Pt adatom: atop a surface O (Pt-O 1.92 A). Dropped: Pt8 variant (planar GM as in DFT, but all 20 BH/RS runs hit: too easy)."
+}

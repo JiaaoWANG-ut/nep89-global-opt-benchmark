@@ -1,0 +1,59 @@
+{
+ "name": "bu_Sr4Ti4O12",
+ "title": "SrTiO3 (Sr4Ti4O12) crystal",
+ "category": "bulk",
+ "description": "Variable-cell crystal-structure prediction of the perovskite SrTiO3 with four formula units (20 atoms) per cell, enough for octahedral tilt systems (a0a0c-, I4/mcm: the experimental low-temperature phase; cubic Pm-3m above 105 K; a-b+a- Pnma as in CaTiO3); ilmenite and hexagonal-perovskite arrangements compete. In NEP89 tilts gain < 1 meV/atom, so cubic and tilted perovskites are nearly degenerate. guard_factor 0.80: NEP89 has a short-range Sr-O hole (with the default 0.75 an unphysical Sr2Ti2O6 structure with Sr-O = 1.93 A was 0.046 eV below the perovskite).",
+ "search_symbols": [
+  "Sr",
+  "Sr",
+  "Sr",
+  "Sr",
+  "Ti",
+  "Ti",
+  "Ti",
+  "Ti",
+  "O",
+  "O",
+  "O",
+  "O",
+  "O",
+  "O",
+  "O",
+  "O",
+  "O",
+  "O",
+  "O",
+  "O"
+ ],
+ "cell": [
+  [
+   6.3988,
+   0,
+   0
+  ],
+  [
+   0,
+   6.3988,
+   0
+  ],
+  [
+   0,
+   0,
+   6.3988
+  ]
+ ],
+ "pbc": [
+  true,
+  true,
+  true
+ ],
+ "variable_cell": true,
+ "volume_per_atom": 13.1,
+ "region": {
+  "type": "cell"
+ },
+ "budget": 22000,
+ "fmax": 0.05,
+ "e_tol": 0.02,
+ "guard_factor": 0.8
+}

@@ -1,0 +1,48 @@
+{
+ "name": "bu_Ca2C2O6",
+ "title": "CaCO3 (Ca2C2O6) crystal",
+ "category": "bulk",
+ "description": "Variable-cell crystal-structure prediction of CaCO3 with two formula units (10 atoms) per cell: planar CO3 anions must assemble from random atoms. Experimental ground state: calcite (R-3c, 10-atom primitive cell); aragonite and vaterite are metastable. NEP89 caveats: the putative NEP89 global minimum is a vaterite-like layered polymorph (CO3 planes normal to the Ca layers, +6% volume) 7.4 meV/atom below calcite, and CaO + CO2 is only 0.32 eV/f.u. above calcite (exp. ~1.8 eV), a frequent trap.",
+ "search_symbols": [
+  "Ca",
+  "Ca",
+  "C",
+  "C",
+  "O",
+  "O",
+  "O",
+  "O",
+  "O",
+  "O"
+ ],
+ "cell": [
+  [
+   5.1299,
+   0,
+   0
+  ],
+  [
+   0,
+   5.1299,
+   0
+  ],
+  [
+   0,
+   0,
+   5.1299
+  ]
+ ],
+ "pbc": [
+  true,
+  true,
+  true
+ ],
+ "variable_cell": true,
+ "volume_per_atom": 13.5,
+ "region": {
+  "type": "cell"
+ },
+ "budget": 100000,
+ "fmax": 0.05,
+ "e_tol": 0.02
+}

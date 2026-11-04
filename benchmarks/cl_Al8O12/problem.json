@@ -1,0 +1,66 @@
+{
+ "name": "cl_Al8O12",
+ "title": "(Al2O3)4 cluster",
+ "category": "cluster",
+ "description": "Gas-phase (Al2O3)4, an alumina dust-nucleation and gas-phase IR target; DFT global minima of small (Al2O3)n are compact cages of 4-membered Al2O2 and 6-membered Al3O3 rings with 3-5-fold Al and 2-4-fold O (Rahane, Deshpande & Kumar, JPCC 115, 18111 (2011)), and for n = 4 the B3LYP GM is a low-symmetry (C1) cage while PBE0 prefers a D3d isomer (Gobrecht et al., A&A 658, A167 (2022)). The NEP89 putative GM has these features (Cs cage; five 3-fold and three 4-fold Al; ten 2-fold, one 3-fold and one 4-fold O; two Al2O2 and eight Al3O3 rings; Al-O 1.71-1.98 A; no O-O or Al-Al bonds), but its identity with the DFT GM was not verified. A Cs isomer 0.20 eV higher (one 2-fold Al) forms a competing funnel that traps some basin-hopping runs. Artefact screening: NEP89 has an O-O bonded hole; a particle-swarm run found a cage with O-O 1.11 and 1.22 A, Al-O 1.53 A and only 5-fold Al, 0.08 eV below the physical minimum. An O-O guard floor of 1.9 A (guard_pairs; the shortest physical O-O distance here is 2.49 A) lifts it by 41 eV and leaves the physical minima unchanged.",
+ "search_symbols": [
+  "Al",
+  "Al",
+  "Al",
+  "Al",
+  "Al",
+  "Al",
+  "Al",
+  "Al",
+  "O",
+  "O",
+  "O",
+  "O",
+  "O",
+  "O",
+  "O",
+  "O",
+  "O",
+  "O",
+  "O",
+  "O"
+ ],
+ "cell": [
+  [
+   26.0,
+   0,
+   0
+  ],
+  [
+   0,
+   26.0,
+   0
+  ],
+  [
+   0,
+   0,
+   26.0
+  ]
+ ],
+ "pbc": [
+  true,
+  true,
+  true
+ ],
+ "region": {
+  "type": "sphere",
+  "center": [
+   13.0,
+   13.0,
+   13.0
+  ],
+  "radius": 4.5
+ },
+ "connected": true,
+ "budget": 69000,
+ "fmax": 0.05,
+ "e_tol": 0.02,
+ "guard_pairs": {
+  "O-O": 1.9
+ }
+}

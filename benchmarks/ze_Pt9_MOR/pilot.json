@@ -1,0 +1,55 @@
+{
+ "campaign": "pilot-bze2-v2",
+ "budget_pilot": 40000,
+ "e_best": -1173.951,
+ "e_best_source": [
+  "pilot-bze2-v2",
+  "bh",
+  17
+ ],
+ "e_tol": 0.02,
+ "budget_final": 13900,
+ "bh": {
+  "n": 20,
+  "sr": 1.0,
+  "ert": 7857,
+  "med_hit": 4632,
+  "med_gap": 0.0002,
+  "hits": [
+   2509,
+   2637,
+   2654,
+   2686,
+   2905,
+   3505,
+   3608,
+   3777,
+   3820,
+   4539,
+   4725,
+   5204,
+   5242,
+   9025,
+   9530,
+   12727,
+   13825,
+   17722,
+   17918,
+   28590
+  ],
+  "wall_per_run_s": 414.1
+ },
+ "rs": {
+  "n": 20,
+  "sr": 0.0,
+  "ert": null,
+  "med_hit": null,
+  "med_gap": 0.1818,
+  "hits": [],
+  "wall_per_run_s": 421.7
+ },
+ "ms_per_step": 10.45,
+ "n_atoms": 153,
+ "n_search": 9,
+ "notes": "Pilot campaign pilot-bze2-v2 (bh, rs; seeds 0-19; budget 40000). BH found the same GM in 20/20 runs (energies agree to <= 0.001 eV); RS 0/20 (13 runs end at the +0.18 eV isomer, 7 at +0.26-0.34 eV). Final budget = 3 x median BH hit step (4632) = 13900; e_tol 0.02: next isomer +0.180 eV (tight minimum, fmax 0.002); dev-ga runs that ended +0.005/+0.008 eV above E_best re-relax to the GM. GM: flattened 3D Pt9 (16 Pt-Pt bonds, CN 2-6, Pt-Pt 2.47-2.55 A) centred in the 12-ring channel (COM 0.45 A from the region centre); 3 Pt bind framework O (Pt-O 1.97 A, Pt-Si 2.60 A); E_int = E - E_framework - E_Pt9(vac, same geometry) = -5.78 eV; nearest periodic image 8.35 A. Framework (NEP89): Si-O 1.625 A, O-Si-O 109.47 +- 1.26 deg, V/T +1.3 % vs IZA, +1.6 kJ/mol SiO2 vs alpha-quartz; a rattled re-relaxation lowers it by 2.5 kJ/mol but over-densifies it (FD 17.8 vs 17.2 T/1000 A^3 for type mordenite), so the symmetric framework is kept. Replaces the planned Rh4@MOR: NEP89 sinks Rh atoms into the silica walls (Rh6/Rh9 pilots gave wall-embedded GMs); Pt6@MOR (BH ERT 10k, planar GM) was dropped in favour of Pt9."
+}

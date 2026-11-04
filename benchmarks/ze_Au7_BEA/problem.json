@@ -1,0 +1,34 @@
+{
+ "name": "ze_Au7_BEA",
+ "title": "Au7 @ BEA (channel intersection)",
+ "category": "zeolite",
+ "description": "Au7 cluster at an intersection of the 12-ring channels of a frozen all-silica zeolite beta (polymorph A; NEP89-relaxed tetragonal cell, 192 framework atoms). Metal clusters immobilised inside beta crystals resist sintering (Wang et al., Nat. Catal. 1, 540 (2018)). Caveat: NEP89 is not fitted to metal/zeolite interfaces and the framework is rigid, so cluster-wall binding is qualitative (NEP89 GM: planar Au7 spanning the intersection).",
+ "search_symbols": [
+  "Au",
+  "Au",
+  "Au",
+  "Au",
+  "Au",
+  "Au",
+  "Au"
+ ],
+ "substrate_file": "substrate.extxyz",
+ "pbc": [
+  true,
+  true,
+  true
+ ],
+ "region": {
+  "type": "sphere",
+  "center": [
+   6.646808,
+   10.677616,
+   13.348038
+  ],
+  "radius": 2.49
+ },
+ "connected": true,
+ "budget": 12000,
+ "fmax": 0.05,
+ "e_tol": 0.02
+}

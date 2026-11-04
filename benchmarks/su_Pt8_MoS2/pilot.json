@@ -1,0 +1,32 @@
+{
+ "campaign": "pilot-bsu2-v3",
+ "seeds": "0-19",
+ "budget_pilot": 30000,
+ "e_best": -853.7239,
+ "e_best_run": "pilot-bsu2-v3/bh/19",
+ "e_tol": 0.02,
+ "budget_final": 27500,
+ "n_atoms": 116,
+ "n_search": 8,
+ "bh": {
+  "n": 20,
+  "sr": 1.0,
+  "ert": 10081,
+  "med_hit": 9110,
+  "med_gap": 0.0001,
+  "sr_final": 1.0,
+  "ert_final": 10081
+ },
+ "rs": {
+  "n": 20,
+  "sr": 0.0,
+  "ert": null,
+  "med_hit": null,
+  "med_gap": 0.309,
+  "sr_final": 0.0,
+  "ert_final": null
+ },
+ "ms_per_step": 5.76,
+ "wall_final_s": 158,
+ "notes": "Campaign pilot-bsu2-v3, seeds 0-9 + 10-19 (added after the restart). GM: 5+3 Pt bilayer, the five lower Pt on top-Mo sites, each bonded to three S (2.31-2.35 A); the 20 BH hits agree within 0.3 meV. Competing minima: 4+4 bilayer +0.161 eV, more 3D 5+3 isomer +0.244 eV. RS never reached the GM (0/20; rs ert/med_hit = null means infinite/undefined). Final budget = 3 x 9110."
+}

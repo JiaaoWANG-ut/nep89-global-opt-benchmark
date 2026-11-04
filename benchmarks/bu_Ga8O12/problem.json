@@ -1,0 +1,58 @@
+{
+ "name": "bu_Ga8O12",
+ "title": "Ga2O3 (Ga8O12) crystal",
+ "description": "Crystal structure prediction of Ga2O3 with 4 formula units (20 atoms) per cell. The experimental ground state beta-Ga2O3 (C2/m, half tetrahedral and half octahedral Ga; this cell is twice its primitive cell) is also the NEP89 global minimum; corundum-type alpha-Ga2O3 (+28.7 meV/atom with NEP89) is a deep competing funnel (the mirror image of bu_Al8O12, where corundum is the ground state and the beta-Ga2O3 type is the trap).",
+ "category": "bulk",
+ "search_symbols": [
+  "Ga",
+  "Ga",
+  "Ga",
+  "Ga",
+  "Ga",
+  "Ga",
+  "Ga",
+  "Ga",
+  "O",
+  "O",
+  "O",
+  "O",
+  "O",
+  "O",
+  "O",
+  "O",
+  "O",
+  "O",
+  "O",
+  "O"
+ ],
+ "cell": [
+  [
+   6.127,
+   0.0,
+   0.0
+  ],
+  [
+   0.0,
+   6.127,
+   0.0
+  ],
+  [
+   0.0,
+   0.0,
+   6.127
+  ]
+ ],
+ "pbc": [
+  true,
+  true,
+  true
+ ],
+ "variable_cell": true,
+ "volume_per_atom": 11.5,
+ "region": {
+  "type": "cell"
+ },
+ "budget": 32000,
+ "fmax": 0.05,
+ "e_tol": 0.02
+}

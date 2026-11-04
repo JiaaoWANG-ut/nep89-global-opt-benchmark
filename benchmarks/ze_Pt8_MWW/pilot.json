@@ -1,0 +1,72 @@
+{
+ "campaign": "pilot-bze2-v3",
+ "budget_pilot": 40000,
+ "e_best": -1735.7953,
+ "e_best_source": [
+  "pilot-bze2-v3",
+  "bh",
+  4
+ ],
+ "e_tol": 0.01,
+ "budget_final": 5300,
+ "bh": {
+  "n": 20,
+  "sr": 0.8,
+  "ert": 12333,
+  "med_hit": 1782,
+  "med_gap": 0.0002,
+  "hits": [
+   148,
+   382,
+   654,
+   1320,
+   1328,
+   1438,
+   1461,
+   1718,
+   1846,
+   1889,
+   1950,
+   2873,
+   3450,
+   3627,
+   5051,
+   8194
+  ],
+  "wall_per_run_s": 647.1
+ },
+ "rs": {
+  "n": 20,
+  "sr": 1.0,
+  "ert": 4985,
+  "med_hit": 2928,
+  "med_gap": 0.0004,
+  "hits": [
+   140,
+   620,
+   865,
+   1289,
+   2137,
+   2360,
+   2390,
+   2415,
+   2552,
+   2899,
+   2957,
+   3232,
+   3485,
+   4212,
+   4881,
+   5378,
+   8556,
+   12403,
+   14766,
+   22169
+  ],
+  "wall_per_run_s": 643.9
+ },
+ "ms_per_step": 16.14,
+ "n_atoms": 224,
+ "n_search": 8,
+ "notes": "Final pilot = pilot-bze2-v3, box region (half-widths 2 x 2 x 7 A along the supercage axis), 20 seeds per algorithm. e_tol 0.01 (not 0.02): GM-basin runs (all campaigns, up to +0.005 eV) re-relax (fmax 0.002) to E_best, while a distinct isomer (the same umbrella in another registry, dFP 0.13) has its tight minimum at +0.0204 eV, i.e. at the default 0.02 threshold. GM: Pt8 umbrella (hexagonal Pt7 raft + cap, Pt-Pt 2.56 A) in one of the two equivalent 12-ring cups (COM 5.9 A from the supercage centre), no Pt-O < 3.07 A, E_int -5.53 eV. All 4 failed BH runs are trapped at +1.64/+1.71 eV with 1-2 Pt bound to O (1.96 A) near the equatorial 10-ring windows. The first pilot (pilot-bze2, central sphere region that excluded the cups) gave BH 6/20 (ERT 96k), RS 9/20 (ERT 63k). Framework: Si-O 1.630 A, O-Si-O 109.46 +- 2.17 deg, V/T -2.8 % vs IZA, -0.8 kJ/mol SiO2 vs alpha-quartz, rattle test: true NEP89 minimum. Pt12_MWW variant dropped (0/10 BH and RS)."
+}

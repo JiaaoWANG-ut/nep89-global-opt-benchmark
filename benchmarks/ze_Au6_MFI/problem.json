@@ -1,0 +1,33 @@
+{
+ "name": "ze_Au6_MFI",
+ "title": "Au6 @ MFI (channel intersection)",
+ "category": "zeolite",
+ "description": "Au6 cluster at the intersection of the straight and sinusoidal 10-ring channels of a frozen all-silica MFI framework (silicalite-1; NEP89-relaxed orthorhombic cell, 288 framework atoms). Metal clusters encapsulated in MFI resist sintering (Goel, Zones and Iglesia, J. Am. Chem. Soc. 136, 15280 (2014)); for Au clusters in zeolites see Otto, Zones and Iglesia, J. Catal. 339, 195 (2016). Caveat: NEP89 is not fitted to metal/zeolite interfaces and the framework is rigid, so cluster-wall binding is qualitative (NEP89 GM: buckled Au6 anchored to the intersection wall); Au replaces Pd because NEP89 bonds Pd and Pt atoms to SiO4 edges of MFI (M-Si 2.4-2.5 A).",
+ "search_symbols": [
+  "Au",
+  "Au",
+  "Au",
+  "Au",
+  "Au",
+  "Au"
+ ],
+ "substrate_file": "substrate.extxyz",
+ "pbc": [
+  true,
+  true,
+  true
+ ],
+ "region": {
+  "type": "sphere",
+  "center": [
+   19.925514,
+   4.877871,
+   7.074552
+  ],
+  "radius": 2.28
+ },
+ "connected": true,
+ "budget": 11000,
+ "fmax": 0.05,
+ "e_tol": 0.02
+}

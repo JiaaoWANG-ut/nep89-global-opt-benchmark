@@ -1,0 +1,39 @@
+{
+ "name": "su_Au8_TiO2_110",
+ "title": "Au8 / rutile TiO2(110)",
+ "category": "surface",
+ "description": "Au8 on a frozen 3-trilayer stoichiometric rutile TiO2(110) slab (3x6 cell, 19.5 x 17.7 A, 324 atoms; NEP89 a = 4.606 A, c = 2.957 A vs exp. 4.594, 2.959 A), the model support of Au/TiO2 CO-oxidation catalysts (Valden, Lai and Goodman, Science 281, 1647 (1998)). The NEP89 putative GM is a compact 3D Au8 with 5 Au in contact, 3 on the bridging-O row (Au-O 2.20 A) and 2 atop 5-fold Ti in the trough (Au-Ti 2.68 A); DFT likewise finds small Au_n turning 3D on stoichiometric TiO2(110) (Au7) but binds them mainly through bridging and in-plane O (Chretien and Metiu, J. Chem. Phys. 127, 084704 (2007)), whereas NEP89 also favours Au-Ti5c contacts (a single Au sits atop Ti5c). The stoichiometric frozen slab lacks the O vacancies that anchor Au in experiment.",
+ "search_symbols": [
+  "Au",
+  "Au",
+  "Au",
+  "Au",
+  "Au",
+  "Au",
+  "Au",
+  "Au"
+ ],
+ "substrate_file": "substrate.extxyz",
+ "pbc": [
+  true,
+  true,
+  true
+ ],
+ "region": {
+  "type": "box",
+  "lo": [
+   0.0,
+   0.0,
+   10.5356
+  ],
+  "hi": [
+   19.5402,
+   17.744,
+   17.1356
+  ]
+ },
+ "connected": true,
+ "budget": 37000,
+ "fmax": 0.05,
+ "e_tol": 0.02
+}

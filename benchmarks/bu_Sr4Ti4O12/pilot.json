@@ -1,0 +1,66 @@
+{
+ "budget_pilot": 60000,
+ "e_best": -163.984,
+ "e_best_per_atom": -8.1992,
+ "e_tol": 0.02,
+ "bh": {
+  "n": 10,
+  "sr": 1.0,
+  "ert": 10558,
+  "med_hit": 7241,
+  "med_gap": 0.0081
+ },
+ "rs": {
+  "n": 10,
+  "sr": 0.5,
+  "ert": 86721,
+  "med_hit": 25068,
+  "med_gap": 0.0233
+ },
+ "ms_per_step": 3.24,
+ "budget_final": 22000,
+ "pilot_campaigns": [
+  "pilot-bbu2-v3"
+ ],
+ "notes": "Pilot pilot-bbu2-v3 (guard_factor 0.80; BH/RS seeds 0-9, 60k steps). NEP89 GM: a0a0c- tilted perovskite (I4/mcm, the experimental low-T phase): Ti-O 1.958 A, Sr-O >= 2.61 A, O [Sr4Ti2], V 11.91 A^3/atom (exp. 11.91), d_min ratio 0.87. e_tol 0.02 eV (1 meV/atom) also accepts the other tilt systems (Pnma/R-3c-like +8 meV, cubic +14 meV per cell); runs that found I4/mcm agree within 1 meV. Misses: strained perovskites (+31, +47 meV) and non-perovskite frameworks with 4/5-coordinated Ti (3 RS runs, +0.67 eV). References per cell: ilmenite +0.84 eV, 2H hexagonal (symmetry-constrained; unstable) +4.86 eV, SrO + TiO2 (anatase) +4.85 eV. With the default guard 0.75 NEP89 has a short-range Sr-O hole (Sr-O 1.93 A = 0.74 x covalent-radius sum, found in the 10-atom bu_Sr2Ti2O6), hence guard_factor 0.80.",
+ "reference_polymorphs": {
+  "perovskite a0a0c- tilt (I4/mcm, exp. low T)": {
+   "e_per_atom": -8.19922,
+   "volume_per_atom": 11.91,
+   "n_atoms": 20
+  },
+  "perovskite cubic (Pm-3m, exp. room T)": {
+   "e_per_atom": -8.19849,
+   "volume_per_atom": 11.938,
+   "n_atoms": 20
+  },
+  "perovskite a-a-a- tilt (R-3c)": {
+   "e_per_atom": -8.19873,
+   "volume_per_atom": 11.924,
+   "n_atoms": 10
+  },
+  "perovskite a-b+a- tilt (Pnma, CaTiO3-type)": {
+   "e_per_atom": -8.19876,
+   "volume_per_atom": 11.915,
+   "n_atoms": 20
+  },
+  "ilmenite-type (R-3)": {
+   "e_per_atom": -8.15728,
+   "volume_per_atom": 12.526,
+   "n_atoms": 10
+  },
+  "2H hexagonal perovskite (BaNiO3-type, symmetric)": {
+   "e_per_atom": -7.95635,
+   "volume_per_atom": 12.799,
+   "n_atoms": 10
+  }
+ },
+ "decomposition": {
+  "SrO (rocksalt) + TiO2 (anatase)": {
+   "e_per_atom": -7.95658
+  },
+  "SrO (rocksalt) + TiO2 (rutile)": {
+   "e_per_atom": -7.91713
+  }
+ }
+}

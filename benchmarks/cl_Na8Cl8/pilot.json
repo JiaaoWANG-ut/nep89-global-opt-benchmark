@@ -1,0 +1,121 @@
+{
+ "budget_pilot": 100000,
+ "campaign": [
+  "pilot-bcl2"
+ ],
+ "e_best": -46.3911,
+ "e_best_source": [
+  "pilot-bcl2",
+  "bh",
+  "6"
+ ],
+ "e_tol": 0.05,
+ "bh": {
+  "n": 10,
+  "sr": 1.0,
+  "ert": 32282,
+  "med_hit": 27920,
+  "ms_per_step": 0.6267,
+  "hits": [
+   6991,
+   10274,
+   16426,
+   16479,
+   27798,
+   28041,
+   42372,
+   45011,
+   59580,
+   69845
+  ],
+  "gaps": [
+   0.0,
+   0.0002,
+   0.0003,
+   0.0004,
+   0.0005,
+   0.0005,
+   0.0009,
+   0.001,
+   0.0012,
+   0.0026
+  ]
+ },
+ "rs": {
+  "n": 10,
+  "sr": 1.0,
+  "ert": 53969,
+  "med_hit": 53246,
+  "ms_per_step": 0.8897,
+  "hits": [
+   14599,
+   19344,
+   34252,
+   35895,
+   39924,
+   66567,
+   69103,
+   78376,
+   82299,
+   99334
+  ],
+  "gaps": [
+   0.0006,
+   0.0012,
+   0.0017,
+   0.0043,
+   0.0047,
+   0.0055,
+   0.0103,
+   0.0104,
+   0.0125,
+   0.0158
+  ]
+ },
+ "ms_per_step": 0.6267,
+ "final_budget": 84000,
+ "at_final_budget": {
+  "bh": {
+   "n": 10,
+   "sr": 1.0,
+   "ert": 32282,
+   "med_hit": 27920,
+   "ms_per_step": 0.6267
+  },
+  "rs": {
+   "n": 10,
+   "sr": 0.9,
+   "ert": 58262,
+   "med_hit": 39924,
+   "ms_per_step": 0.8897
+  }
+ },
+ "wall_s_at_final_budget": {
+  "bh": 52.6,
+  "rs": 74.7
+ },
+ "references_nep89": {
+  "2x2x4 rocksalt cuboid": -46.3918,
+  "octagonal tube (2 x (NaCl)4 ring)": -44.373
+ },
+ "gm": {
+  "motif": "2x2x4 rocksalt cuboid, Na-Cl 2.564-2.645 A, Na/Cl CN 3(x4),4(x4)",
+  "literature": "rocksalt cuboids for small (NaCl)n in ab initio perturbed-ion and Tosi-Fumi studies (Aguado et al., PRB 56, 15353 (1997); Doye & Wales, PRB 59, 2292 (1999))"
+ },
+ "notes": "All 20 pilot runs found the cuboid, but fmax=0.05 relaxations of it differ by up to 0.016 eV (RS) while tight relaxations (fmax 0.005) agree within 0.3 meV -> e_tol 0.05 (hit steps change by only a few steps vs 0.02). Final budget 84000 = 3 x BH median hit 27920 (BH SR 1.0, RS SR 0.9 at 84000).",
+ "bulk_reference_nep89": {
+  "phase": "rocksalt NaCl, a=5.494 A",
+  "e_bulk_eV_per_atom": -3.1818,
+  "e_gm_eV_per_atom": -2.8994,
+  "gm_minus_bulk_eV_per_atom": 0.282,
+  "gm_minus_bulk_eV_per_NaCl": 0.565,
+  "verdict": "cluster less stable than bulk (no NEP89-hole signature)"
+ },
+ "validate_gm": {
+  "dE_eV": 1.65e-07,
+  "dmin_ratio": 0.96,
+  "components": 1,
+  "top3_consistent": true,
+  "flag": null
+ }
+}

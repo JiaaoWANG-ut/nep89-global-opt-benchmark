@@ -1,0 +1,62 @@
+{
+ "name": "cl_Pt19",
+ "title": "Pt19 cluster",
+ "category": "cluster",
+ "description": "Gas-phase Pt19. PBE and hybrid DFT give a Pt18 three-layer trigonal prism capped on a triangular face (C3v; Kumar & Kawazoe, PRB 77, 205418 (2008); J. Mol. Model. (2024), doi:10.1007/s00894-024-06099-5). NEP89 instead prefers a hollow 19-vertex deltahedral cage (all atoms 5- or 6-coordinated, Pt-Pt 2.53-2.57 A), 1.5 eV below the relaxed DFT structure and 0.66 eV below the fcc octahedron, so this landscape is NEP89-specific.",
+ "search_symbols": [
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt"
+ ],
+ "cell": [
+  [
+   25.0,
+   0,
+   0
+  ],
+  [
+   0,
+   25.0,
+   0
+  ],
+  [
+   0,
+   0,
+   25.0
+  ]
+ ],
+ "pbc": [
+  true,
+  true,
+  true
+ ],
+ "region": {
+  "type": "sphere",
+  "center": [
+   12.5,
+   12.5,
+   12.5
+  ],
+  "radius": 5.3
+ },
+ "connected": true,
+ "budget": 10000,
+ "fmax": 0.05,
+ "e_tol": 0.02
+}

@@ -1,0 +1,121 @@
+{
+ "budget_pilot": 100000,
+ "campaign": [
+  "pilot-bcl2"
+ ],
+ "e_best": -70.3285,
+ "e_best_source": [
+  "pilot-bcl2",
+  "bh",
+  "8"
+ ],
+ "e_tol": 0.02,
+ "bh": {
+  "n": 10,
+  "sr": 1.0,
+  "ert": 6415,
+  "med_hit": 6556,
+  "ms_per_step": 0.5129,
+  "hits": [
+   1636,
+   2198,
+   2658,
+   3061,
+   4293,
+   8820,
+   9553,
+   9963,
+   10354,
+   11617
+  ],
+  "gaps": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ]
+ },
+ "rs": {
+  "n": 10,
+  "sr": 0.9,
+  "ert": 44735,
+  "med_hit": 24616,
+  "ms_per_step": 0.8789,
+  "hits": [
+   1406,
+   2020,
+   9434,
+   22710,
+   24616,
+   28576,
+   47524,
+   79463,
+   86862
+  ],
+  "gaps": [
+   0.0,
+   0.0,
+   0.0001,
+   0.0001,
+   0.0001,
+   0.0001,
+   0.0001,
+   0.0001,
+   0.0001,
+   1.4434
+  ]
+ },
+ "ms_per_step": 0.5129,
+ "final_budget": 20000,
+ "at_final_budget": {
+  "bh": {
+   "n": 10,
+   "sr": 1.0,
+   "ert": 6415,
+   "med_hit": 6556,
+   "ms_per_step": 0.5129
+  },
+  "rs": {
+   "n": 10,
+   "sr": 0.3,
+   "ert": 50953,
+   "med_hit": 2020,
+   "ms_per_step": 0.8789
+  }
+ },
+ "wall_s_at_final_budget": {
+  "bh": 10.3,
+  "rs": 17.6
+ },
+ "references_nep89": {
+  "quasi-planar C3v (DFT/PES GM)": -67.6318,
+  "icosahedron (Ih)": -70.3285
+ },
+ "gm": {
+  "motif": "Ih icosahedron, B-B 1.733 A, all B 5-fold",
+  "second_isomer": "-68.885 eV (+1.44 eV), compact 3D",
+  "literature": "quasi-planar C3v GM from photoelectron spectroscopy + ab initio (Zhai et al., Nat. Mater. 2, 827 (2003)); icosahedron several eV higher"
+ },
+ "notes": "NEP89 ordering is qualitatively wrong (icosahedron 2.7 eV below the quasi-planar DFT GM), presumably because training data is dominated by icosahedral bulk boron; the structure itself is physical. Final budget 20000 ~ 3 x BH median hit 6556 (BH SR 1.0, RS SR 0.3 at 20000). Same-structure GM energies within 0.1 meV -> e_tol 0.02.",
+ "bulk_reference_nep89": {
+  "phase": "alpha-B12 (R-3m), a=4.975 A, alpha=58.1 deg",
+  "e_bulk_eV_per_atom": -6.7227,
+  "e_gm_eV_per_atom": -5.8607,
+  "gm_minus_bulk_eV_per_atom": 0.862,
+  "gm_minus_bulk_eV_per_B": 0.862,
+  "verdict": "cluster less stable than bulk (no NEP89-hole signature)"
+ },
+ "validate_gm": {
+  "dE_eV": -1.67e-08,
+  "dmin_ratio": 1.03,
+  "components": 1,
+  "top3_consistent": true,
+  "flag": null
+ }
+}

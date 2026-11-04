@@ -1,0 +1,55 @@
+{
+ "name": "cl_Pt13",
+ "title": "Pt13 cluster",
+ "category": "cluster",
+ "description": "Gas-phase Pt13.",
+ "search_symbols": [
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt"
+ ],
+ "cell": [
+  [
+   24.0,
+   0,
+   0
+  ],
+  [
+   0,
+   24.0,
+   0
+  ],
+  [
+   0,
+   0,
+   24.0
+  ]
+ ],
+ "pbc": [
+  true,
+  true,
+  true
+ ],
+ "region": {
+  "type": "sphere",
+  "center": [
+   12.0,
+   12.0,
+   12.0
+  ],
+  "radius": 4.7
+ },
+ "budget": 20000,
+ "fmax": 0.05,
+ "e_tol": 0.02
+}

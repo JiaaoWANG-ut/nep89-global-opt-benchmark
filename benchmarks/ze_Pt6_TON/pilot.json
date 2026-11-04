@@ -1,0 +1,66 @@
+{
+ "campaign": "pilot-bze2-v4",
+ "budget_pilot": 40000,
+ "e_best": -1726.8584,
+ "e_best_source": [
+  "pilot-bze2-v4",
+  "bh",
+  9
+ ],
+ "e_tol": 0.01,
+ "budget_final": 17900,
+ "bh": {
+  "n": 20,
+  "sr": 0.7,
+  "ert": 26271,
+  "med_hit": 5954,
+  "med_gap": 0.0001,
+  "hits": [
+   1804,
+   1892,
+   2667,
+   2796,
+   3170,
+   5359,
+   5762,
+   6146,
+   7983,
+   8225,
+   10275,
+   18040,
+   20419,
+   33257
+  ],
+  "wall_per_run_s": 732.5
+ },
+ "rs": {
+  "n": 20,
+  "sr": 0.8,
+  "ert": 23995,
+  "med_hit": 12188,
+  "med_gap": 0.0008,
+  "hits": [
+   3396,
+   4641,
+   4992,
+   5399,
+   8225,
+   10318,
+   12020,
+   12150,
+   12225,
+   15904,
+   16650,
+   19401,
+   21904,
+   23527,
+   23905,
+   29262
+  ],
+  "wall_per_run_s": 738.2
+ },
+ "ms_per_step": 18.38,
+ "n_atoms": 222,
+ "n_search": 6,
+ "notes": "Final pilot = pilot-bze2-v4 on the symmetry-broken framework (bh, rs; seeds 0-19; budget 40000). e_tol 0.01 (not 0.02): GM-basin runs agree to <= 0.002 eV and re-relax (fmax 0.002) to E_best, while the closest distinct isomers have tight minima at +0.0130 eV (different planar Pt6, dFP 0.72) and +0.0143 eV and would count as hits at 0.02. All 10 unsuccessful runs (6 BH, 4 RS) end at the +0.013 eV isomer. GM: planar Pt6 sheet along the channel axis (9 Pt-Pt bonds, CN 2-4, Pt-Pt 2.50-2.56 A); 2 Pt bind framework O (Pt-O 2.17/2.23 A, Pt-Si >= 2.80 A); E_int = -4.50 eV (-0.75 eV/Pt); nearest periodic image 11.8 A. Framework: the idealised Cmcm IZA model relaxes in NEP89 to a symmetric saddle point (16/48 Si-O-Si linear, V/T +1.4 % vs IZA, +8.4 kJ/mol SiO2 vs alpha-quartz); a rattled start (0.05 A, seed 0) relaxes ~12 kJ/mol SiO2 lower to Si-O 1.630 A, O-Si-O 109.47 +- 1.44 deg, Si-O-Si 133-169 deg, V/T -7.7 % vs IZA (FD 19.66 vs 19.7 T/1000 A^3 for Theta-1), -3.6 kJ/mol SiO2 vs alpha-quartz (NEP89 artefact). The pilot on the old symmetric framework (pilot-bze2-v2, hash baf21f23803d, now stale) gave BH 10/10 (ERT 6.5k), RS 0/10. Pt8@TON (296 atoms, BH ERT 14.8k) and Ir4/Ir6@TON (wall-embedded Ir; trivial) were dropped."
+}

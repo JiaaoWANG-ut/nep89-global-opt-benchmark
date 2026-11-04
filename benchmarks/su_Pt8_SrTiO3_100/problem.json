@@ -1,0 +1,39 @@
+{
+ "name": "su_Pt8_SrTiO3_100",
+ "title": "Pt8 / SrTiO3(001)",
+ "category": "surface",
+ "description": "Pt8 on a frozen TiO2-terminated SrTiO3(001) slab (SrO/TiO2/SrO/TiO2, 4x4 cell, 160 atoms; NEP89 a = 3.908 A vs exp. 3.905 A), a model of Pt/SrTiO3 photocatalysts and perovskite-supported Pt. The NEP89 putative GM is a single buckled Pt8 layer (6 Pt on the surface, Pt-O 2.19 A, Pt-Ti 2.61 A; 2 Pt 1.7 A higher), in line with DFT, which finds the TiO2 termination favourable for epitaxial Pt(100) films (Asthagiri and Sholl, J. Chem. Phys. 116, 9914 (2002)). NEP89 is charge-neutral and the frozen, unreconstructed slab excludes the surface reconstructions and O vacancies of real SrTiO3(001).",
+ "search_symbols": [
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt"
+ ],
+ "substrate_file": "substrate.extxyz",
+ "pbc": [
+  true,
+  true,
+  true
+ ],
+ "region": {
+  "type": "box",
+  "lo": [
+   0.0,
+   0.0,
+   7.2883
+  ],
+  "hi": [
+   15.6326,
+   15.6326,
+   13.2883
+  ]
+ },
+ "connected": true,
+ "budget": 13000,
+ "fmax": 0.05,
+ "e_tol": 0.02
+}

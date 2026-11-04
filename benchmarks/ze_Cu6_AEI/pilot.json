@@ -1,0 +1,44 @@
+{
+ "campaign": "pilot-bze2",
+ "budget_pilot": 40000,
+ "e_best": -1151.4645,
+ "e_best_source": [
+  "dev-ga-full",
+  "ga",
+  1
+ ],
+ "e_tol": 0.02,
+ "budget_final": 16700,
+ "bh": {
+  "n": 20,
+  "sr": 0.3,
+  "ert": 103359,
+  "med_hit": 5558,
+  "med_gap": 0.1151,
+  "hits": [
+   1953,
+   2653,
+   4115,
+   7002,
+   9121,
+   35309
+  ],
+  "wall_per_run_s": 355.5
+ },
+ "rs": {
+  "n": 20,
+  "sr": 0.1,
+  "ert": 384349,
+  "med_hit": 24349,
+  "med_gap": 0.0293,
+  "hits": [
+   19998,
+   28700
+  ],
+  "wall_per_run_s": 350.3
+ },
+ "ms_per_step": 8.82,
+ "n_atoms": 150,
+ "n_search": 6,
+ "notes": "Pilot campaign pilot-bze2 (bh, rs; seeds 0-19; budget 40000). BH 6/20 and RS 2/20 runs reached the GM (energies agree to < 0.002 eV; found in symmetry-equivalent cage positions). 17 RS runs end at a distinct isomer +0.029-0.033 eV (different Cu6 shape) and the 14 unsuccessful BH runs are trapped at +0.115/+0.140 eV, so restarts/diversity matter. Final budget = 3 x median BH hit step (5558) = 16700 (BH SR 5/20 within it); e_tol 0.02: the isomer has a tight minimum (fmax 0.002) at +0.0287 eV and GM-basin runs re-relax to E_best. GM: compact 3D Cu6 (12 Cu-Cu bonds, CN 3-5, Cu-Cu 2.43 A) anchored to the aei cage wall (COM 3.3 A from the cage centre); 3 Cu each bind 2 framework O (Cu-O 2.05-2.18 A, Cu-Si 2.40 A); E_int = -3.4 eV (-0.57 eV/Cu); nearest periodic image 10.4 A. Framework (NEP89): Si-O 1.628 A, O-Si-O 109.47 +- 0.70 deg, V/T +1.1 % vs IZA, a true NEP89 minimum (rattle test), but -6.7 kJ/mol SiO2 vs alpha-quartz (NEP89 artefact; calorimetry gives +7 to +14 kJ/mol for all-silica zeolites). Cu9@AEI was dropped (BH SR 3/10 with median hit 29.7k steps -> ~90k-step budget, RS 0/10)."
+}

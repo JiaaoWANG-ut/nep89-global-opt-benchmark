@@ -1,0 +1,115 @@
+{
+ "budget_pilot": 100000,
+ "campaign": [
+  "pilot-bcl2"
+ ],
+ "e_best": -153.0678,
+ "e_best_source": [
+  "pilot-bcl2",
+  "bh",
+  "1"
+ ],
+ "e_tol": 0.02,
+ "bh": {
+  "n": 10,
+  "sr": 1.0,
+  "ert": 17508,
+  "med_hit": 15820,
+  "ms_per_step": 0.8067,
+  "hits": [
+   5058,
+   5313,
+   7377,
+   8111,
+   10163,
+   21478,
+   22891,
+   27425,
+   27587,
+   39675
+  ],
+  "gaps": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0001,
+   0.0001
+  ]
+ },
+ "rs": {
+  "n": 10,
+  "sr": 0.3,
+  "ert": 265710,
+  "med_hit": 35616,
+  "ms_per_step": 0.9921,
+  "hits": [
+   9255,
+   35616,
+   52258
+  ],
+  "gaps": [
+   0.0007,
+   0.001,
+   0.0019,
+   0.14,
+   1.1832,
+   1.328,
+   1.3415,
+   1.4115,
+   1.4628,
+   1.6148
+  ]
+ },
+ "ms_per_step": 0.8067,
+ "final_budget": 47500,
+ "at_final_budget": {
+  "bh": {
+   "n": 10,
+   "sr": 1.0,
+   "ert": 17508,
+   "med_hit": 15820,
+   "ms_per_step": 0.8067
+  },
+  "rs": {
+   "n": 10,
+   "sr": 0.2,
+   "ert": 212436,
+   "med_hit": 22436,
+   "ms_per_step": 0.9921
+  }
+ },
+ "wall_s_at_final_budget": {
+  "bh": 38.3,
+  "rs": 47.1
+ },
+ "references_nep89": {
+  "3 x (TiO2)2 rhombus stack (rough hand-built, bond-length check only)": -149.7015
+ },
+ "gm": {
+  "motif": "compact (TiO2)6 with 2 terminal Ti=O (1.691 A), 9 two-fold and 1 three-fold O, Ti CN 4(x4),5(x2), nine planar Ti2O2 4-rings; O-O >= 2.58 A, Ti-Ti >= 2.85 A",
+  "second_isomer": "-152.928 eV (+0.14 eV), all Ti 5-fold",
+  "guard_energy_at_gm_eV": 0.00027,
+  "literature": "DFT GMs of small (TiO2)n are compact with 4/5-fold Ti and 1-2 terminal Ti=O (Qu & Kroes JPCB 110, 8998 (2006); Lamiel-Garcia et al. Nanoscale 9, 1049 (2017)); exact match to the (TiO2)6 DFT GM not verified"
+ },
+ "notes": "Final budget 47500 = 3 x BH median hit 15820 (BH SR 1.0, RS SR 0.2 at 47500). Same-structure GM energies within 1 meV -> e_tol 0.02. Guard caveat: Ti-O guard r0 = 0.75*(1.60+0.66) = 1.695 A lies above the NEP89 titanyl bond (1.674 A in TiO2, 1.69 A here), so the guard adds ~0.1-0.3 meV per Ti=O; harmless for ranking but a TM-oxo-specific r0 would be cleaner.",
+ "bulk_reference_nep89": {
+  "phase": "anatase TiO2 (rutile -9.0917 eV/atom, 0.20 eV/TiO2 higher)",
+  "e_bulk_eV_per_atom": -9.1575,
+  "e_gm_eV_per_atom": -8.5038,
+  "gm_minus_bulk_eV_per_atom": 0.654,
+  "gm_minus_bulk_eV_per_TiO2": 1.961,
+  "verdict": "cluster less stable than bulk (no NEP89-hole signature)"
+ },
+ "validate_gm": {
+  "dE_eV": -1.23e-08,
+  "dmin_ratio": 0.75,
+  "components": 1,
+  "top3_consistent": true,
+  "flag": "dmin 0.75 < 0.77 from the two terminal Ti=O (1.691 A / (1.60+0.66) A). This is NEP89's own titanyl bond (guard-free tight relaxation: 1.690 A, guard shifts it by 0.002 A and 0.4 meV) and is physical: NEP89 gives TiO 1.622 A (exp. 1.620) and molecular TiO2 1.674 A (exp. 1.651); coordinator accepted cl_Ti6O12."
+ }
+}

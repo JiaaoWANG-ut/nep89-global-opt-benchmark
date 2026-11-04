@@ -1,0 +1,50 @@
+{
+ "name": "bu_Mg4Cu8",
+ "title": "MgCu2 (Mg4Cu8) Laves-phase crystal",
+ "category": "bulk",
+ "description": "Variable-cell crystal-structure prediction of the Laves phase MgCu2 with four formula units (12 atoms) per cell: a size-mismatched, topologically close-packed intermetallic. Experimental ground state: cubic C15 (Fd-3m); the hexagonal C14 (MgZn2-type) polytype and AlB2/MoSi2-type AB2 structures compete. NEP89 reproduces C15 as the global minimum, but C14 is only 0.5 meV/atom higher (within e_tol, so it also counts as a hit).",
+ "search_symbols": [
+  "Mg",
+  "Mg",
+  "Mg",
+  "Mg",
+  "Cu",
+  "Cu",
+  "Cu",
+  "Cu",
+  "Cu",
+  "Cu",
+  "Cu",
+  "Cu"
+ ],
+ "cell": [
+  [
+   5.769,
+   0,
+   0
+  ],
+  [
+   0,
+   5.769,
+   0
+  ],
+  [
+   0,
+   0,
+   5.769
+  ]
+ ],
+ "pbc": [
+  true,
+  true,
+  true
+ ],
+ "variable_cell": true,
+ "volume_per_atom": 16.0,
+ "region": {
+  "type": "cell"
+ },
+ "budget": 60000,
+ "fmax": 0.05,
+ "e_tol": 0.02
+}

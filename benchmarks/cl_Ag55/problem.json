@@ -1,0 +1,98 @@
+{
+ "name": "cl_Ag55",
+ "title": "Ag55 cluster",
+ "category": "cluster",
+ "description": "Gas-phase Ag55. The Mackay icosahedron is the GM for many-body potentials (Cambridge Cluster Database) and is supported by DFT and photoelectron spectra of Ag55- (Haekkinen et al., PRL 93, 093401 (2004)). NEP89 reproduces it, about 2 eV below the cuboctahedron and Ino decahedron; the difficulty is the size of the landscape rather than near-degenerate competitors.",
+ "search_symbols": [
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag",
+  "Ag"
+ ],
+ "cell": [
+  [
+   30.0,
+   0,
+   0
+  ],
+  [
+   0,
+   30.0,
+   0
+  ],
+  [
+   0,
+   0,
+   30.0
+  ]
+ ],
+ "pbc": [
+  true,
+  true,
+  true
+ ],
+ "region": {
+  "type": "sphere",
+  "center": [
+   15.0,
+   15.0,
+   15.0
+  ],
+  "radius": 7.9
+ },
+ "connected": true,
+ "budget": 43000,
+ "fmax": 0.05,
+ "e_tol": 0.02
+}

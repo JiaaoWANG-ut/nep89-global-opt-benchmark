@@ -1,0 +1,57 @@
+{
+  "bench": "ze_Pt8_FAU",
+  "campaign": "pilot-bze1*",
+  "bench_hash": "54e212c016d7",
+  "budget_pilot": 40000,
+  "e_best": -1174.3636,
+  "e_tol": 0.02,
+  "bh": {
+    "n": 10,
+    "sr": 1.0,
+    "ert": 4118,
+    "med_hit": 3962,
+    "med_gap": 0.0002
+  },
+  "rs": {
+    "n": 10,
+    "sr": 0.7,
+    "ert": 31480,
+    "med_hit": 12101,
+    "med_gap": 0.0025
+  },
+  "ms_per_step": 8.93,
+  "budget_final": 12000,
+  "wall_at_budget_s": 107,
+  "size_scan_bh_rs_ert_40k": {
+    "Pt8": [
+      4118,
+      31480
+    ],
+    "Pt10": [
+      4945,
+      1702
+    ]
+  },
+  "framework": {
+    "cell": "rhombohedral primitive cell, 144 atoms, heights 14.07 A",
+    "si_o_A": [
+      1.628,
+      1.638
+    ],
+    "o_si_o_deg": [
+      107.5,
+      110.5
+    ],
+    "si_o_si_deg": [
+      134.1,
+      141.0
+    ],
+    "si_o_si_deg_iza_cif": [
+      142,
+      146
+    ],
+    "volume_per_T_nep_over_iza": 1.002
+  },
+  "gm": "quasi-planar Pt8 anchored to the supercage wall by four Pt-O 2.25 A contacts (one Pt bidentate), Pt-Si >= 2.81 A; binding to the frozen framework -3.3 eV",
+  "notes": "Pilot: 10 seeds x BH/RS, 40k steps (campaign pilot-bze1). Size scan (BH/RS ERT): Pt10 is easy for RS (1.7k) because its GM floats in the supercage without wall contact, Pt8 chosen. 17/20 runs reached the GM (energy spread 2.9 meV), no competing minimum within 0.08 eV. Budget = 3 x median BH hit (4.0k) = 12k steps (~2 min/run). NEP89 compresses the Si-O-Si angles by ~7 deg vs the IZA CIF (134-141 vs 142-146 deg) at the same volume; NEP89 is not fitted to metal/zeolite interfaces, cluster-framework binding is qualitative."
+}

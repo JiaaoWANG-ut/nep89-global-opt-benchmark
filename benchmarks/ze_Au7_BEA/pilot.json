@@ -1,0 +1,57 @@
+{
+  "bench": "ze_Au7_BEA",
+  "campaign": "pilot-bze1*",
+  "bench_hash": "3f5a75a07612",
+  "budget_pilot": 40000,
+  "e_best": -1525.042,
+  "e_tol": 0.02,
+  "bh": {
+    "n": 10,
+    "sr": 1.0,
+    "ert": 6574,
+    "med_hit": 3972,
+    "med_gap": 0.0001
+  },
+  "rs": {
+    "n": 10,
+    "sr": 0.5,
+    "ert": 59116,
+    "med_hit": 22225,
+    "med_gap": 0.051
+  },
+  "ms_per_step": 12.78,
+  "budget_final": 12000,
+  "wall_at_budget_s": 153,
+  "size_scan_bh_rs_ert_40k": {
+    "Au6": [
+      2105,
+      12750
+    ],
+    "Au7": [
+      6574,
+      59116
+    ],
+    "Au8": [
+      121152,
+      null
+    ]
+  },
+  "framework": {
+    "cell": "tetragonal polymorph-A cell, 192 atoms, 12.64 x 12.64 x 26.66 A",
+    "si_o_A": [
+      1.617,
+      1.64
+    ],
+    "o_si_o_deg": [
+      104.3,
+      115.1
+    ],
+    "si_o_si_deg": [
+      138.9,
+      171.2
+    ],
+    "volume_per_T_nep_over_iza": 1.02
+  },
+  "gm": "planar Au7 (centred hexagon) spanning the 12-ring channel intersection (COM 0.25 A off-centre), monodentate Au-O >= 2.22 A, Au-Si >= 2.65 A (6 contacts < 3.0 A); binding to the frozen framework -1.9 eV",
+  "notes": "Pilot: 10 seeds x BH/RS, 40k steps (campaign pilot-bze1-v2). Size scan (BH/RS ERT): Au6 2.1k/12.8k too easy, Au8 121k/never (RS 0/10) too hard, Au7 chosen. 15/20 runs reached the GM (energy spread 3.2 meV), no competing minimum within 0.08 eV. Budget = 3 x median BH hit (4.0k) = 12k steps (~2.5 min/run). Short Au-Si contacts (2.65 A, ~1.07 x covalent sum) are an NEP89 feature; NEP89 is not fitted to metal/zeolite interfaces, cluster-framework binding is qualitative."
+}

@@ -1,0 +1,39 @@
+{
+ "name": "su_Cu8_TiC001",
+ "title": "Cu8 / TiC(001)",
+ "category": "surface",
+ "description": "Cu8 on a frozen 4-layer TiC(001) slab (5x5 primitive cells, 200 atoms; NEP89 a = 4.285 A vs exp. 4.328 A), a model of Cu/TiC(001) catalysts for CO2 hydrogenation to methanol (Vidal et al., J. Phys. Chem. Lett. 3, 2275 (2012)). The NEP89 putative GM is a flat Cu8 island with every Cu on a top-C site (Cu-C 1.95 A), the adatom site found by DFT (Gomez et al., J. Phys. Chem. C 114, 1622 (2010)); DFT places the 2D-to-3D crossover at Cu7 and finds a Cu6+2 bilayer for Cu8 (Li et al., ACS Omega 6, 27259 (2021)), which NEP89 puts 0.55 eV above its flat GM, i.e. NEP89 over-stabilises wetting.",
+ "search_symbols": [
+  "Cu",
+  "Cu",
+  "Cu",
+  "Cu",
+  "Cu",
+  "Cu",
+  "Cu",
+  "Cu"
+ ],
+ "substrate_file": "substrate.extxyz",
+ "pbc": [
+  true,
+  true,
+  true
+ ],
+ "region": {
+  "type": "box",
+  "lo": [
+   0.0,
+   0.0,
+   7.90411674
+  ],
+  "hi": [
+   15.14937961880772,
+   15.14937961880772,
+   13.90411674
+  ]
+ },
+ "connected": true,
+ "budget": 27500,
+ "fmax": 0.05,
+ "e_tol": 0.02
+}

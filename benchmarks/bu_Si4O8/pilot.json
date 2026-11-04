@@ -1,0 +1,154 @@
+{
+ "budget_pilot": 60000,
+ "e_best": -94.5875,
+ "e_best_per_atom": -7.88229,
+ "e_best_source": "pilot-bbu1-x3/bh/12",
+ "e_tol": 0.02,
+ "bh": {
+  "n": 20,
+  "sr": 0.9,
+  "ert": 21990,
+  "med_hit": 14488,
+  "med_gap": 0.0003,
+  "budgets": [
+   60000
+  ]
+ },
+ "rs": {
+  "n": 20,
+  "sr": 0.9,
+  "ert": 15824,
+  "med_hit": 8860,
+  "med_gap": 0.0011,
+  "budgets": [
+   60000
+  ]
+ },
+ "ms_per_step": 1.35,
+ "budget_pilot_runs": {
+  "60000": 40
+ },
+ "at_budget": {
+  "budget": 43000,
+  "bh": {
+   "n": 20,
+   "sr": 0.9,
+   "ert": 20101
+  },
+  "rs": {
+   "n": 20,
+   "sr": 0.9,
+   "ert": 13935
+  }
+ },
+ "n_hit_runs": 36,
+ "hit_e_spread": 0.0049,
+ "reference_polymorphs": {
+  "alpha_quartz": {
+   "e_per_atom": -7.85269,
+   "volume_per_atom": 13.312,
+   "e_cell": -94.2323,
+   "n_atoms": 9,
+   "fits_cell": false,
+   "e_per_atom_ideal_start": -7.85269,
+   "e_per_atom_rattled_start": -7.85268,
+   "dmin": 1.626,
+   "coordination": {
+    "Si": [
+     4
+    ],
+    "O": [
+     2
+    ]
+   },
+   "converged": true,
+   "guard_calls": 0,
+   "de_mev_per_atom": 41.4
+  },
+  "alpha_cristobalite": {
+   "e_per_atom": -7.87717,
+   "volume_per_atom": 13.835,
+   "e_cell": -94.526,
+   "n_atoms": 12,
+   "fits_cell": true,
+   "e_per_atom_ideal_start": -7.87717,
+   "e_per_atom_rattled_start": -7.87717,
+   "dmin": 1.632,
+   "coordination": {
+    "Si": [
+     4
+    ],
+    "O": [
+     2
+    ]
+   },
+   "converged": true,
+   "guard_calls": 0,
+   "de_mev_per_atom": 17.0
+  },
+  "tridymite": {
+   "e_per_atom": -7.86904,
+   "volume_per_atom": 14.665,
+   "e_cell": -94.4285,
+   "n_atoms": 12,
+   "fits_cell": true,
+   "e_per_atom_ideal_start": -7.79637,
+   "e_per_atom_rattled_start": -7.86904,
+   "dmin": 1.633,
+   "coordination": {
+    "Si": [
+     4
+    ],
+    "O": [
+     2
+    ]
+   },
+   "converged": true,
+   "guard_calls": 0,
+   "de_mev_per_atom": 25.1
+  },
+  "stishovite": {
+   "e_per_atom": -7.84313,
+   "volume_per_atom": 8.019,
+   "e_cell": -94.1176,
+   "n_atoms": 12,
+   "fits_cell": true,
+   "e_per_atom_ideal_start": -7.84313,
+   "e_per_atom_rattled_start": -7.84313,
+   "dmin": 1.796,
+   "coordination": {
+    "Si": [
+     6
+    ],
+    "O": [
+     3
+    ]
+   },
+   "converged": true,
+   "guard_calls": 0,
+   "de_mev_per_atom": 51.0
+  },
+  "sodalite_SiO2": {
+   "e_per_atom": -7.89412,
+   "volume_per_atom": 17.367,
+   "e_cell": -94.7294,
+   "n_atoms": 18,
+   "fits_cell": false,
+   "e_per_atom_ideal_start": -7.82198,
+   "e_per_atom_rattled_start": -7.89412,
+   "dmin": 1.635,
+   "coordination": {
+    "Si": [
+     4
+    ],
+    "O": [
+     2
+    ]
+   },
+   "converged": true,
+   "guard_calls": 0,
+   "de_mev_per_atom": 0.0
+  }
+ },
+ "notes": "Pilot: seeds 0-19 (campaign pilot-bbu1-x3, run on a scratch copy with identical problem hash), BH and RS, budget 60000. NEP89 putative GM (-7.88229 eV/atom) is NOT alpha-quartz (+29.6 meV/atom; quartz does not fit a 12-atom cell, its energy is from its own 9-atom cell) but an all-silica ABW-type framework: coordination sequence 4,10,21,36,54,78,106,136 = IZA ABW (Li-A(BW)); body-centred orthorhombic ~10.2 x 4.97 x 8.15 A (Niggli 4.97/6.99/6.99 A, 71.3/69.3/69.2 deg); all Si 4-c, all O 2-c, Si-O 1.62-1.64 A, Si-O-Si 135-148 deg, 17.3 A^3/atom (23% less dense than quartz); 5.1 meV/atom below alpha-cristobalite. Physical, but NEP89 SiO2 phase ordering is wrong: open frameworks are over-stabilised (vs quartz: cristobalite -24.5, tridymite -16.3, sodalite-type -41.4 meV/atom; sodalite does not fit this cell) and stishovite is only +9.6 meV/atom (expt. ~+0.17 eV/atom). Misses: denser framework at +0.044 eV (3.7 meV/atom, 15.4 A^3/atom; 1 BH + 2 RS) and an open framework at +0.285 eV (1 BH). Hit-energy spread <= 5 meV -> default e_tol 0.02 eV. Replaces the Si3O6 cell (RS ERT ~1800: too easy)."
+}

@@ -1,0 +1,32 @@
+{
+ "budget_pilot": 100000,
+ "budget_final": 100000,
+ "e_best": -92.5887,
+ "e_best_source": "pilot-bcl1/bh/8",
+ "bh": {
+  "n": 10,
+  "sr": 1.0,
+  "ert": 36935.0,
+  "med_hit": 33243.0,
+  "med_gap": 0.0,
+  "ms_per_step": 1.67
+ },
+ "rs": {
+  "n": 10,
+  "sr": 0.0,
+  "ert": null,
+  "med_hit": null,
+  "med_gap": 2.469,
+  "ms_per_step": 1.95
+ },
+ "bh_truncated_at_final_budget": {
+  "sr": 1.0,
+  "ert": 36935.0
+ },
+ "ms_per_step": 1.67,
+ "gm_motif": "perfect core-shell polyicosahedron pIh7 (D5h): Cu7 pentagonal bipyramid, every Cu an icosahedral centre (CN 12), 27 Ag shell atoms (coordination 12x6, 5x8, 10x9)",
+ "reference_motifs_eV": {
+  "core-shell pIh7 (Rossi et al. 2004)": -92.5889
+ },
+ "notes": "Pilot: 10 BH + 10 RS seeds at 100000 steps (campaign pilot-bcl1). The NEP89 GM is exactly the core-shell polyicosahedron found with the Gupta potential (Rossi et al., PRL 93, 105503 (2004)); the hand-built reference relaxes to the same structure. The search covers geometry and Ag/Cu ordering (homotops). RS never got within 1.4 eV (median gap 2.47 eV). The 10 BH hits are identical (spread 0.2 meV), so e_tol = 0.02. Final budget 100000 = 3 x median BH hit step (33243), rounded; all BH pilot hits were at <= 76149 steps."
+}

@@ -1,0 +1,32 @@
+{
+ "campaign": "pilot-bsu2",
+ "seeds": "0-19",
+ "budget_pilot": 30000,
+ "e_best": -1896.1288,
+ "e_best_run": "pilot-bsu2/bh/13",
+ "e_tol": 0.02,
+ "budget_final": 27500,
+ "n_atoms": 208,
+ "n_search": 8,
+ "bh": {
+  "n": 20,
+  "sr": 0.8,
+  "ert": 18170,
+  "med_hit": 9137,
+  "med_gap": 0.0,
+  "sr_final": 0.75,
+  "ert_final": 18714
+ },
+ "rs": {
+  "n": 20,
+  "sr": 0.35,
+  "ert": 67997,
+  "med_hit": 15965,
+  "med_gap": 0.1316,
+  "sr_final": 0.35,
+  "ert_final": 63354
+ },
+ "ms_per_step": 18.6,
+ "wall_final_s": 512,
+ "notes": "Seeds 0-9 from the first pilot, 10-19 added after the farm restart (same problem hash). GM: flat Cu8 island with every Cu on a top-C site (Cu-C 1.95 A); runs that found it agree within 0.8 meV; next minimum +0.07 eV, then +0.19 eV. NEP89 over-stabilises wetting: the DFT Cu6+2 bilayer (Li et al. 2021) is 0.55 eV above the flat GM. Final budget = 3 x BH median hit step (9137)."
+}

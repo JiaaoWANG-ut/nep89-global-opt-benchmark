@@ -1,0 +1,96 @@
+{
+ "budget_pilot": 100000,
+ "e_best": -152.733,
+ "e_best_per_atom": -7.63665,
+ "e_best_source": "pilot-bbu1/bh/12",
+ "e_tol": 0.02,
+ "bh": {
+  "n": 20,
+  "sr": 0.8,
+  "ert": 22373,
+  "med_hit": 3382,
+  "med_gap": 0.0001,
+  "budgets": [
+   50000,
+   100000
+  ]
+ },
+ "rs": {
+  "n": 20,
+  "sr": 0.95,
+  "ert": 18629,
+  "med_hit": 13765,
+  "med_gap": 0.0007,
+  "budgets": [
+   50000,
+   100000
+  ]
+ },
+ "ms_per_step": 2.82,
+ "budget_pilot_runs": {
+  "50000": 20,
+  "100000": 20
+ },
+ "at_budget": {
+  "budget": 10000,
+  "bh": {
+   "n": 20,
+   "sr": 0.55,
+   "ert": 11931
+  },
+  "rs": {
+   "n": 20,
+   "sr": 0.4,
+   "ert": 19780
+  }
+ },
+ "n_hit_runs": 35,
+ "hit_e_spread": 0.0036,
+ "reference_polymorphs": {
+  "corundum": {
+   "e_per_atom": -7.63665,
+   "volume_per_atom": 8.41,
+   "e_cell": -152.733,
+   "n_atoms": 20,
+   "fits_cell": true,
+   "e_per_atom_ideal_start": -7.63665,
+   "e_per_atom_rattled_start": -7.63665,
+   "dmin": 1.851,
+   "coordination": {
+    "Al": [
+     6
+    ],
+    "O": [
+     4
+    ]
+   },
+   "converged": true,
+   "guard_calls": 0,
+   "de_mev_per_atom": 0.0
+  },
+  "theta_Al2O3": {
+   "e_per_atom": -7.60042,
+   "volume_per_atom": 8.694,
+   "e_cell": -152.0083,
+   "n_atoms": 20,
+   "fits_cell": true,
+   "e_per_atom_ideal_start": -7.60042,
+   "e_per_atom_rattled_start": -7.60041,
+   "dmin": 1.776,
+   "coordination": {
+    "Al": [
+     6
+    ],
+    "O": [
+     3,
+     4,
+     5
+    ]
+   },
+   "converged": true,
+   "guard_calls": 0,
+   "de_mev_per_atom": 36.2
+  }
+ },
+ "notes": "Pilot: seeds 0-9 at budget 50000 (campaign pilot-bbu1-x1, identical problem hash) + seeds 10-19 at budget 100000 (pilot-bbu1), BH and RS. NEP89 putative GM = corundum (experimental ground state; 2 rhombohedral primitive cells). The dominant trap is theta-Al2O3 (+36 meV/atom, -152.008 eV), which NEP89 relaxes to a 7.5% denser variant (9.40 -> 8.69 A^3/atom) in which the tetrahedral Al gain two O at 2.22 A (4+2). The Al4O6 cell (corundum primitive) was rejected: BH SR 0.3 at 50000 (theta trap) but RS ERT ~800. Hit-energy spread <= 1.3 meV -> default e_tol 0.02 eV."
+}

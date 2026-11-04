@@ -1,0 +1,119 @@
+{
+ "budget_pilot": 100000,
+ "campaign": [
+  "pilot-bcl2-v3"
+ ],
+ "e_best": -97.2199,
+ "e_best_source": [
+  "pilot-bcl2-v3",
+  "rs",
+  "9"
+ ],
+ "e_tol": 0.02,
+ "bh": {
+  "n": 10,
+  "sr": 1.0,
+  "ert": 13241,
+  "med_hit": 11447,
+  "ms_per_step": 0.8506,
+  "hits": [
+   1439,
+   2943,
+   5804,
+   5815,
+   10410,
+   12484,
+   17449,
+   19699,
+   27003,
+   29368
+  ],
+  "gaps": [
+   0.0002,
+   0.0002,
+   0.0009,
+   0.0023,
+   0.0025,
+   0.0029,
+   0.003,
+   0.0031,
+   0.0035,
+   0.0038
+  ]
+ },
+ "rs": {
+  "n": 10,
+  "sr": 1.0,
+  "ert": 6824,
+  "med_hit": 3294,
+  "ms_per_step": 1.2333,
+  "hits": [
+   836,
+   1073,
+   1103,
+   2579,
+   3179,
+   3409,
+   8389,
+   11100,
+   18021,
+   18554
+  ],
+  "gaps": [
+   0.0,
+   0.0002,
+   0.0014,
+   0.0016,
+   0.0019,
+   0.0024,
+   0.0042,
+   0.0047,
+   0.0049,
+   0.0053
+  ]
+ },
+ "ms_per_step": 0.8506,
+ "final_budget": 34000,
+ "at_final_budget": {
+  "bh": {
+   "n": 10,
+   "sr": 1.0,
+   "ert": 13241,
+   "med_hit": 11447,
+   "ms_per_step": 0.8506
+  },
+  "rs": {
+   "n": 10,
+   "sr": 1.0,
+   "ert": 6824,
+   "med_hit": 3294,
+   "ms_per_step": 1.2333
+  }
+ },
+ "wall_s_at_final_budget": {
+  "bh": 28.9,
+  "rs": 41.9
+ },
+ "references_nep89": {},
+ "gm": {
+  "motif": "compact oblate Si20 (principal radii^2 1.78/3.53/3.54 A^2), Si CN 5-7, Si-Si >= 2.436 A",
+  "second_isomer": "prolate Si20 (radii^2 2.33/2.34/4.14 A^2), +2.5 meV at fmax 0.05, +2.0 meV after tight relaxation (fmax 0.002); found by 8 of 20 pilot runs vs 12 for the oblate GM",
+  "literature": "prolate stacked-TTP structures for Si_n n~12-25 from ion mobility + DFT (Ho et al., Nature 392, 582 (1998)); compact isomers competitive near n=20"
+ },
+ "notes": "Replaces cl_Si10 (TTP GM found by all 20 pilot runs, BH ERT 46) and cl_Si16 (unique GM, BH ERT 3330 but RS ERT 1404). Final budget 34000 = 3 x BH median hit 11447. Random search beats BH here (RS ERT 6.8k vs BH 13.2k). Two near-degenerate NEP89 isomers (oblate GM, prolate +2 meV) both count as hits with e_tol 0.02; same-structure spread at fmax 0.05 <= 5 meV, so e_tol stays 0.02.",
+ "bulk_reference_nep89": {
+  "phase": "diamond Si, a=5.396 A (NEP89 puts a beta-tin-like phase ~0.05 eV/atom lower, see bu_Si8)",
+  "e_bulk_eV_per_atom": -5.465,
+  "e_gm_eV_per_atom": -4.861,
+  "gm_minus_bulk_eV_per_atom": 0.604,
+  "gm_minus_bulk_eV_per_Si": 0.604,
+  "verdict": "cluster less stable than bulk (no NEP89-hole signature)"
+ },
+ "validate_gm": {
+  "dE_eV": -3.65e-08,
+  "dmin_ratio": 1.1,
+  "components": 1,
+  "top3_consistent": true,
+  "flag": null
+ }
+}

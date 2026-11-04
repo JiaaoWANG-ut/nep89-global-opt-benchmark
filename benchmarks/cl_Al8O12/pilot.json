@@ -1,0 +1,116 @@
+{
+ "budget_pilot": 150000,
+ "campaign": [
+  "pilot-bcl2-v4"
+ ],
+ "e_best": -131.4503,
+ "e_best_source": [
+  "pilot-bcl2-v4",
+  "bh",
+  "8"
+ ],
+ "e_tol": 0.02,
+ "bh": {
+  "n": 10,
+  "sr": 0.8,
+  "ert": 67925,
+  "med_hit": 23056,
+  "ms_per_step": 0.9405,
+  "hits": [
+   12523,
+   15880,
+   18038,
+   22454,
+   23658,
+   26781,
+   36342,
+   87726
+  ],
+  "gaps": [
+   0.0,
+   0.0001,
+   0.0001,
+   0.0001,
+   0.0001,
+   0.0001,
+   0.0001,
+   0.0002,
+   0.2007,
+   0.2019
+  ]
+ },
+ "rs": {
+  "n": 10,
+  "sr": 0.0,
+  "ert": null,
+  "med_hit": null,
+  "ms_per_step": 1.2546,
+  "hits": [],
+  "gaps": [
+   0.3023,
+   0.364,
+   0.7152,
+   0.8259,
+   0.9213,
+   0.9648,
+   1.4134,
+   1.7175,
+   1.8763,
+   2.0758
+  ]
+ },
+ "ms_per_step": 0.9405,
+ "final_budget": 69000,
+ "at_final_budget": {
+  "bh": {
+   "n": 10,
+   "sr": 0.7,
+   "ert": 51811,
+   "med_hit": 22454,
+   "ms_per_step": 0.9405
+  },
+  "rs": {
+   "n": 10,
+   "sr": 0.0,
+   "ert": null,
+   "med_hit": null,
+   "ms_per_step": 1.2546
+  }
+ },
+ "wall_s_at_final_budget": {
+  "bh": 64.9,
+  "rs": 86.6
+ },
+ "references_nep89": {
+  "Cs isomer with one 2-fold Al, four 4-fold Al, one Al2O2 ring (BH trap, pilot bh s0/s2)": -131.2496,
+  "pilot RS best (rs s2, +0.302 eV)": -131.148,
+  "pilot RS (rs s9, +0.364 eV)": -131.0863
+ },
+ "gm": {
+  "motif": "compact Cs cage: Al CN(O) 3 (x5), 4 (x3); O CN(Al) 2 (x10), 3 (x1), 4 (x1); rings {4: 2, 6: 8, 8: 5}; Al-O 1.708-1.975 A, O-O >= 2.54 A, Al-Al >= 2.63 A; aspect 1.33",
+  "second_isomer": "-131.2496 eV (+0.20 eV), Cs, one 2-fold Al; traps 2/10 BH runs up to 150k steps",
+  "guard_energy_at_gm_eV": 0.0,
+  "literature": "DFT (Al2O3)n GMs: compact, Al2O2 + Al3O3 rings, 3-5-fold Al, 2-4-fold O (Rahane, Deshpande & Kumar, JPCC 115, 18111 (2011)); n=4: B3LYP GM 4A is C1, PBE0 prefers a D3d isomer 4B (Gobrecht et al., A&A 658, A167 (2022), which cites IR experiments (Sierka et al. 2007) supporting 4A). NEP89 GM is Cs with the DFT-like ring/coordination features; exact match to 4A not verified (CDS coordinates unreachable from NERSC)."
+ },
+ "notes": "Final budget 69000 = 3 x BH median hit 23056 (BH SR 0.7, RS SR 0.0 at 69000; BH SR 0.8 at 150000). Tight (fmax 0.005) re-relaxation of all 8 GM hits: spread < 0.1 meV -> e_tol 0.02. Two-funnel landscape: the +0.20 eV Cs isomer traps 2/10 BH runs; RS never reaches the GM (best +0.30 eV). Sibling candidate cl_Al6O9 (same pilot) was dropped: its NEP89 GM is a D3h trigonal-prism drum (all Al 3-fold, rings {6: 2, 8: 3}, no Al2O2 rings), unlike the C1 'tea-cosy' DFT GM of (Al2O3)3 (Gobrecht 2022), and it was easier (BH SR 1.0, RS 0.3).",
+ "bulk_reference_nep89": {
+  "phase": "corundum alpha-Al2O3 (R-3c), NEP89 cell-relaxed: 8.41 A^3/atom, shortest Al-O 1.851 A (exp. 1.855 A); -38.1833 eV per Al2O3",
+  "e_bulk_eV_per_atom": -7.6367,
+  "e_gm_eV_per_atom": -6.5725,
+  "gm_minus_bulk_eV_per_atom": 1.064,
+  "gm_minus_bulk_eV_per_Al2O3": 5.321,
+  "verdict": "cluster less stable than bulk (no NEP89-hole signature)",
+  "molecular_checks": {
+   "AlO_r_e_A": "1.660 (exp. 1.618)",
+   "Td_Al4O6_cage": "Al-O 1.768 A (B3LYP 1.744, Gobrecht 2022); -31.085 eV per Al2O3 = +7.10 eV vs corundum",
+   "size_trend": "E - E_corundum per Al2O3: n=2 Td cage +7.10, n=4 GM +5.32 (monotonic approach to bulk)"
+  }
+ },
+ "validate_gm": {
+  "dE_eV": -8.37e-08,
+  "dmin_ratio": 0.91,
+  "components": 1,
+  "top3_consistent": true,
+  "flag": null
+ }
+}

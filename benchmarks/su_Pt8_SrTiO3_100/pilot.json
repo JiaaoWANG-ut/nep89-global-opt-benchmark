@@ -1,0 +1,34 @@
+{
+ "budget_pilot": 40000,
+ "campaign": "pilot-bsu1",
+ "e_best": -1306.2636,
+ "e_tol": 0.02,
+ "budget_final": 13000,
+ "n_atoms": 168,
+ "n_search": 8,
+ "bh": {
+  "n": 10,
+  "sr": 1.0,
+  "ert": 4446.4,
+  "med_hit": 4277.5,
+  "med_gap": 0.0001
+ },
+ "bh_at_final_budget": {
+  "sr": 1.0,
+  "ert": 4446.4
+ },
+ "rs": {
+  "n": 10,
+  "sr": 0.6,
+  "ert": 46351.7,
+  "med_hit": 14241.0,
+  "med_gap": 0.0011
+ },
+ "rs_at_final_budget": {
+  "sr": 0.2,
+  "ert": 60622.5
+ },
+ "ms_per_step": 12.81,
+ "wall_at_final_budget_s": 166,
+ "notes": "Campaign pilot-bsu1. GM: buckled single Pt8 layer, 6 Pt on the surface (Pt-O 2.19 A, Pt-Ti 2.61 A), 2 Pt about 1.7 A higher, Pt-Pt 2.53-2.60 A, periodic-image gap 10.5 A. Tight re-relaxation (fmax 0.005): stored scatter of runs that found the GM < 0.001 eV; next isomer at +0.033 eV. e_tol 0.02. NEP89 Pt adatom: O-top (Pt-O 1.97 A), Ti-top only +0.002 eV. Dropped: Pt6 variant (BH and RS SR 1.0, too easy)."
+}

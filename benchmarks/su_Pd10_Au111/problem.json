@@ -1,0 +1,41 @@
+{
+ "name": "su_Pd10_Au111",
+ "title": "Pd10 / Au(111)",
+ "category": "surface",
+ "description": "Pd10 on a frozen 4-layer Au(111) slab (7x7, 196 Au; NEP89 a(Au) = 4.111 A vs exp. 4.078 A), a model of Pd-Au bimetallic catalysts and PdAu(111) surface alloys (Maroun et al., Science 293, 1811 (2001); Chen et al., Science 310, 291 (2005)). The NEP89 putative GM is a flat Pd10 island with every Pd in an fcc hollow (the same island in hcp hollows is 0.24 eV higher), in line with the 2D close-packed Pd islands seen by STM on Au(111) (Casari et al., Phys. Rev. B 79, 195402 (2009)); the frozen substrate excludes the Pd-Au place exchange (surface alloying) observed at room temperature.",
+ "search_symbols": [
+  "Pd",
+  "Pd",
+  "Pd",
+  "Pd",
+  "Pd",
+  "Pd",
+  "Pd",
+  "Pd",
+  "Pd",
+  "Pd"
+ ],
+ "substrate_file": "substrate.extxyz",
+ "pbc": [
+  true,
+  true,
+  true
+ ],
+ "region": {
+  "type": "box",
+  "lo": [
+   0.0,
+   0.0,
+   8.63655203
+  ],
+  "hi": [
+   20.345772189927647,
+   17.61995557608829,
+   14.63655203
+  ]
+ },
+ "connected": true,
+ "budget": 15000,
+ "fmax": 0.05,
+ "e_tol": 0.02
+}

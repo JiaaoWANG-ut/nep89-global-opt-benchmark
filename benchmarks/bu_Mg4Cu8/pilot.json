@@ -1,0 +1,53 @@
+{
+ "budget_pilot": 60000,
+ "e_best": -43.19432,
+ "e_best_per_atom": -3.59953,
+ "e_tol": 0.02,
+ "bh": {
+  "n": 10,
+  "sr": 0.8,
+  "ert": 33732,
+  "med_hit": 20804,
+  "med_gap": 0.0001
+ },
+ "rs": {
+  "n": 10,
+  "sr": 0.8,
+  "ert": 39064,
+  "med_hit": 20222,
+  "med_gap": 0.0016
+ },
+ "ms_per_step": 1.89,
+ "budget_final": 60000,
+ "pilot_campaigns": [
+  "pilot-bbu2-v2"
+ ],
+ "notes": "Pilot pilot-bbu2-v2 (BH/RS seeds 0-9, 60k steps). NEP89 GM = C15 Laves MgCu2 (the experimental ground state; Cu [Cu6Mg6], Mg [Cu12Mg4]), -3.59952 eV/atom, equal to the relaxed C15 reference; runs that found it agree within 2 meV. C14 is +6 meV/cell (also inside e_tol), C11b +0.77, C32 +1.00 eV/cell, hcp Mg + fcc Cu +1.65 eV/cell. Failed runs (2/10 BH, 2/10 RS) ended +0.57 to +0.77 eV above the GM.",
+ "reference_polymorphs": {
+  "C15 Laves (MgCu2, exp. ground state)": {
+   "e_per_atom": -3.59953,
+   "volume_per_atom": 13.788,
+   "n_atoms": 12
+  },
+  "C14 Laves (MgZn2-type)": {
+   "e_per_atom": -3.59902,
+   "volume_per_atom": 13.766,
+   "n_atoms": 12
+  },
+  "C32 (AlB2-type)": {
+   "e_per_atom": -3.51607,
+   "volume_per_atom": 13.733,
+   "n_atoms": 12
+  },
+  "C11b (MoSi2-type)": {
+   "e_per_atom": -3.53576,
+   "volume_per_atom": 13.222,
+   "n_atoms": 12
+  }
+ },
+ "decomposition": {
+  "hcp Mg + fcc Cu": {
+   "e_per_atom": -3.46165
+  }
+ }
+}

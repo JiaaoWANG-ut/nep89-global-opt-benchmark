@@ -1,0 +1,36 @@
+{
+ "name": "ze_Pt9_LTA",
+ "title": "Pt9 @ LTA (alpha cage)",
+ "category": "zeolite",
+ "description": "Pt9 cluster in the alpha cage (11.4 A) of a frozen all-silica LTA framework (ITQ-29; NEP89-relaxed, fcc-type 2x supercell, 144 framework atoms). Pt, Pd and Rh clusters encapsulated in LTA were prepared by Choi, Wu and Iglesia (J. Am. Chem. Soc. 132, 9129 (2010)). Caveat: NEP89 is not fitted to metal/zeolite interfaces and the framework is rigid, so cluster-wall binding is qualitative (NEP89 GM: planar Pt9 lying flat on the cage wall).",
+ "search_symbols": [
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt"
+ ],
+ "substrate_file": "substrate.extxyz",
+ "pbc": [
+  true,
+  true,
+  true
+ ],
+ "region": {
+  "type": "sphere",
+  "center": [
+   17.948201,
+   17.948201,
+   17.948201
+  ],
+  "radius": 4.67
+ },
+ "connected": true,
+ "budget": 41000,
+ "fmax": 0.05,
+ "e_tol": 0.01
+}

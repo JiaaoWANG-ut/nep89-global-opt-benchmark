@@ -1,0 +1,56 @@
+{
+ "name": "bu_Si6N8",
+ "title": "Si3N4 (Si6N8) crystal",
+ "description": "Crystal structure prediction of Si3N4 with 2 formula units (14 atoms) per cell, the primitive cell of both the experimental ground state beta-Si3N4 (P6_3/m) and spinel gamma-Si3N4. The putative NEP89 global minimum is not beta-Si3N4 but a hypothetical, chemically sensible network (tetrahedral Si, 3-coordinated but pyramidal N, no homopolar bonds) 12 meV/atom below beta-Si3N4 and 7% denser. Artefact screening: NEP89 has two collapsed holes, an N-N bonded phase (N-N 1.10-1.14 A, Si-Si 1.97 A, 28.5 eV below the physical minimum) and a dense phase with Si-Si 1.65 A (5.2 eV below), both found by symmetry-constrained random search. Guard factor 0.90 (Si-Si >= 2.0 A, Si-N >= 1.64 A) plus an N-N floor of 1.9 A remove both (re-relaxed >= 8.7 eV above the minimum); the physical minima (Si-N >= 1.68 A, N-N >= 2.7 A) are unchanged.",
+ "category": "bulk",
+ "search_symbols": [
+  "Si",
+  "Si",
+  "Si",
+  "Si",
+  "Si",
+  "Si",
+  "N",
+  "N",
+  "N",
+  "N",
+  "N",
+  "N",
+  "N",
+  "N"
+ ],
+ "cell": [
+  [
+   5.424,
+   0.0,
+   0.0
+  ],
+  [
+   0.0,
+   5.424,
+   0.0
+  ],
+  [
+   0.0,
+   0.0,
+   5.424
+  ]
+ ],
+ "pbc": [
+  true,
+  true,
+  true
+ ],
+ "variable_cell": true,
+ "volume_per_atom": 11.4,
+ "region": {
+  "type": "cell"
+ },
+ "budget": 88000,
+ "fmax": 0.05,
+ "e_tol": 0.02,
+ "guard_factor": 0.9,
+ "guard_pairs": {
+  "N-N": 1.9
+ }
+}

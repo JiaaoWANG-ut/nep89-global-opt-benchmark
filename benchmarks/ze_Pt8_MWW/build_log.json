@@ -1,0 +1,74 @@
+{
+ "code": "MWW",
+ "n_framework": 216,
+ "n_search": 8,
+ "repeat": [
+  1,
+  1,
+  1
+ ],
+ "primitive": false,
+ "relaxation": {
+  "converged": true,
+  "steps": 208,
+  "e_per_sio2": -23.56639,
+  "e_quartz_per_sio2": -23.55807,
+  "de_vs_quartz_kJmol": -0.8,
+  "v_quartz_per_sio2": 39.942
+ },
+ "cellpar_iza": [
+  14.39,
+  14.39,
+  25.198,
+  90.0,
+  90.0,
+  120.0
+ ],
+ "cellpar_nep89": [
+  14.1945,
+  14.1897,
+  25.078,
+  90.0,
+  90.0,
+  119.6106
+ ],
+ "vol_per_T_iza": 62.76,
+ "vol_per_T_nep89": 60.993,
+ "vol_ratio": 0.9718,
+ "checks": {
+  "si_o_mean": 1.63,
+  "si_o_min": 1.5974,
+  "si_o_max": 1.6453,
+  "o_si_o_mean": 109.4559,
+  "o_si_o_std": 2.1676,
+  "o_si_o_min": 103.6815,
+  "o_si_o_max": 115.5194,
+  "si_o_si_mean": 144.9161,
+  "si_o_si_min": 130.5907,
+  "si_o_si_max": 176.1977,
+  "cn_si": [
+   4
+  ],
+  "cn_o": [
+   2
+  ]
+ },
+ "heights": [
+  12.341,
+  12.337,
+  25.078
+ ],
+ "cavity_center": [
+  3.5702,
+  6.1813,
+  12.539
+ ],
+ "cavity_radius": 5.966,
+ "region_radius": 3.77,
+ "region_box": {
+  "d_min": 2.024,
+  "d_p05": 2.872,
+  "d_median": 3.778,
+  "frac_ge_2p2": 0.9997
+ }
+}

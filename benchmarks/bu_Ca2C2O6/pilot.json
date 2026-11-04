@@ -1,0 +1,52 @@
+{
+ "budget_pilot": [
+  60000,
+  100000
+ ],
+ "e_best": -75.3845,
+ "e_best_per_atom": -7.53845,
+ "e_tol": 0.02,
+ "bh": {
+  "n": 20,
+  "sr": 0.2,
+  "ert": 353368,
+  "med_hit": 33194,
+  "med_gap": 1.5303
+ },
+ "rs": {
+  "n": 20,
+  "sr": 0.05,
+  "ert": 1530225,
+  "med_hit": 30225,
+  "med_gap": 0.0616
+ },
+ "ms_per_step": 1.1,
+ "budget_final": 100000,
+ "pilot_campaigns": [
+  "pilot-bbu2",
+  "pilot-bbu2-v2"
+ ],
+ "notes": "Pilots pilot-bbu2 (seeds 0-9, 60k steps) and pilot-bbu2-v2 (seeds 10-19, 100k steps); statistics over all 20 seeds. NEP89 GM: vaterite-like layered CaCO3 with intact CO3 (C-O 1.29 A), 6-coordinated Ca (Ca-O 2.36 A), V 13.03 A^3/atom; runs that found it agree within 3 meV. Calcite (exp. ground state) is +7.5 meV/atom (+75 meV/cell; the best calcite-like runs end +55-62 meV above the GM): wrong but physical NEP89 ordering. Other CO3 packings at +44-53 meV; aragonite +0.37 eV/cell; CaO + CO2 +0.72 eV/cell. BH traps: CaO + CO2-like (+1.53 eV, 10/20 runs) and C-Ca/O-O bonded structures (+1.74-1.79 eV); RS mostly ends in CO3 packings 44-77 meV above the GM. Hard: BH SR 0.2 (4/20), RS SR 0.05.",
+ "reference_polymorphs": {
+  "calcite (exp. ground state)": {
+   "e_per_atom": -7.53098,
+   "volume_per_atom": 12.254,
+   "n_atoms": 10
+  },
+  "aragonite (20 atoms/cell)": {
+   "e_per_atom": -7.50177,
+   "volume_per_atom": 11.218,
+   "n_atoms": 20
+  },
+  "vaterite-like layered (NEP89 global minimum, pilot)": {
+   "e_per_atom": -7.53852,
+   "volume_per_atom": 13.05,
+   "n_atoms": 10
+  }
+ },
+ "decomposition": {
+  "CaO (rocksalt) + CO2 (molecule)": {
+   "e_per_atom": -7.46656
+  }
+ }
+}

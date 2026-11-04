@@ -1,0 +1,34 @@
+{
+ "budget_pilot": 60000,
+ "budget_final": 10000,
+ "e_best": -93.6543,
+ "e_best_source": "pilot-bcl1/bh/9",
+ "bh": {
+  "n": 10,
+  "sr": 1.0,
+  "ert": 3886.0,
+  "med_hit": 3154.0,
+  "med_gap": 0.0,
+  "ms_per_step": 0.81
+ },
+ "rs": {
+  "n": 10,
+  "sr": 0.8,
+  "ert": 28183.0,
+  "med_hit": 8430.0,
+  "med_gap": 0.001,
+  "ms_per_step": 0.98
+ },
+ "bh_truncated_at_final_budget": {
+  "sr": 0.9,
+  "ert": 3963.0
+ },
+ "ms_per_step": 0.81,
+ "gm_motif": "hollow deltahedral cage (12 CN5 + 7 CN6 atoms, 51 bonds = 3N-6, all CNA 200, i.e. the dual of a C34 fullerene), Pt-Pt 2.53-2.57 A, prolate",
+ "reference_motifs_eV": {
+  "capped trigonal prism (C3v, PBE/hybrid-DFT GM)": -92.1237,
+  "fcc octahedron (Oh)": -92.9984,
+  "double icosahedron (D5h)": -90.787
+ },
+ "notes": "Pilot: 10 BH + 10 RS seeds at 60000 steps (campaign pilot-bcl1). The NEP89 GM is a hollow deltahedral cage. It disagrees with DFT: PBE and hybrid functionals give a Pt18 three-layer trigonal prism capped on a triangular face (C3v; Kumar & Kawazoe, PRB 77, 205418 (2008); J. Mol. Model. (2024), doi:10.1007/s00894-024-06099-5), which relaxes in NEP89 to +1.53 eV. The cage is physical (no short contacts, Pt-Pt 2.53-2.57 A); empty-centre Pt cages also occur in PBE at other sizes (e.g. Pt22), but this landscape is NEP89-specific. Other references: fcc octahedron +0.66 eV, double icosahedron +2.87 eV (all relaxed to fmax 0.005). The lowest competitor found is another 12xCN5 + 7xCN6 cage isomer at +0.053 eV. All 18 runs within e_tol found the same structure (spread 2.2 meV), so e_tol = 0.02. Final budget 10000 = 3 x median BH hit step (3154), rounded up; easiest benchmark of the set, but RS needs 7x more steps than BH."
+}

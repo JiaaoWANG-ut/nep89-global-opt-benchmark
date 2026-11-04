@@ -1,0 +1,47 @@
+{
+ "name": "su_Pd16_graphene",
+ "title": "Pd16 / graphene",
+ "category": "surface",
+ "description": "Pd16 on frozen graphene (8x8, 128 C; NEP89 a = 2.476 A vs exp. 2.461 A), a model of graphene-supported Pd catalysts; DFT finds Pd clusters on graphene to be 3D from Pd4 on, because Pd-Pd bonding dominates the weak Pd-graphene interaction (Cabria et al., Phys. Rev. B 81, 035403 (2010)). The NEP89 putative GM is a Pd13 icosahedron with three capping atoms that touches graphene with a single vertex atom above a C6 hollow (Pd-C 2.39 A); other capping isomers and orientations lie within 0.031 eV (next family +0.074 eV) and runs that reached the GM structure differ by up to 0.024 eV, hence e_tol = 0.05 eV.",
+ "search_symbols": [
+  "Pd",
+  "Pd",
+  "Pd",
+  "Pd",
+  "Pd",
+  "Pd",
+  "Pd",
+  "Pd",
+  "Pd",
+  "Pd",
+  "Pd",
+  "Pd",
+  "Pd",
+  "Pd",
+  "Pd",
+  "Pd"
+ ],
+ "substrate_file": "substrate.extxyz",
+ "pbc": [
+  true,
+  true,
+  true
+ ],
+ "region": {
+  "type": "box",
+  "lo": [
+   0.0,
+   0.0,
+   1.5
+  ],
+  "hi": [
+   19.81164469292137,
+   17.15738759482107,
+   8.5
+  ]
+ },
+ "connected": true,
+ "budget": 12500,
+ "fmax": 0.05,
+ "e_tol": 0.05
+}

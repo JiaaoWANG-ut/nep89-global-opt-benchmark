@@ -1,0 +1,34 @@
+{
+ "budget_pilot": 40000,
+ "campaign": "pilot-bsu1-v2",
+ "e_best": -2917.709,
+ "e_tol": 0.02,
+ "budget_final": 37000,
+ "n_atoms": 332,
+ "n_search": 8,
+ "bh": {
+  "n": 10,
+  "sr": 0.9,
+  "ert": 17211.2,
+  "med_hit": 12414.0,
+  "med_gap": 0.0003
+ },
+ "bh_at_final_budget": {
+  "sr": 0.9,
+  "ert": 16877.9
+ },
+ "rs": {
+  "n": 10,
+  "sr": 0.0,
+  "ert": null,
+  "med_hit": null,
+  "med_gap": 0.1742
+ },
+ "rs_at_final_budget": {
+  "sr": 0.0,
+  "ert": null
+ },
+ "ms_per_step": 29.41,
+ "wall_at_final_budget_s": 1088,
+ "notes": "Campaign pilot-bsu1-v2 (3x6 cell). GM: compact 3D Au8 (3 layers), 5 Au in contact: 3 bonded to bridging O (Au-O 2.20-2.34 A), 2 atop 5-fold Ti in the trough (Au-Ti 2.68-2.76 A); Au-Au 2.59-2.78 A, periodic-image gap 12.5 A. Tight re-relaxation (fmax 0.005): BH runs that found the GM scatter by <= 0.001 eV, but one RS run (s006) found the GM and stored it at +0.036 eV (fmax 0.05); the next distinct isomer is at +0.040 eV (tight), so e_tol 0.05 would count it: e_tol kept at 0.02. NEP89 Au adatom: atop Ti5c (Au-Ti 2.55 A); bridging-O site +0.11 eV. Dropped: 3x5 cell (Au8/Au10 chains bonded to their periodic image along [001]); Au10 in the 3x6 cell (BH SR 0.5, median hit 23000: 3x median exceeds the 20-min rule at 29 ms/step)."
+}

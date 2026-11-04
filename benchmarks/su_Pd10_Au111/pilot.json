@@ -1,0 +1,32 @@
+{
+ "campaign": "pilot-bsu2",
+ "seeds": "0-19",
+ "budget_pilot": 30000,
+ "e_best": -750.2946,
+ "e_best_run": "pilot-bsu2/bh/18",
+ "e_tol": 0.02,
+ "budget_final": 15000,
+ "n_atoms": 206,
+ "n_search": 10,
+ "bh": {
+  "n": 20,
+  "sr": 1.0,
+  "ert": 6587,
+  "med_hit": 5074,
+  "med_gap": 0.0,
+  "sr_final": 0.9,
+  "ert_final": 6885
+ },
+ "rs": {
+  "n": 20,
+  "sr": 0.3,
+  "ert": 84538,
+  "med_hit": 16322,
+  "med_gap": 0.3456,
+  "sr_final": 0.15,
+  "ert_final": 91172
+ },
+ "ms_per_step": 9.91,
+ "wall_final_s": 149,
+ "notes": "Seeds 0-9 + 10-19 (added after the restart). GM: flat Pd10 island in fcc hollows (Pd-Pd 2.79-2.80 A, Pd-Au 2.68 A); BH runs agree within 1 meV. The same island in hcp hollows is +0.237 eV (the shared structure descriptor cannot tell fcc from hcp registry), next minimum +0.335 eV. No Pd enters the frozen Au surface (place exchange excluded by construction). Final budget = 3 x 5074."
+}

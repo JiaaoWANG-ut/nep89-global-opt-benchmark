@@ -1,0 +1,43 @@
+{
+ "budget_pilot": 60000,
+ "e_best": -101.20825,
+ "e_best_per_atom": -7.22916,
+ "e_tol": 0.02,
+ "bh": {
+  "n": 10,
+  "sr": 0.6,
+  "ert": 54098,
+  "med_hit": 9377,
+  "med_gap": 0.0001
+ },
+ "rs": {
+  "n": 10,
+  "sr": 0.8,
+  "ert": 47275,
+  "med_hit": 32961,
+  "med_gap": 0.0015
+ },
+ "ms_per_step": 2.11,
+ "budget_final": 28000,
+ "pilot_campaigns": [
+  "pilot-bbu2-v4"
+ ],
+ "notes": "Pilot pilot-bbu2-v4 (BH/RS seeds 0-9, 60k steps). NEP89 GM = inverse spinel (Al on the tetrahedral 8a sites, Mg + Al ordered on the octahedral 16d sites; Al(tet)-O 1.79 A, octahedral M-O up to 2.04 A, all O 4-coordinated, V 9.30 A^3/atom, d_min ratio 0.96), identical to the relaxed inverse-spinel reference (all 6 inverse orderings of the 14-atom cell are equivalent); hits agree within 5.4 meV. NEP89 caveat: normal spinel (exp. ground state; relaxes correctly, Mg-O 1.95, Al-O 1.93 A, V 9.58 vs exp. 9.43 A^3/atom) is +62 meV/atom (+0.87 eV/cell) above the inverse spinel and +49 meV/atom above MgO + Al2O3 (itself +13 meV/atom above the inverse spinel): NEP89 grossly underestimates the tetrahedral-site preference of Mg / octahedral preference of Al (experimentally MgAl2O4 is essentially normal). Wrong but physical ordering. Traps: other cation arrangements with 5-coordinated cations or 3-coordinated O at +0.13 eV/cell (4/10 BH runs, 1 RS) and +0.30 eV/cell (1 RS).",
+ "reference_polymorphs": {
+  "normal spinel (Fd-3m, exp. ground state)": {
+   "e_per_atom": -7.16678,
+   "volume_per_atom": 9.576,
+   "n_atoms": 14
+  },
+  "inverse spinel (lowest 14-atom ordering, NEP89 global minimum)": {
+   "e_per_atom": -7.22916,
+   "volume_per_atom": 9.296,
+   "n_atoms": 14
+  }
+ },
+ "decomposition": {
+  "MgO (rocksalt) + Al2O3 (corundum)": {
+   "e_per_atom": -7.21596
+  }
+ }
+}
