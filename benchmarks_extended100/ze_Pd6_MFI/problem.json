@@ -1,0 +1,33 @@
+{
+ "name": "ze_Pd6_MFI",
+ "title": "Pd6 @ MFI (channel intersection)",
+ "category": "zeolite",
+ "description": "Pd6 cluster at the intersection of the straight and sinusoidal 10-ring channels of a frozen all-silica MFI framework (silicalite-1; NEP89-relaxed orthorhombic cell, 288 framework atoms). Sub-nanometre Pd clusters confined in silicalite-1 (Wang et al., J. Am. Chem. Soc. 138, 7484 (2016)) and MFI-encapsulated noble-metal clusters (Goel, Zones and Iglesia, J. Am. Chem. Soc. 136, 15280 (2014)) are sinter-resistant catalysts. Caveat: NEP89 is not fitted to metal/zeolite interfaces and the framework is rigid, so cluster-wall binding is qualitative.",
+ "search_symbols": [
+  "Pd",
+  "Pd",
+  "Pd",
+  "Pd",
+  "Pd",
+  "Pd"
+ ],
+ "substrate_file": "substrate.extxyz",
+ "pbc": [
+  true,
+  true,
+  true
+ ],
+ "region": {
+  "type": "sphere",
+  "center": [
+   19.925514,
+   4.877871,
+   7.074552
+  ],
+  "radius": 2.28
+ },
+ "connected": true,
+ "budget": 30000,
+ "fmax": 0.05,
+ "e_tol": 0.02
+}

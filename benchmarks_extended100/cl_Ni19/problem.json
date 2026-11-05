@@ -1,0 +1,62 @@
+{
+ "name": "cl_Ni19",
+ "title": "Ni19 cluster",
+ "category": "cluster",
+ "description": "Gas-phase Ni19. Many-body potentials (Gupta, Sutton-Chen) give the D5h double icosahedron (Cambridge Cluster Database), while chemical-probe experiments suggested an fcc octahedron (Parks et al., J. Chem. Phys. 2000).",
+ "search_symbols": [
+  "Ni",
+  "Ni",
+  "Ni",
+  "Ni",
+  "Ni",
+  "Ni",
+  "Ni",
+  "Ni",
+  "Ni",
+  "Ni",
+  "Ni",
+  "Ni",
+  "Ni",
+  "Ni",
+  "Ni",
+  "Ni",
+  "Ni",
+  "Ni",
+  "Ni"
+ ],
+ "cell": [
+  [
+   24.0,
+   0,
+   0
+  ],
+  [
+   0,
+   24.0,
+   0
+  ],
+  [
+   0,
+   0,
+   24.0
+  ]
+ ],
+ "pbc": [
+  true,
+  true,
+  true
+ ],
+ "region": {
+  "type": "sphere",
+  "center": [
+   12.0,
+   12.0,
+   12.0
+  ],
+  "radius": 4.8
+ },
+ "connected": true,
+ "budget": 60000,
+ "fmax": 0.05,
+ "e_tol": 0.02
+}

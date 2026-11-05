@@ -1,0 +1,48 @@
+{
+ "name": "bu_Ga4O6",
+ "title": "Ga2O3 (Ga4O6) crystal",
+ "description": "Variable-cell search for Ga2O3 in a 10-atom cell. Earlier pilot runs found a beta-Ga2O3-like minimum; the larger Ga8O12 cell was used in the original benchmark. NEP89 energies are not DFT energies.",
+ "category": "bulk",
+ "search_symbols": [
+  "Ga",
+  "Ga",
+  "Ga",
+  "Ga",
+  "O",
+  "O",
+  "O",
+  "O",
+  "O",
+  "O"
+ ],
+ "cell": [
+  [
+   4.863,
+   0.0,
+   0.0
+  ],
+  [
+   0.0,
+   4.863,
+   0.0
+  ],
+  [
+   0.0,
+   0.0,
+   4.863
+  ]
+ ],
+ "pbc": [
+  true,
+  true,
+  true
+ ],
+ "variable_cell": true,
+ "volume_per_atom": 11.5,
+ "region": {
+  "type": "cell"
+ },
+ "budget": 50000,
+ "fmax": 0.05,
+ "e_tol": 0.02
+}

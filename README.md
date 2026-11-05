@@ -4,6 +4,10 @@
 [中文](https://jiaaowang-ut.github.io/nep89-global-opt-benchmark/zh.html) ·
 **Raw data:** [releases](https://github.com/JiaaoWANG-ut/nep89-global-opt-benchmark/releases)
 
+**100-seed extension:** [English](https://jiaaowang-ut.github.io/nep89-global-opt-benchmark/extension100/) ·
+[中文](https://jiaaowang-ut.github.io/nep89-global-opt-benchmark/extension100/zh.html) ·
+[extension data](https://github.com/JiaaoWANG-ut/nep89-global-opt-benchmark/releases/tag/v1.1)
+
 A benchmark of 22 global structure-search algorithms (12 established methods and 10 new ones written for
 this study) on 45 problems with the NEP89 foundation potential: 13 gas-phase clusters, 11 clusters
 supported on surfaces, 9 metal clusters in zeolites and 12 bulk crystals (variable cell), with 4–55
@@ -59,6 +63,17 @@ Key findings:
 Per-benchmark results, success-rate curves, statistics and the global-minimum structures are in the [report](https://jiaaowang-ut.github.io/nep89-global-opt-benchmark/).
 
 <!-- /RESULTS -->
+
+## Four-system extension
+
+The separate extension adds Ni19, Au10 on rutile TiO2(110), Pd6 in MFI and a Ga4O6 crystal:
+22 algorithms × 4 systems × 100 seeds = 8,800 runs. SurrBH leads this four-system ranking
+(86.3), followed by SMH (79.5) and AOS-BH (78.2). All 400 GOFEE runs reached the one-hour
+cap, although 278 had already hit the reference energy window; time limits affect the comparison.
+The benchmark sets differ, so these scores must not be directly compared with the original ranking.
+Reference structures passed the guard, energy, connectivity and applicable volume checks;
+NEP89 minima are not DFT global minima. See the [extension report](https://jiaaowang-ut.github.io/nep89-global-opt-benchmark/extension100/)
+for details and per-system metrics.
 
 ## How the comparison is made
 
@@ -127,6 +142,9 @@ Results are written to `results/<campaign>/<benchmark>/<algorithm>/s<seed>.json`
 of the study (all campaigns) are attached to the GitHub release.
 
 ## 中文简介
+
+新增四个体系、每种算法运行 100 个独立种子的扩展实验见[中文报告](https://jiaaowang-ut.github.io/nep89-global-opt-benchmark/extension100/zh.html)。
+扩展排名只基于这四个体系，与原研究的得分不能直接比较。
 
 本项目用 NEP89 通用势比较 22 种全局结构搜索算法（12 种已有方法与 10 种为本研究新设计的方法），覆盖 45 个
 基准问题：13 个气相团簇、11 个表面负载团簇、9 个分子筛孔道内的金属团簇和 12 个体相晶体（可变晶胞）；搜索原子

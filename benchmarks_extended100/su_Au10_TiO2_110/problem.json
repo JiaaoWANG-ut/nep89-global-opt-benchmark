@@ -1,0 +1,41 @@
+{
+ "name": "su_Au10_TiO2_110",
+ "title": "Au10 / rutile TiO2(110)",
+ "category": "surface",
+ "description": "Au10 cluster on a frozen 3-trilayer stoichiometric rutile TiO2(110) slab.",
+ "search_symbols": [
+  "Au",
+  "Au",
+  "Au",
+  "Au",
+  "Au",
+  "Au",
+  "Au",
+  "Au",
+  "Au",
+  "Au"
+ ],
+ "substrate_file": "substrate.extxyz",
+ "pbc": [
+  true,
+  true,
+  true
+ ],
+ "region": {
+  "type": "box",
+  "lo": [
+   0.0,
+   0.0,
+   10.5356
+  ],
+  "hi": [
+   19.5402,
+   17.744,
+   17.1356
+  ]
+ },
+ "connected": true,
+ "budget": 30000,
+ "fmax": 0.05,
+ "e_tol": 0.02
+}
