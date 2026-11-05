@@ -1,0 +1,335 @@
+{
+  "campaign": "ext100",
+  "runs": 8800,
+  "seeds": 100,
+  "statuses": {
+    "ok": 8400,
+    "timeout": 400
+  },
+  "algorithms": {
+    "abc": {
+      "runs": 400,
+      "hits": 228,
+      "timeouts": 0
+    },
+    "aosbh": {
+      "runs": 400,
+      "hits": 310,
+      "timeouts": 0
+    },
+    "bh": {
+      "runs": 400,
+      "hits": 221,
+      "timeouts": 0
+    },
+    "de": {
+      "runs": 400,
+      "hits": 218,
+      "timeouts": 0
+    },
+    "egbh": {
+      "runs": 400,
+      "hits": 208,
+      "timeouts": 0
+    },
+    "ga": {
+      "runs": 400,
+      "hits": 305,
+      "timeouts": 0
+    },
+    "gofee": {
+      "runs": 400,
+      "hits": 278,
+      "timeouts": 400
+    },
+    "growth": {
+      "runs": 400,
+      "hits": 279,
+      "timeouts": 0
+    },
+    "memetic": {
+      "runs": 400,
+      "hits": 307,
+      "timeouts": 0
+    },
+    "metabh": {
+      "runs": 400,
+      "hits": 209,
+      "timeouts": 0
+    },
+    "mh": {
+      "runs": 400,
+      "hits": 243,
+      "timeouts": 0
+    },
+    "pso": {
+      "runs": 400,
+      "hits": 208,
+      "timeouts": 0
+    },
+    "ptbh": {
+      "runs": 400,
+      "hits": 247,
+      "timeouts": 0
+    },
+    "race": {
+      "runs": 400,
+      "hits": 226,
+      "timeouts": 0
+    },
+    "rs": {
+      "runs": 400,
+      "hits": 200,
+      "timeouts": 0
+    },
+    "sa": {
+      "runs": 400,
+      "hits": 150,
+      "timeouts": 0
+    },
+    "softmode": {
+      "runs": 400,
+      "hits": 300,
+      "timeouts": 0
+    },
+    "ssw": {
+      "runs": 400,
+      "hits": 230,
+      "timeouts": 0
+    },
+    "surr": {
+      "runs": 400,
+      "hits": 317,
+      "timeouts": 0
+    },
+    "symm": {
+      "runs": 400,
+      "hits": 284,
+      "timeouts": 0
+    },
+    "tabu": {
+      "runs": 400,
+      "hits": 246,
+      "timeouts": 0
+    },
+    "uspex": {
+      "runs": 400,
+      "hits": 323,
+      "timeouts": 0
+    }
+  },
+  "ranking": [
+    {
+      "rank": 1,
+      "algorithm": "surr",
+      "score": 86.34840155529744,
+      "ci_low": 84.40744068928745,
+      "ci_high": 88.28936242130743
+    },
+    {
+      "rank": 2,
+      "algorithm": "softmode",
+      "score": 79.48165338631057,
+      "ci_low": 77.68950040598,
+      "ci_high": 81.27380636664114
+    },
+    {
+      "rank": 3,
+      "algorithm": "aosbh",
+      "score": 78.22023623423388,
+      "ci_low": 76.59623102220387,
+      "ci_high": 79.8442414462639
+    },
+    {
+      "rank": 4,
+      "algorithm": "memetic",
+      "score": 77.94862081186041,
+      "ci_low": 76.13721918011582,
+      "ci_high": 79.760022443605
+    },
+    {
+      "rank": 5,
+      "algorithm": "uspex",
+      "score": 77.04604202505253,
+      "ci_low": 75.42420957727639,
+      "ci_high": 78.66787447282867
+    },
+    {
+      "rank": 6,
+      "algorithm": "growth",
+      "score": 76.07132218764367,
+      "ci_low": 73.83365411611722,
+      "ci_high": 78.30899025917013
+    },
+    {
+      "rank": 7,
+      "algorithm": "ga",
+      "score": 75.05020261726291,
+      "ci_low": 72.8019348334111,
+      "ci_high": 77.29847040111473
+    },
+    {
+      "rank": 8,
+      "algorithm": "symm",
+      "score": 70.13234238774135,
+      "ci_low": 67.67551764471926,
+      "ci_high": 72.58916713076343
+    },
+    {
+      "rank": 9,
+      "algorithm": "tabu",
+      "score": 68.31459929513647,
+      "ci_low": 65.66560477207179,
+      "ci_high": 70.96359381820116
+    },
+    {
+      "rank": 10,
+      "algorithm": "gofee",
+      "score": 67.17964296571179,
+      "ci_low": 64.36604296697074,
+      "ci_high": 69.99324296445285
+    },
+    {
+      "rank": 11,
+      "algorithm": "race",
+      "score": 65.13593147720877,
+      "ci_low": 61.99070557194678,
+      "ci_high": 68.28115738247075
+    },
+    {
+      "rank": 12,
+      "algorithm": "ssw",
+      "score": 62.510347704603156,
+      "ci_low": 59.54334586117043,
+      "ci_high": 65.47734954803587
+    },
+    {
+      "rank": 13,
+      "algorithm": "abc",
+      "score": 61.22576112410065,
+      "ci_low": 57.966624018902024,
+      "ci_high": 64.48489822929928
+    },
+    {
+      "rank": 14,
+      "algorithm": "de",
+      "score": 60.48190680399894,
+      "ci_low": 56.16220142366564,
+      "ci_high": 64.80161218433224
+    },
+    {
+      "rank": 15,
+      "algorithm": "mh",
+      "score": 58.64592476856966,
+      "ci_low": 56.00392496902233,
+      "ci_high": 61.287924568116985
+    },
+    {
+      "rank": 16,
+      "algorithm": "ptbh",
+      "score": 57.385248547767375,
+      "ci_low": 54.74641196900603,
+      "ci_high": 60.02408512652872
+    },
+    {
+      "rank": 17,
+      "algorithm": "bh",
+      "score": 55.7615927280427,
+      "ci_low": 52.54063967843253,
+      "ci_high": 58.982545777652874
+    },
+    {
+      "rank": 18,
+      "algorithm": "egbh",
+      "score": 53.50636631107848,
+      "ci_low": 49.19641871043555,
+      "ci_high": 57.81631391172141
+    },
+    {
+      "rank": 19,
+      "algorithm": "metabh",
+      "score": 52.63076308152706,
+      "ci_low": 49.81555578868184,
+      "ci_high": 55.44597037437227
+    },
+    {
+      "rank": 20,
+      "algorithm": "pso",
+      "score": 44.37906671130081,
+      "ci_low": 41.326927505817295,
+      "ci_high": 47.43120591678432
+    },
+    {
+      "rank": 21,
+      "algorithm": "rs",
+      "score": 35.66281063488077,
+      "ci_low": 34.689601704578855,
+      "ci_high": 36.636019565182686
+    },
+    {
+      "rank": 22,
+      "algorithm": "sa",
+      "score": 13.862526296423411,
+      "ci_low": 12.728819320475141,
+      "ci_high": 14.996233272371681
+    }
+  ],
+  "references": {
+    "bu_Ga4O6": {
+      "energy": -61.49863961327004,
+      "validation": {
+        "dE": -7.542624302914192e-09,
+        "dmin": 0.9821117721471627,
+        "eg": 0.0,
+        "comp": 1,
+        "region": true,
+        "vpa": 0.9228958377991754,
+        "frozen_fix": 0,
+        "bad": []
+      },
+      "guard_active_hits": []
+    },
+    "cl_Ni19": {
+      "energy": -83.27563728044706,
+      "validation": {
+        "dE": 1.4906902379152598e-09,
+        "dmin": 0.8854499584496262,
+        "eg": 0.0,
+        "comp": 1,
+        "region": true,
+        "vpa": null,
+        "frozen_fix": 0,
+        "bad": []
+      },
+      "guard_active_hits": []
+    },
+    "su_Au10_TiO2_110": {
+      "energy": -2923.6575526412926,
+      "validation": {
+        "dE": 9.076757123693824e-10,
+        "dmin": 0.9422450725920529,
+        "eg": 0.0,
+        "comp": 1,
+        "region": false,
+        "vpa": null,
+        "frozen_fix": 0,
+        "bad": []
+      },
+      "guard_active_hits": []
+    },
+    "ze_Pd6_MFI": {
+      "energy": -2286.7303854224215,
+      "validation": {
+        "dE": -4.066805558977649e-09,
+        "dmin": 0.8977205302931465,
+        "eg": 0.0,
+        "comp": 1,
+        "region": false,
+        "vpa": null,
+        "frozen_fix": 0,
+        "bad": []
+      },
+      "guard_active_hits": []
+    }
+  }
+}
