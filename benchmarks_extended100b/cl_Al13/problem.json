@@ -1,0 +1,56 @@
+{
+ "name": "cl_Al13",
+ "title": "Al13 cluster",
+ "category": "cluster",
+ "description": "Gas-phase Al13; DFT gives a (slightly distorted) icosahedron.",
+ "search_symbols": [
+  "Al",
+  "Al",
+  "Al",
+  "Al",
+  "Al",
+  "Al",
+  "Al",
+  "Al",
+  "Al",
+  "Al",
+  "Al",
+  "Al",
+  "Al"
+ ],
+ "cell": [
+  [
+   24.0,
+   0,
+   0
+  ],
+  [
+   0,
+   24.0,
+   0
+  ],
+  [
+   0,
+   0,
+   24.0
+  ]
+ ],
+ "pbc": [
+  true,
+  true,
+  true
+ ],
+ "region": {
+  "type": "sphere",
+  "center": [
+   12.0,
+   12.0,
+   12.0
+  ],
+  "radius": 4.9
+ },
+ "connected": true,
+ "budget": 30000,
+ "fmax": 0.05,
+ "e_tol": 0.02
+}

@@ -12,16 +12,21 @@
 set -euo pipefail
 ROOT=/global/cfs/cdirs/m4517/jiaao/test/global-opt-game
 ARCHIVE="$ROOT/archive"
-OUT="$ARCHIVE/gopt_ext100_results.tar.gz"
-CHECKSUM="$ARCHIVE/gopt_ext100_results.sha256"
-test -f "$ROOT/site_extended100/summary.json"
+RUN_CAMPAIGN="${RUN_CAMPAIGN:-ext100}"
+REPORT_DIR="${REPORT_DIR:-$ROOT/site_extended100}"
+ARCHIVE_BASENAME="${ARCHIVE_BASENAME:-gopt_ext100_results}"
+[[ "$RUN_CAMPAIGN" =~ ^[a-zA-Z0-9_-]+$ ]]
+[[ "$ARCHIVE_BASENAME" =~ ^[a-zA-Z0-9_-]+$ ]]
+OUT="$ARCHIVE/$ARCHIVE_BASENAME.tar.gz"
+CHECKSUM="$ARCHIVE/$ARCHIVE_BASENAME.sha256"
+test -f "$REPORT_DIR/summary.json"
 test ! -e "$OUT"
 test ! -e "$CHECKSUM"
 tmp=$(mktemp "$ARCHIVE/.gopt-ext100-archive.XXXXXXXX")
 trap 'rm -f "$tmp"' EXIT
 tar --sort=name --owner=0 --group=0 --numeric-owner \
-    -C /pscratch/sd/j/jiaao/gopt -cf - results/ext100 | pigz -6 -p 4 > "$tmp"
+    -C /pscratch/sd/j/jiaao/gopt -cf - "results/$RUN_CAMPAIGN" | pigz -6 -p 4 > "$tmp"
 mv "$tmp" "$OUT"
-(cd "$ARCHIVE" && sha256sum gopt_ext100_results.tar.gz > gopt_ext100_results.sha256)
-(cd "$ARCHIVE" && sha256sum -c gopt_ext100_results.sha256)
+(cd "$ARCHIVE" && sha256sum "$ARCHIVE_BASENAME.tar.gz" > "$ARCHIVE_BASENAME.sha256")
+(cd "$ARCHIVE" && sha256sum -c "$ARCHIVE_BASENAME.sha256")
 echo "Archived $OUT"

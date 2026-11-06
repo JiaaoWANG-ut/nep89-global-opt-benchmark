@@ -8,6 +8,10 @@
 [中文](https://jiaaowang-ut.github.io/nep89-global-opt-benchmark/extension100/zh.html) ·
 [extension data](https://github.com/JiaaoWANG-ut/nep89-global-opt-benchmark/releases/tag/v1.1)
 
+**Second 100-seed extension:** [English](https://jiaaowang-ut.github.io/nep89-global-opt-benchmark/extension100b/) ·
+[中文](https://jiaaowang-ut.github.io/nep89-global-opt-benchmark/extension100b/zh.html) ·
+[extension data](https://github.com/JiaaoWANG-ut/nep89-global-opt-benchmark/releases/tag/v1.2)
+
 A benchmark of 22 global structure-search algorithms (12 established methods and 10 new ones written for
 this study) on 45 problems with the NEP89 foundation potential: 13 gas-phase clusters, 11 clusters
 supported on surfaces, 9 metal clusters in zeolites and 12 bulk crystals (variable cell), with 4–55
@@ -74,6 +78,27 @@ The benchmark sets differ, so these scores must not be directly compared with th
 Reference structures passed the guard, energy, connectivity and applicable volume checks;
 NEP89 minima are not DFT global minima. See the [extension report](https://jiaaowang-ut.github.io/nep89-global-opt-benchmark/extension100/)
 for details and per-system metrics.
+
+## Second four-system extension
+
+Al13, Pt8 on CeO2(111), Au8 in BEA and variable-cell Al4O6 were tested with
+22 algorithms and 100 independent seeds per cell: 8,800 runs and 278,118,054
+ionic steps. SurrBH leads this separate ranking (86.7), followed by cut-and-regrow
+growth (72.1) and the adaptive memetic algorithm (69.4). These systems were
+selected from earlier candidates, not randomly sampled; Pt8/CeO2 and Al4O6
+were previously set aside as relatively easy. Scores cannot be directly compared
+across the different benchmark sets.
+
+GOFEE reached the one-hour cap in 398 of 400 runs, including 243 that had
+already hit the reference energy window; two completed without timeout and hit.
+An unsuccessful timeout is charged its full ionic-step budget. Time limits can
+affect the ranking. The four reference structures passed energy re-evaluation,
+guard, minimum-distance, connectivity and applicable volume checks; no stored
+candidate hits screened had an active guard or wall. These are putative NEP89
+minima, not DFT global minima. The surface and zeolite hosts are fixed, and their
+reference structures extend outside the initial sampling regions. See the
+[second extension report](https://jiaaowang-ut.github.io/nep89-global-opt-benchmark/extension100b/)
+for limitations and per-system metrics.
 
 ## How the comparison is made
 

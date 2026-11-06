@@ -1,0 +1,18 @@
+{
+ "name": "su_Pt8_CeO2_111",
+ "title": "Pt8 / CeO2(111)",
+ "category": "surface",
+ "description": "Pt8 on a frozen O-terminated CeO2(111) slab (3 O-Ce-O trilayers, 5x5 cell, 225 atoms). The same host is used in the original Pt10 benchmark. Earlier pilot runs found a planar Pt8 minimum; the fixed, charge-neutral NEP89 model does not describe ceria reduction or oxygen vacancies.",
+ "search_symbols": ["Pt", "Pt", "Pt", "Pt", "Pt", "Pt", "Pt", "Pt"],
+ "substrate_file": "substrate.extxyz",
+ "pbc": [true, true, true],
+ "region": {
+  "type": "box",
+  "lo": [0.0, 0.0, 9.3685],
+  "hi": [19.2251, 16.6494, 15.8685]
+ },
+ "connected": true,
+ "budget": 20000,
+ "fmax": 0.05,
+ "e_tol": 0.02
+}

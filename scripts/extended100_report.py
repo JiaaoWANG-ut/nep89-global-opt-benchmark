@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """Audit the completed extension campaign and write its separate ranking.
 
-Run with GOPT_BENCH_DIR set to benchmarks_extended100. The report deliberately
-does not reuse the original campaign's static methods text.
+Run with GOPT_BENCH_DIR set to the extension's benchmark directory. The report
+deliberately does not reuse the original campaign's static methods text.
 """
+import argparse
 import csv
 import glob
 import hashlib
@@ -60,9 +61,15 @@ def audit_record(r, bench, alg, seed, manifest):
 
 
 def main():
+    ap = argparse.ArgumentParser(description=__doc__)
+    ap.add_argument("--campaign", default=CAMPAIGN)
+    ap.add_argument("--out", default=os.path.join(ROOT, "site_extended100"))
+    ap.add_argument("--release-url", default="https://github.com/JiaaoWANG-ut/"
+                                            "nep89-global-opt-benchmark/releases/tag/v1.1")
+    args = ap.parse_args()
     benchdir = os.environ.get("GOPT_BENCH_DIR")
     if not benchdir:
-        raise SystemExit("Set GOPT_BENCH_DIR to benchmarks_extended100")
+        raise SystemExit("Set GOPT_BENCH_DIR to the extension's benchmark directory")
     manifest_path = os.path.join(benchdir, "freeze_manifest.json")
     with open(manifest_path) as f:
         manifest = json.load(f)
@@ -84,7 +91,7 @@ def main():
             raise SystemExit(f"Current benchmark hash differs from freeze: {b}")
 
     root = os.path.join(ROOT, "results")
-    campaign_dir = os.path.join(root, CAMPAIGN)
+    campaign_dir = os.path.join(root, args.campaign)
     expected_paths = set()
     statuses = Counter()
     for b in benches:
@@ -111,7 +118,7 @@ def main():
                 raise SystemExit(f"Unreadable reference candidate: {path}")
             if r["bench_hash"] == probs[b].hash:
                 recs.append(r)
-    st = Study(recs, probs, CAMPAIGN, algs=algs, benches=benches)
+    st = Study(recs, probs, args.campaign, algs=algs, benches=benches)
     if set(st.benches) != set(benches) or not np.all(st.n == SEEDS):
         raise SystemExit("Study is missing a guard-free reference or a full 100-seed cell")
 
@@ -134,7 +141,7 @@ def main():
     scores = st.scores("all")
     boot = st.bootstrap("all", nboot=1000)
     sd = np.nanstd(boot, axis=0)
-    out = os.path.join(ROOT, "site_extended100")
+    out = args.out
     os.makedirs(out, exist_ok=True)
     with open(os.path.join(out, "metrics.csv"), "w", newline="") as f:
         w = csv.writer(f)
@@ -157,7 +164,7 @@ def main():
         for j, alg in enumerate(st.algs)
     }
     report = {
-        "campaign": CAMPAIGN, "runs": len(expected_paths), "seeds": SEEDS,
+        "campaign": args.campaign, "runs": len(expected_paths), "seeds": SEEDS,
         "statuses": dict(statuses), "algorithms": alg_stats, "ranking": ranking,
         "references": {b: {"energy": st.ref[b][0], "validation": checks[b],
                             "guard_active_hits": active[b]} for b in benches},
@@ -212,8 +219,7 @@ def main():
         f"<p>Run statuses: {html.escape(str(dict(statuses)))}. "
         "<a href='metrics.csv'>Per-system metrics</a> · "
         "<a href='summary.json'>Audit and ranking data</a> · "
-        "<a href='https://github.com/JiaaoWANG-ut/nep89-global-opt-benchmark/releases/tag/v1.1'>"
-        "Raw run records</a>.</p></body></html>"
+        f"<a href='{html.escape(args.release_url, quote=True)}'>Raw run records</a>.</p></body></html>"
     )
     with open(os.path.join(out, "index.html"), "w") as f:
         f.write(page)
@@ -250,8 +256,7 @@ def main():
         f"<p>运行状态：{html.escape(str(dict(statuses)))}。"
         "<a href='metrics.csv'>逐体系指标</a> · "
         "<a href='summary.json'>审计与排名数据</a> · "
-        "<a href='https://github.com/JiaaoWANG-ut/nep89-global-opt-benchmark/releases/tag/v1.1'>"
-        "原始运行记录</a>。</p></body></html>"
+        f"<a href='{html.escape(args.release_url, quote=True)}'>原始运行记录</a>。</p></body></html>"
     )
     with open(os.path.join(out, "zh.html"), "w") as f:
         f.write(zh_page)

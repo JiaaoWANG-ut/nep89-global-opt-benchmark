@@ -1,0 +1,48 @@
+{
+ "name": "bu_Al4O6",
+ "title": "Al2O3 (Al4O6) crystal",
+ "description": "Variable-cell search for Al2O3 in a 10-atom cell. Earlier pilot runs found a corundum-like minimum. This smaller cell complements the Al8O12 crystal in the original benchmark; NEP89 energies are not DFT energies.",
+ "category": "bulk",
+ "search_symbols": [
+  "Al",
+  "Al",
+  "Al",
+  "Al",
+  "O",
+  "O",
+  "O",
+  "O",
+  "O",
+  "O"
+ ],
+ "cell": [
+  [
+   4.539,
+   0.0,
+   0.0
+  ],
+  [
+   0.0,
+   4.539,
+   0.0
+  ],
+  [
+   0.0,
+   0.0,
+   4.539
+  ]
+ ],
+ "pbc": [
+  true,
+  true,
+  true
+ ],
+ "variable_cell": true,
+ "volume_per_atom": 9.35,
+ "region": {
+  "type": "cell"
+ },
+ "budget": 50000,
+ "fmax": 0.05,
+ "e_tol": 0.02
+}
