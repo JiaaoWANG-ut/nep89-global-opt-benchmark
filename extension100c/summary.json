@@ -1,0 +1,383 @@
+{
+  "campaign": "next100",
+  "runs": 10400,
+  "seeds": 100,
+  "statuses": {
+    "ok": 10005,
+    "timeout": 395
+  },
+  "algorithms": {
+    "abc": {
+      "runs": 400,
+      "hits": 400,
+      "timeouts": 0
+    },
+    "aosbh": {
+      "runs": 400,
+      "hits": 400,
+      "timeouts": 0
+    },
+    "bh": {
+      "runs": 400,
+      "hits": 399,
+      "timeouts": 0
+    },
+    "de": {
+      "runs": 400,
+      "hits": 400,
+      "timeouts": 0
+    },
+    "diversity_search": {
+      "runs": 400,
+      "hits": 399,
+      "timeouts": 0
+    },
+    "diversity_v2": {
+      "runs": 400,
+      "hits": 399,
+      "timeouts": 0
+    },
+    "egbh": {
+      "runs": 400,
+      "hits": 400,
+      "timeouts": 0
+    },
+    "ga": {
+      "runs": 400,
+      "hits": 400,
+      "timeouts": 0
+    },
+    "gofee": {
+      "runs": 400,
+      "hits": 400,
+      "timeouts": 395
+    },
+    "growth": {
+      "runs": 400,
+      "hits": 400,
+      "timeouts": 0
+    },
+    "memetic": {
+      "runs": 400,
+      "hits": 399,
+      "timeouts": 0
+    },
+    "metabh": {
+      "runs": 400,
+      "hits": 399,
+      "timeouts": 0
+    },
+    "mh": {
+      "runs": 400,
+      "hits": 388,
+      "timeouts": 0
+    },
+    "path_relink": {
+      "runs": 400,
+      "hits": 349,
+      "timeouts": 0
+    },
+    "pso": {
+      "runs": 400,
+      "hits": 396,
+      "timeouts": 0
+    },
+    "ptbh": {
+      "runs": 400,
+      "hits": 398,
+      "timeouts": 0
+    },
+    "race": {
+      "runs": 400,
+      "hits": 394,
+      "timeouts": 0
+    },
+    "relink_v2": {
+      "runs": 400,
+      "hits": 373,
+      "timeouts": 0
+    },
+    "rs": {
+      "runs": 400,
+      "hits": 345,
+      "timeouts": 0
+    },
+    "sa": {
+      "runs": 400,
+      "hits": 219,
+      "timeouts": 0
+    },
+    "softmode": {
+      "runs": 400,
+      "hits": 399,
+      "timeouts": 0
+    },
+    "ssw": {
+      "runs": 400,
+      "hits": 390,
+      "timeouts": 0
+    },
+    "surr": {
+      "runs": 400,
+      "hits": 400,
+      "timeouts": 0
+    },
+    "symm": {
+      "runs": 400,
+      "hits": 400,
+      "timeouts": 0
+    },
+    "tabu": {
+      "runs": 400,
+      "hits": 400,
+      "timeouts": 0
+    },
+    "uspex": {
+      "runs": 400,
+      "hits": 400,
+      "timeouts": 0
+    }
+  },
+  "ranking": [
+    {
+      "rank": 1,
+      "algorithm": "gofee",
+      "score": 98.63827609375659,
+      "ci_low": 97.40000096179912,
+      "ci_high": 99.87655122571405
+    },
+    {
+      "rank": 2,
+      "algorithm": "surr",
+      "score": 85.85194653121488,
+      "ci_low": 85.06328329180053,
+      "ci_high": 86.64060977062923
+    },
+    {
+      "rank": 3,
+      "algorithm": "growth",
+      "score": 76.70217338011796,
+      "ci_low": 75.43994249428586,
+      "ci_high": 77.96440426595005
+    },
+    {
+      "rank": 4,
+      "algorithm": "tabu",
+      "score": 74.87000180072414,
+      "ci_low": 73.81778452147354,
+      "ci_high": 75.92221907997474
+    },
+    {
+      "rank": 5,
+      "algorithm": "symm",
+      "score": 74.04166218673292,
+      "ci_low": 72.7872319811281,
+      "ci_high": 75.29609239233774
+    },
+    {
+      "rank": 6,
+      "algorithm": "memetic",
+      "score": 73.75732363224337,
+      "ci_low": 72.56865292014655,
+      "ci_high": 74.94599434434019
+    },
+    {
+      "rank": 7,
+      "algorithm": "softmode",
+      "score": 73.274288488456,
+      "ci_low": 72.04519580256925,
+      "ci_high": 74.50338117434273
+    },
+    {
+      "rank": 8,
+      "algorithm": "aosbh",
+      "score": 73.03154807605384,
+      "ci_low": 71.8841724527025,
+      "ci_high": 74.17892369940517
+    },
+    {
+      "rank": 9,
+      "algorithm": "egbh",
+      "score": 72.40430491631318,
+      "ci_low": 71.19510116760306,
+      "ci_high": 73.6135086650233
+    },
+    {
+      "rank": 10,
+      "algorithm": "pso",
+      "score": 68.70901753741643,
+      "ci_low": 67.55842634431077,
+      "ci_high": 69.85960873052208
+    },
+    {
+      "rank": 11,
+      "algorithm": "ga",
+      "score": 68.66533441073835,
+      "ci_low": 67.82163247799053,
+      "ci_high": 69.50903634348617
+    },
+    {
+      "rank": 12,
+      "algorithm": "abc",
+      "score": 67.45342103551897,
+      "ci_low": 66.40374376724624,
+      "ci_high": 68.5030983037917
+    },
+    {
+      "rank": 13,
+      "algorithm": "uspex",
+      "score": 66.9169417643275,
+      "ci_low": 65.90711936454886,
+      "ci_high": 67.92676416410615
+    },
+    {
+      "rank": 14,
+      "algorithm": "de",
+      "score": 65.98704058278454,
+      "ci_low": 65.11216926554314,
+      "ci_high": 66.86191190002594
+    },
+    {
+      "rank": 15,
+      "algorithm": "relink_v2",
+      "score": 65.0054456182129,
+      "ci_low": 63.803908043588244,
+      "ci_high": 66.20698319283757
+    },
+    {
+      "rank": 16,
+      "algorithm": "ssw",
+      "score": 64.98704477071993,
+      "ci_low": 63.613431805433144,
+      "ci_high": 66.36065773600671
+    },
+    {
+      "rank": 17,
+      "algorithm": "race",
+      "score": 64.71292108451445,
+      "ci_low": 63.34601095074649,
+      "ci_high": 66.07983121828241
+    },
+    {
+      "rank": 18,
+      "algorithm": "metabh",
+      "score": 63.792406863344084,
+      "ci_low": 62.62733963567827,
+      "ci_high": 64.9574740910099
+    },
+    {
+      "rank": 19,
+      "algorithm": "path_relink",
+      "score": 61.78707618641512,
+      "ci_low": 60.27590204919378,
+      "ci_high": 63.29825032363646
+    },
+    {
+      "rank": 20,
+      "algorithm": "diversity_v2",
+      "score": 61.53505009252422,
+      "ci_low": 60.030965352439644,
+      "ci_high": 63.0391348326088
+    },
+    {
+      "rank": 21,
+      "algorithm": "diversity_search",
+      "score": 60.0494325458884,
+      "ci_low": 58.650156314296815,
+      "ci_high": 61.448708777479986
+    },
+    {
+      "rank": 22,
+      "algorithm": "bh",
+      "score": 59.61224449834267,
+      "ci_low": 58.10331579504818,
+      "ci_high": 61.121173201637156
+    },
+    {
+      "rank": 23,
+      "algorithm": "ptbh",
+      "score": 53.42678246055229,
+      "ci_low": 52.50536585126545,
+      "ci_high": 54.348199069839126
+    },
+    {
+      "rank": 24,
+      "algorithm": "rs",
+      "score": 52.21720629728828,
+      "ci_low": 50.737015582462014,
+      "ci_high": 53.69739701211454
+    },
+    {
+      "rank": 25,
+      "algorithm": "mh",
+      "score": 50.17640911917762,
+      "ci_low": 48.844937054694206,
+      "ci_high": 51.507881183661034
+    },
+    {
+      "rank": 26,
+      "algorithm": "sa",
+      "score": 14.99109793343765,
+      "ci_low": 12.906441086829567,
+      "ci_high": 17.075754780045735
+    }
+  ],
+  "references": {
+    "bu_Al8": {
+      "energy": -32.21934318312869,
+      "validation": {
+        "dE": 9.912284326674126e-10,
+        "dmin": 1.1658163003145743,
+        "eg": 0.0,
+        "comp": 1,
+        "region": true,
+        "vpa": 0.9560710122730192,
+        "frozen_fix": 0,
+        "bad": []
+      },
+      "guard_active_hits": []
+    },
+    "cl_Cu13": {
+      "energy": -36.949351802702715,
+      "validation": {
+        "dE": 8.516636285094137e-10,
+        "dmin": 0.9178636285241982,
+        "eg": 0.0,
+        "comp": 1,
+        "region": true,
+        "vpa": null,
+        "frozen_fix": 0,
+        "bad": []
+      },
+      "guard_active_hits": []
+    },
+    "su_Pd7_MgO100": {
+      "energy": -894.7092719144218,
+      "validation": {
+        "dE": 1.1596057447604835e-11,
+        "dmin": 0.9566046103671949,
+        "eg": 0.0,
+        "comp": 1,
+        "region": false,
+        "vpa": null,
+        "frozen_fix": 0,
+        "bad": []
+      },
+      "guard_active_hits": []
+    },
+    "ze_Au4_CHA": {
+      "energy": -859.8888722702548,
+      "validation": {
+        "dE": 1.5279510989785194e-10,
+        "dmin": 0.9462813353149934,
+        "eg": 0.0,
+        "comp": 1,
+        "region": false,
+        "vpa": null,
+        "frozen_fix": 0,
+        "bad": []
+      },
+      "guard_active_hits": []
+    }
+  }
+}

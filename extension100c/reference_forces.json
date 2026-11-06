@@ -1,0 +1,38 @@
+{
+  "bu_Al8": {
+    "source": "results/next100/bu_Al8/pso/s079.json",
+    "energy": -32.219343182137465,
+    "stored_energy": -32.21934318312869,
+    "max_free_force_eV_per_A": 4.324419838151287e-05,
+    "fmax_target_eV_per_A": 0.05,
+    "stress_voigt_eV_per_A3": [
+      2.6135082001419353e-05,
+      2.6135082001423565e-05,
+      5.062427935302467e-05,
+      -4.258592391090925e-18,
+      -5.656125724173045e-18,
+      6.440207006440562e-18
+    ]
+  },
+  "cl_Cu13": {
+    "source": "results/next100/cl_Cu13/gofee/s015.json",
+    "energy": -36.94935180185105,
+    "stored_energy": -36.949351802702715,
+    "max_free_force_eV_per_A": 4.84730161064238e-05,
+    "fmax_target_eV_per_A": 0.05
+  },
+  "su_Pd7_MgO100": {
+    "source": "results/next100/su_Pd7_MgO100/gofee/s098.json",
+    "energy": -894.7092719144102,
+    "stored_energy": -894.7092719144218,
+    "max_free_force_eV_per_A": 2.2588177014279392e-05,
+    "fmax_target_eV_per_A": 0.05
+  },
+  "ze_Au4_CHA": {
+    "source": "results/next100/ze_Au4_CHA/gofee/s065.json",
+    "energy": -859.888872270102,
+    "stored_energy": -859.8888722702548,
+    "max_free_force_eV_per_A": 3.175774399831449e-05,
+    "fmax_target_eV_per_A": 0.05
+  }
+}

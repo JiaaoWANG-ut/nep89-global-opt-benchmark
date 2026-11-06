@@ -1,0 +1,9 @@
+benchmark,family,original,variant,original_hits,variant_hits,original_ert,variant_ert,ert_original_over_variant,ratio_ci_low,ratio_ci_high,undefined_bootstrap_replicates
+bu_Al8,Diversity archive,diversity_search,diversity_v2,100,100,64.0,64.0,1.0,1.0,1.0,0
+cl_Cu13,Diversity archive,diversity_search,diversity_v2,100,100,1100.87,1100.87,1.0,1.0,1.0,0
+su_Pd7_MgO100,Diversity archive,diversity_search,diversity_v2,100,100,7606.62,5200.36,1.4627102739041145,1.1646602614329091,1.8697975192489582,0
+ze_Au4_CHA,Diversity archive,diversity_search,diversity_v2,99,99,3878.949494949495,3763.5555555555557,1.0306608837548847,0.7863227503657232,1.3436823766140071,0
+bu_Al8,Path relinking,path_relink,relink_v2,100,100,50.03,50.03,1.0,1.0,1.0,0
+cl_Cu13,Path relinking,path_relink,relink_v2,100,100,384.8,384.8,1.0,1.0,1.0,0
+su_Pd7_MgO100,Path relinking,path_relink,relink_v2,100,100,2326.72,1904.4,1.2217601344255407,0.9472245932209465,1.568561387501241,0
+ze_Au4_CHA,Path relinking,path_relink,relink_v2,49,73,28714.081632653062,14417.054794520547,1.9916745855447777,1.37334185820315,2.9354754231641658,0

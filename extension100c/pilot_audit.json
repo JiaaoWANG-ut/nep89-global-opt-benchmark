@@ -1,0 +1,858 @@
+{
+  "bu_Al8": {
+    "hash": "3c67c25f0823",
+    "reference": {
+      "algorithm": "surr",
+      "seed": 1000,
+      "status": "timeout",
+      "energy": -32.21930605351406,
+      "validation": {
+        "dE": 4.427505473358906e-09,
+        "dmin": 1.1646538692443442,
+        "eg": 0.0,
+        "comp": 1,
+        "region": true,
+        "vpa": 0.9554951656111992,
+        "frozen_fix": 0,
+        "bad": []
+      },
+      "max_free_force_eV_per_A": 0.00477679850933053
+    },
+    "statuses": {
+      "ok": 5,
+      "timeout": 5
+    },
+    "candidate_hit_count": 10,
+    "guard_active_candidate_hits": 0,
+    "all_stored_structures": [
+      {
+        "algorithm": "bh",
+        "seed": 1000,
+        "status": "ok",
+        "energy": -32.21922007395269,
+        "validation": {
+          "dE": -2.5404423098507323e-07,
+          "dmin": 1.1642953498139346,
+          "eg": 0.0,
+          "comp": 1,
+          "region": true,
+          "vpa": 0.9559422289827363,
+          "frozen_fix": 0,
+          "bad": []
+        },
+        "max_free_force_eV_per_A": 0.01567197858309126
+      },
+      {
+        "algorithm": "bh",
+        "seed": 1001,
+        "status": "ok",
+        "energy": -32.21917612531543,
+        "validation": {
+          "dE": 1.1929083854056444e-07,
+          "dmin": 1.1634860621571246,
+          "eg": 0.0,
+          "comp": 1,
+          "region": true,
+          "vpa": 0.9555966036937983,
+          "frozen_fix": 0,
+          "bad": []
+        },
+        "max_free_force_eV_per_A": 0.012505868167176625
+      },
+      {
+        "algorithm": "bh",
+        "seed": 1002,
+        "status": "ok",
+        "energy": -32.21924145850156,
+        "validation": {
+          "dE": 1.8211217422958725e-08,
+          "dmin": 1.1642263849804244,
+          "eg": 0.0,
+          "comp": 1,
+          "region": true,
+          "vpa": 0.9560941877969538,
+          "frozen_fix": 0,
+          "bad": []
+        },
+        "max_free_force_eV_per_A": 0.005438856778904521
+      },
+      {
+        "algorithm": "bh",
+        "seed": 1003,
+        "status": "ok",
+        "energy": -32.2191653453376,
+        "validation": {
+          "dE": -1.23463905765675e-10,
+          "dmin": 1.1637664637927414,
+          "eg": 0.0,
+          "comp": 1,
+          "region": true,
+          "vpa": 0.956021198294905,
+          "frozen_fix": 0,
+          "bad": []
+        },
+        "max_free_force_eV_per_A": 0.017673913697412738
+      },
+      {
+        "algorithm": "bh",
+        "seed": 1004,
+        "status": "ok",
+        "energy": -32.219166553000704,
+        "validation": {
+          "dE": -7.808287705302064e-08,
+          "dmin": 1.1638209529602104,
+          "eg": 0.0,
+          "comp": 1,
+          "region": true,
+          "vpa": 0.9555857000673693,
+          "frozen_fix": 0,
+          "bad": []
+        },
+        "max_free_force_eV_per_A": 0.009000465288421034
+      },
+      {
+        "algorithm": "surr",
+        "seed": 1000,
+        "status": "timeout",
+        "energy": -32.21930605351406,
+        "validation": {
+          "dE": 4.427505473358906e-09,
+          "dmin": 1.1646538692443442,
+          "eg": 0.0,
+          "comp": 1,
+          "region": true,
+          "vpa": 0.9554951656111992,
+          "frozen_fix": 0,
+          "bad": []
+        },
+        "max_free_force_eV_per_A": 0.00477679850933053
+      },
+      {
+        "algorithm": "surr",
+        "seed": 1001,
+        "status": "timeout",
+        "energy": -32.21930416665151,
+        "validation": {
+          "dE": -7.658805145638325e-09,
+          "dmin": 1.1650960198233755,
+          "eg": 0.0,
+          "comp": 1,
+          "region": true,
+          "vpa": 0.9558195805960845,
+          "frozen_fix": 0,
+          "bad": []
+        },
+        "max_free_force_eV_per_A": 0.0036250596180600024
+      },
+      {
+        "algorithm": "surr",
+        "seed": 1002,
+        "status": "timeout",
+        "energy": -32.21929032436559,
+        "validation": {
+          "dE": -1.397560822624655e-08,
+          "dmin": 1.1649050372746135,
+          "eg": 0.0,
+          "comp": 1,
+          "region": true,
+          "vpa": 0.9556351041401716,
+          "frozen_fix": 0,
+          "bad": []
+        },
+        "max_free_force_eV_per_A": 0.006195098316856595
+      },
+      {
+        "algorithm": "surr",
+        "seed": 1003,
+        "status": "timeout",
+        "energy": -32.21929295472482,
+        "validation": {
+          "dE": -6.425779019991751e-08,
+          "dmin": 1.1642825683932756,
+          "eg": 0.0,
+          "comp": 1,
+          "region": true,
+          "vpa": 0.9560084276879216,
+          "frozen_fix": 0,
+          "bad": []
+        },
+        "max_free_force_eV_per_A": 0.009325187631456852
+      },
+      {
+        "algorithm": "surr",
+        "seed": 1004,
+        "status": "timeout",
+        "energy": -32.21928553619724,
+        "validation": {
+          "dE": -1.4052332630853925e-09,
+          "dmin": 1.164633239098885,
+          "eg": 0.0,
+          "comp": 1,
+          "region": true,
+          "vpa": 0.9556244423128353,
+          "frozen_fix": 0,
+          "bad": []
+        },
+        "max_free_force_eV_per_A": 0.0058074545818240205
+      }
+    ]
+  },
+  "cl_Cu13": {
+    "hash": "9afb6b94d559",
+    "reference": {
+      "algorithm": "bh",
+      "seed": 1002,
+      "status": "ok",
+      "energy": -36.94934356823361,
+      "validation": {
+        "dE": 2.8826178777308087e-08,
+        "dmin": 0.917697613991986,
+        "eg": 0.0,
+        "comp": 1,
+        "region": false,
+        "vpa": null,
+        "frozen_fix": 0,
+        "bad": []
+      },
+      "max_free_force_eV_per_A": 0.004066584316809946
+    },
+    "statuses": {
+      "ok": 10
+    },
+    "candidate_hit_count": 10,
+    "guard_active_candidate_hits": 0,
+    "all_stored_structures": [
+      {
+        "algorithm": "bh",
+        "seed": 1000,
+        "status": "ok",
+        "energy": -36.94932151903158,
+        "validation": {
+          "dE": 6.398554575071103e-08,
+          "dmin": 0.917696611917527,
+          "eg": 0.0,
+          "comp": 1,
+          "region": false,
+          "vpa": null,
+          "frozen_fix": 0,
+          "bad": []
+        },
+        "max_free_force_eV_per_A": 0.006524377890198237
+      },
+      {
+        "algorithm": "bh",
+        "seed": 1001,
+        "status": "ok",
+        "energy": -36.94932090014282,
+        "validation": {
+          "dE": -3.6838059713772964e-08,
+          "dmin": 0.9174889083070108,
+          "eg": 0.0,
+          "comp": 1,
+          "region": true,
+          "vpa": null,
+          "frozen_fix": 0,
+          "bad": []
+        },
+        "max_free_force_eV_per_A": 0.008491716625359818
+      },
+      {
+        "algorithm": "bh",
+        "seed": 1002,
+        "status": "ok",
+        "energy": -36.94934356823361,
+        "validation": {
+          "dE": 2.8826178777308087e-08,
+          "dmin": 0.917697613991986,
+          "eg": 0.0,
+          "comp": 1,
+          "region": false,
+          "vpa": null,
+          "frozen_fix": 0,
+          "bad": []
+        },
+        "max_free_force_eV_per_A": 0.004066584316809946
+      },
+      {
+        "algorithm": "bh",
+        "seed": 1003,
+        "status": "ok",
+        "energy": -36.94930903493882,
+        "validation": {
+          "dE": -7.165958493260405e-08,
+          "dmin": 0.917383527618244,
+          "eg": 0.0,
+          "comp": 1,
+          "region": false,
+          "vpa": null,
+          "frozen_fix": 0,
+          "bad": []
+        },
+        "max_free_force_eV_per_A": 0.009040754415022518
+      },
+      {
+        "algorithm": "bh",
+        "seed": 1004,
+        "status": "ok",
+        "energy": -36.9493233954817,
+        "validation": {
+          "dE": 7.661563472538546e-08,
+          "dmin": 0.9175213788331135,
+          "eg": 0.0,
+          "comp": 1,
+          "region": false,
+          "vpa": null,
+          "frozen_fix": 0,
+          "bad": []
+        },
+        "max_free_force_eV_per_A": 0.006444971543142743
+      },
+      {
+        "algorithm": "surr",
+        "seed": 1000,
+        "status": "ok",
+        "energy": -36.94932917286452,
+        "validation": {
+          "dE": 6.468020785632689e-09,
+          "dmin": 0.917446648814289,
+          "eg": 0.0,
+          "comp": 1,
+          "region": true,
+          "vpa": null,
+          "frozen_fix": 0,
+          "bad": []
+        },
+        "max_free_force_eV_per_A": 0.012509154941338911
+      },
+      {
+        "algorithm": "surr",
+        "seed": 1001,
+        "status": "ok",
+        "energy": -36.94932278246915,
+        "validation": {
+          "dE": 2.5555259242082684e-08,
+          "dmin": 0.91739273575569,
+          "eg": 0.0,
+          "comp": 1,
+          "region": true,
+          "vpa": null,
+          "frozen_fix": 0,
+          "bad": []
+        },
+        "max_free_force_eV_per_A": 0.007857046054030672
+      },
+      {
+        "algorithm": "surr",
+        "seed": 1002,
+        "status": "ok",
+        "energy": -36.9493215309373,
+        "validation": {
+          "dE": 4.0379191545980575e-08,
+          "dmin": 0.9174682326943685,
+          "eg": 0.0,
+          "comp": 1,
+          "region": true,
+          "vpa": null,
+          "frozen_fix": 0,
+          "bad": []
+        },
+        "max_free_force_eV_per_A": 0.011225970721785971
+      },
+      {
+        "algorithm": "surr",
+        "seed": 1003,
+        "status": "ok",
+        "energy": -36.94931307786734,
+        "validation": {
+          "dE": 4.354294702579864e-08,
+          "dmin": 0.9173251382174662,
+          "eg": 0.0,
+          "comp": 1,
+          "region": true,
+          "vpa": null,
+          "frozen_fix": 0,
+          "bad": []
+        },
+        "max_free_force_eV_per_A": 0.01217884713238571
+      },
+      {
+        "algorithm": "surr",
+        "seed": 1004,
+        "status": "ok",
+        "energy": -36.949315984694366,
+        "validation": {
+          "dE": -5.924337642682076e-08,
+          "dmin": 0.9176787236587466,
+          "eg": 0.0,
+          "comp": 1,
+          "region": true,
+          "vpa": null,
+          "frozen_fix": 0,
+          "bad": []
+        },
+        "max_free_force_eV_per_A": 0.006226691467861807
+      }
+    ]
+  },
+  "su_Pd7_MgO100": {
+    "hash": "c5519a69befd",
+    "reference": {
+      "algorithm": "bh",
+      "seed": 1004,
+      "status": "ok",
+      "energy": -894.7092403641852,
+      "validation": {
+        "dE": -1.7262209439650178e-08,
+        "dmin": 0.9564736963815282,
+        "eg": 0.0,
+        "comp": 1,
+        "region": false,
+        "vpa": null,
+        "frozen_fix": 0,
+        "bad": []
+      },
+      "max_free_force_eV_per_A": 0.005242439222045199,
+      "minimum_search_host_distance": 2.2212538014326344,
+      "height_relative_to_slab_top": [
+        2.0793094699998793,
+        2.3641694699999114
+      ]
+    },
+    "statuses": {
+      "ok": 5,
+      "timeout": 5
+    },
+    "candidate_hit_count": 10,
+    "guard_active_candidate_hits": 0,
+    "all_stored_structures": [
+      {
+        "algorithm": "bh",
+        "seed": 1000,
+        "status": "ok",
+        "energy": -894.7091852982179,
+        "validation": {
+          "dE": 6.435925570258405e-09,
+          "dmin": 0.956046546744504,
+          "eg": 0.0,
+          "comp": 1,
+          "region": false,
+          "vpa": null,
+          "frozen_fix": 0,
+          "bad": []
+        },
+        "max_free_force_eV_per_A": 0.015740020645022956,
+        "minimum_search_host_distance": 2.220667793435068,
+        "height_relative_to_slab_top": [
+          2.078099469999902,
+          2.3651894700000646
+        ]
+      },
+      {
+        "algorithm": "bh",
+        "seed": 1001,
+        "status": "ok",
+        "energy": -894.7090919569691,
+        "validation": {
+          "dE": -2.84690031548962e-08,
+          "dmin": 0.9562218224013436,
+          "eg": 0.0,
+          "comp": 1,
+          "region": false,
+          "vpa": null,
+          "frozen_fix": 0,
+          "bad": []
+        },
+        "max_free_force_eV_per_A": 0.015212996266106806,
+        "minimum_search_host_distance": 2.2185855988972327,
+        "height_relative_to_slab_top": [
+          2.0777194699998027,
+          2.361689469999682
+        ]
+      },
+      {
+        "algorithm": "bh",
+        "seed": 1002,
+        "status": "ok",
+        "energy": -894.7092145575118,
+        "validation": {
+          "dE": 2.847173163900152e-09,
+          "dmin": 0.9561114609425193,
+          "eg": 0.0,
+          "comp": 1,
+          "region": true,
+          "vpa": null,
+          "frozen_fix": 0,
+          "bad": []
+        },
+        "max_free_force_eV_per_A": 0.010909468639972098,
+        "minimum_search_host_distance": 2.2209682826407326,
+        "height_relative_to_slab_top": [
+          2.0791094699999704,
+          2.362879469999937
+        ]
+      },
+      {
+        "algorithm": "bh",
+        "seed": 1003,
+        "status": "ok",
+        "energy": -894.70912890009,
+        "validation": {
+          "dE": -8.781944416114129e-08,
+          "dmin": 0.9559964734348826,
+          "eg": 0.0,
+          "comp": 1,
+          "region": false,
+          "vpa": null,
+          "frozen_fix": 0,
+          "bad": []
+        },
+        "max_free_force_eV_per_A": 0.019270518371317113,
+        "minimum_search_host_distance": 2.2207752621196057,
+        "height_relative_to_slab_top": [
+          2.0787994699999537,
+          2.3623494699999625
+        ]
+      },
+      {
+        "algorithm": "bh",
+        "seed": 1004,
+        "status": "ok",
+        "energy": -894.7092403641852,
+        "validation": {
+          "dE": -1.7262209439650178e-08,
+          "dmin": 0.9564736963815282,
+          "eg": 0.0,
+          "comp": 1,
+          "region": false,
+          "vpa": null,
+          "frozen_fix": 0,
+          "bad": []
+        },
+        "max_free_force_eV_per_A": 0.005242439222045199,
+        "minimum_search_host_distance": 2.2212538014326344,
+        "height_relative_to_slab_top": [
+          2.0793094699998793,
+          2.3641694699999114
+        ]
+      },
+      {
+        "algorithm": "surr",
+        "seed": 1000,
+        "status": "timeout",
+        "energy": -894.7092325813562,
+        "validation": {
+          "dE": -3.212801402696641e-08,
+          "dmin": 0.9562966843019652,
+          "eg": 0.0,
+          "comp": 1,
+          "region": false,
+          "vpa": null,
+          "frozen_fix": 0,
+          "bad": []
+        },
+        "max_free_force_eV_per_A": 0.012744956453285786,
+        "minimum_search_host_distance": 2.2214606295703243,
+        "height_relative_to_slab_top": [
+          2.079509469999868,
+          2.3642894699998607
+        ]
+      },
+      {
+        "algorithm": "surr",
+        "seed": 1001,
+        "status": "timeout",
+        "energy": -894.7092087646864,
+        "validation": {
+          "dE": 7.281403213710291e-08,
+          "dmin": 0.9557978986645734,
+          "eg": 0.0,
+          "comp": 1,
+          "region": false,
+          "vpa": null,
+          "frozen_fix": 0,
+          "bad": []
+        },
+        "max_free_force_eV_per_A": 0.008472284996547848,
+        "minimum_search_host_distance": 2.222161883451138,
+        "height_relative_to_slab_top": [
+          2.07930946999997,
+          2.363459469999963
+        ]
+      },
+      {
+        "algorithm": "surr",
+        "seed": 1002,
+        "status": "timeout",
+        "energy": -894.709201112769,
+        "validation": {
+          "dE": 6.245738859433914e-08,
+          "dmin": 0.9558897545758972,
+          "eg": 0.0,
+          "comp": 1,
+          "region": false,
+          "vpa": null,
+          "frozen_fix": 0,
+          "bad": []
+        },
+        "max_free_force_eV_per_A": 0.012964404885262033,
+        "minimum_search_host_distance": 2.2199641046853578,
+        "height_relative_to_slab_top": [
+          2.0786294699998447,
+          2.363649469999835
+        ]
+      },
+      {
+        "algorithm": "surr",
+        "seed": 1003,
+        "status": "timeout",
+        "energy": -894.7092351032679,
+        "validation": {
+          "dE": 7.705580173933413e-08,
+          "dmin": 0.9561194240486395,
+          "eg": 0.0,
+          "comp": 1,
+          "region": false,
+          "vpa": null,
+          "frozen_fix": 0,
+          "bad": []
+        },
+        "max_free_force_eV_per_A": 0.008100594989637803,
+        "minimum_search_host_distance": 2.220545479389208,
+        "height_relative_to_slab_top": [
+          2.078309469999894,
+          2.3618494699998607
+        ]
+      },
+      {
+        "algorithm": "surr",
+        "seed": 1004,
+        "status": "timeout",
+        "energy": -894.7092196018488,
+        "validation": {
+          "dE": -6.2276512835524045e-09,
+          "dmin": 0.9558488527377144,
+          "eg": 0.0,
+          "comp": 1,
+          "region": false,
+          "vpa": null,
+          "frozen_fix": 0,
+          "bad": []
+        },
+        "max_free_force_eV_per_A": 0.011320896714989299,
+        "minimum_search_host_distance": 2.219443877510996,
+        "height_relative_to_slab_top": [
+          2.0776294699998186,
+          2.363349469999811
+        ]
+      }
+    ]
+  },
+  "ze_Au4_CHA": {
+    "hash": "bc00fcb2d4b7",
+    "reference": {
+      "algorithm": "surr",
+      "seed": 1003,
+      "status": "ok",
+      "energy": -859.8888389512797,
+      "validation": {
+        "dE": -1.8671926227398217e-08,
+        "dmin": 0.9463546357624082,
+        "eg": 0.0,
+        "comp": 1,
+        "region": false,
+        "vpa": null,
+        "frozen_fix": 0,
+        "bad": []
+      },
+      "max_free_force_eV_per_A": 0.0130577845465041,
+      "minimum_search_host_distance": 2.2938963530262337
+    },
+    "statuses": {
+      "ok": 10
+    },
+    "candidate_hit_count": 10,
+    "guard_active_candidate_hits": 0,
+    "all_stored_structures": [
+      {
+        "algorithm": "bh",
+        "seed": 1000,
+        "status": "ok",
+        "energy": -859.8888341236045,
+        "validation": {
+          "dE": -1.1646079656202346e-08,
+          "dmin": 0.9462383525243848,
+          "eg": 0.0,
+          "comp": 1,
+          "region": false,
+          "vpa": null,
+          "frozen_fix": 0,
+          "bad": []
+        },
+        "max_free_force_eV_per_A": 0.008754709151067052,
+        "minimum_search_host_distance": 2.2931559251441342
+      },
+      {
+        "algorithm": "bh",
+        "seed": 1001,
+        "status": "ok",
+        "energy": -859.8887736742992,
+        "validation": {
+          "dE": -3.9625433601031546e-08,
+          "dmin": 0.9461774322327985,
+          "eg": 0.0,
+          "comp": 1,
+          "region": false,
+          "vpa": null,
+          "frozen_fix": 0,
+          "bad": []
+        },
+        "max_free_force_eV_per_A": 0.010938958031839186,
+        "minimum_search_host_distance": 2.295366555015921
+      },
+      {
+        "algorithm": "bh",
+        "seed": 1002,
+        "status": "ok",
+        "energy": -859.8877771175005,
+        "validation": {
+          "dE": -9.926407074090093e-08,
+          "dmin": 0.9466114424803402,
+          "eg": 0.0,
+          "comp": 1,
+          "region": false,
+          "vpa": null,
+          "frozen_fix": 0,
+          "bad": []
+        },
+        "max_free_force_eV_per_A": 0.014042931032158602,
+        "minimum_search_host_distance": 2.2938160319689778
+      },
+      {
+        "algorithm": "bh",
+        "seed": 1003,
+        "status": "ok",
+        "energy": -859.8877543974501,
+        "validation": {
+          "dE": -9.290090474678436e-08,
+          "dmin": 0.9463102662726343,
+          "eg": 0.0,
+          "comp": 1,
+          "region": false,
+          "vpa": null,
+          "frozen_fix": 0,
+          "bad": []
+        },
+        "max_free_force_eV_per_A": 0.02577004999961275,
+        "minimum_search_host_distance": 2.292489234611142
+      },
+      {
+        "algorithm": "bh",
+        "seed": 1004,
+        "status": "ok",
+        "energy": -859.8887382616823,
+        "validation": {
+          "dE": -9.872394457488554e-08,
+          "dmin": 0.9463452466842219,
+          "eg": 0.0,
+          "comp": 1,
+          "region": false,
+          "vpa": null,
+          "frozen_fix": 0,
+          "bad": []
+        },
+        "max_free_force_eV_per_A": 0.013080337192277499,
+        "minimum_search_host_distance": 2.295313892903768
+      },
+      {
+        "algorithm": "surr",
+        "seed": 1000,
+        "status": "ok",
+        "energy": -859.8887958702313,
+        "validation": {
+          "dE": 1.974649421754293e-08,
+          "dmin": 0.9466719535098603,
+          "eg": 0.0,
+          "comp": 1,
+          "region": false,
+          "vpa": null,
+          "frozen_fix": 0,
+          "bad": []
+        },
+        "max_free_force_eV_per_A": 0.014068898325686191,
+        "minimum_search_host_distance": 2.294965855761139
+      },
+      {
+        "algorithm": "surr",
+        "seed": 1001,
+        "status": "ok",
+        "energy": -859.8887771194219,
+        "validation": {
+          "dE": 8.890458502719412e-08,
+          "dmin": 0.9459101109871331,
+          "eg": 0.0,
+          "comp": 1,
+          "region": false,
+          "vpa": null,
+          "frozen_fix": 0,
+          "bad": []
+        },
+        "max_free_force_eV_per_A": 0.01820233105477582,
+        "minimum_search_host_distance": 2.296399857238581
+      },
+      {
+        "algorithm": "surr",
+        "seed": 1002,
+        "status": "ok",
+        "energy": -859.8887945948661,
+        "validation": {
+          "dE": 2.5152985472232103e-08,
+          "dmin": 0.9474570248759614,
+          "eg": 0.0,
+          "comp": 1,
+          "region": false,
+          "vpa": null,
+          "frozen_fix": 0,
+          "bad": []
+        },
+        "max_free_force_eV_per_A": 0.043676938722711375,
+        "minimum_search_host_distance": 2.294601713861944
+      },
+      {
+        "algorithm": "surr",
+        "seed": 1003,
+        "status": "ok",
+        "energy": -859.8888389512797,
+        "validation": {
+          "dE": -1.8671926227398217e-08,
+          "dmin": 0.9463546357624082,
+          "eg": 0.0,
+          "comp": 1,
+          "region": false,
+          "vpa": null,
+          "frozen_fix": 0,
+          "bad": []
+        },
+        "max_free_force_eV_per_A": 0.0130577845465041,
+        "minimum_search_host_distance": 2.2938963530262337
+      },
+      {
+        "algorithm": "surr",
+        "seed": 1004,
+        "status": "ok",
+        "energy": -859.8888269955621,
+        "validation": {
+          "dE": -4.6751097215746995e-08,
+          "dmin": 0.9466400387816044,
+          "eg": 0.0,
+          "comp": 1,
+          "region": false,
+          "vpa": null,
+          "frozen_fix": 0,
+          "bad": []
+        },
+        "max_free_force_eV_per_A": 0.01502775191850084,
+        "minimum_search_host_distance": 2.2934461353619917
+      }
+    ]
+  }
+}

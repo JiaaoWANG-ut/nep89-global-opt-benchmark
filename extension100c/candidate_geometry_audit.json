@@ -1,0 +1,18 @@
+{
+  "candidate_count": 10086,
+  "counts_by_system": {
+    "bu_Al8": 2610,
+    "cl_Cu13": 2594,
+    "su_Pd7_MgO100": 2495,
+    "ze_Au4_CHA": 2387
+  },
+  "failed_checks": [],
+  "outside_initial_region": {
+    "cl_Cu13:atoms_outside_initial_region": 233,
+    "su_Pd7_MgO100:atoms_outside_initial_region": 1819,
+    "ze_Au4_CHA:atoms_outside_initial_region": 2387,
+    "ze_Au4_CHA:center_outside_initial_sphere": 116
+  },
+  "minimum_surface_height_above_slab_top_A": 2.0649994699998686,
+  "scope": "Saved best structures only; intermediate trace geometries were not saved."
+}
