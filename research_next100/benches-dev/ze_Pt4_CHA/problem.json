@@ -1,0 +1,30 @@
+{
+ "name": "ze_Pt4_CHA",
+ "title": "Pt4 @ CHA",
+ "category": "zeolite",
+ "description": "Pt4 cluster inside the cha cage of a frozen all-silica chabazite framework (hexagonal cell, 108 atoms).",
+ "search_symbols": [
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt"
+ ],
+ "substrate_file": "substrate.extxyz",
+ "pbc": [
+  true,
+  true,
+  true
+ ],
+ "region": {
+  "type": "sphere",
+  "center": [
+   13.178228810427498,
+   0.24543399842403607,
+   9.119635543683906
+  ],
+  "radius": 2.51
+ },
+ "budget": 20000,
+ "fmax": 0.05,
+ "e_tol": 0.02
+}

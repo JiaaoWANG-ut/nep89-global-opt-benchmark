@@ -1,0 +1,28 @@
+{
+  "campaign": "next100",
+  "purpose": "Compare the 22 previously frozen algorithms and two experimental algorithm families, each with and without a hosted-site move.",
+  "systems": ["bu_Al8", "cl_Cu13", "su_Pd7_MgO100", "ze_Au4_CHA"],
+  "algorithm_variants": {
+    "diversity_search": "adaptive diversity archive, original development version",
+    "diversity_v2": "adaptive diversity archive plus hosted rigid-site moves",
+    "path_relink": "archive path relinking, original development version",
+    "relink_v2": "archive path relinking plus hosted rigid-site moves"
+  },
+  "seed_range_inclusive": [0, 99],
+  "runs_per_system_algorithm": 100,
+  "budget": "Fixed per benchmark, shared by all methods; see freeze_manifest.json.",
+  "wall_time_limit_seconds": {"gofee": 3600, "surr": 3600},
+  "failed_or_unsuccessful_timeout_charge": "full ionic-step budget",
+  "primary_measure": "Expected ionic steps to first hit, summing steps to hit or steps charged to unsuccessful runs, divided by number of hits.",
+  "reference": "Lowest saved energy with guard plus wall <= 0.01 eV among this campaign and the separately archived same-hash system pilot; hit threshold is reference plus benchmark e_tol.",
+  "screening": "Audit every record and frozen input; independently re-evaluate reference structures and screen saved candidate-hit structures for guard and wall activity. Saved best structures cannot establish the validity of every intermediate trace configuration.",
+  "development": "Original versions were tested on the six published development systems at seeds 300-302 and 303-305; revised versions were created using the first set and tested on the second. A further surface-move ablation uses seeds 310-319. These are development results, not independent test-set evidence.",
+  "system_pilot": "BH and SurrBH, seeds 1000-1004, 900-second per-seed cap; all 40 saved best structures pass the project's reference checks, and all 40 hit their pilot reference window.",
+  "limitations": [
+    "Systems are manually selected convenience samples, not random or representative. The hosted systems reuse development-set hosts; the CHA source CIF provenance is unknown.",
+    "The system pilot suggests that these are relatively easy problems; it does not prove that the structures are physical or globally optimal.",
+    "All Cu13, Pd7/MgO and Au4/CHA reference geometries include atoms outside their initial sampling regions. In the zeolite pilot, two of ten cluster centers also lie outside the initial region; this does not by itself establish cage escape or confinement.",
+    "Frozen hosts, periodic image effects, model transferability and NEP89 short-range holes remain possible; results are not DFT and scores from different benchmark sets are not directly comparable.",
+    "The experimental methods combine established ideas; the design and small development ablations do not establish literature novelty or statistically significant superiority."
+  ]
+}

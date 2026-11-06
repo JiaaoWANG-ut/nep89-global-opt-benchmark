@@ -1,0 +1,15 @@
+{
+  "name": "bu_Al8",
+  "title": "Al8 variable-cell crystal",
+  "category": "bulk",
+  "description": "Elemental Al variable-cell crystal search with eight movable atoms; NEP89 plus the standard short-range guard. No known reference minimum is asserted.",
+  "search_symbols": ["Al", "Al", "Al", "Al", "Al", "Al", "Al", "Al"],
+  "cell": [[5.103, 0.0, 0.0], [0.0, 5.103, 0.0], [0.0, 0.0, 5.103]],
+  "pbc": [true, true, true],
+  "variable_cell": true,
+  "volume_per_atom": 16.61,
+  "region": {"type": "cell"},
+  "budget": 20000,
+  "fmax": 0.05,
+  "e_tol": 0.02
+}

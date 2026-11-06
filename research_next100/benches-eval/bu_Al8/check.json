@@ -1,0 +1,103 @@
+{
+  "problem": "bu_Al8",
+  "problem_hash": "3c67c25f0823",
+  "problem_json_sha256": "33d8c5b049f67c9bb589639851ed87aa825e0836752f90c1bef753c8d01a9dc2",
+  "model": "/global/cfs/cdirs/m4517/jiaao/software/gpumd/GPUMD/potentials/nep/nep89_20250409/nep89_20250409.txt",
+  "model_sha256": "75168ece02e840e4a32644f982b78d43cba697f5b64b4c8134ab66c7a8c28be1",
+  "budget": 20000,
+  "fmax": 0.05,
+  "e_tol": 0.02,
+  "reference_cu_fcc_unrelaxed_eV_per_atom": null,
+  "evaluations": 70,
+  "bad_evaluations": 0,
+  "cpu_seconds": 2.544,
+  "results": [
+    {
+      "label": "fcc conventional cell repeated 2x1x1",
+      "initial": {
+        "minimum_periodic_distance_A": 2.863782463805517,
+        "minimum_cluster_image_distance_A": null,
+        "guard_eV": 0.0,
+        "components": null,
+        "volume_per_atom_A3": 16.607531250000005
+      },
+      "final": {
+        "minimum_periodic_distance_A": 2.818346369674456,
+        "minimum_cluster_image_distance_A": null,
+        "guard_eV": 0.0,
+        "components": null,
+        "volume_per_atom_A3": 15.829532918864853
+      },
+      "energy_eV": -32.21902450480168,
+      "raw_nep_eV": -32.21902450480168,
+      "converged": true,
+      "relax_evaluations": 3,
+      "fmax_eV_A": 3.6046240706025243e-13,
+      "stress_eV_A3_max": 0.001607113484280374
+    },
+    {
+      "label": "random seed 0",
+      "initial": {
+        "minimum_periodic_distance_A": 1.697401952014829,
+        "minimum_cluster_image_distance_A": null,
+        "guard_eV": 0.34425012420790213,
+        "components": null,
+        "volume_per_atom_A3": 19.18097345056375
+      },
+      "final": {
+        "minimum_periodic_distance_A": 2.8070412331237686,
+        "minimum_cluster_image_distance_A": null,
+        "guard_eV": 0.0,
+        "components": null,
+        "volume_per_atom_A3": 15.86894725405321
+      },
+      "energy_eV": -32.218286795298475,
+      "raw_nep_eV": -32.218286795298475,
+      "converged": true,
+      "relax_evaluations": 33,
+      "fmax_eV_A": 0.04599834130434465,
+      "stress_eV_A3_max": 0.00140492431256333
+    },
+    {
+      "label": "random seed 1",
+      "initial": {
+        "minimum_periodic_distance_A": 1.7218154411092128,
+        "minimum_cluster_image_distance_A": null,
+        "guard_eV": 0.08795893757771663,
+        "components": null,
+        "volume_per_atom_A3": 18.349542874508497
+      },
+      "final": {
+        "minimum_periodic_distance_A": 2.645152829340838,
+        "minimum_cluster_image_distance_A": null,
+        "guard_eV": 0.0,
+        "components": null,
+        "volume_per_atom_A3": 16.341081158280076
+      },
+      "energy_eV": -31.7604176889964,
+      "raw_nep_eV": -31.7604176889964,
+      "converged": true,
+      "relax_evaluations": 31,
+      "fmax_eV_A": 0.04932029789248874,
+      "stress_eV_A3_max": 0.0016010674893919873
+    }
+  ],
+  "rs_smoke_80_steps_each": [
+    {
+      "seed": 0,
+      "status": "ok",
+      "nsteps": 80,
+      "best_e": -32.218286795298475,
+      "bench_hash": "3c67c25f0823",
+      "alg_hash": "59141739a1e1"
+    },
+    {
+      "seed": 1,
+      "status": "ok",
+      "nsteps": 80,
+      "best_e": -32.21788405158362,
+      "bench_hash": "3c67c25f0823",
+      "alg_hash": "59141739a1e1"
+    }
+  ]
+}

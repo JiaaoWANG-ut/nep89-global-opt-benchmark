@@ -12,6 +12,21 @@
 [中文](https://jiaaowang-ut.github.io/nep89-global-opt-benchmark/extension100b/zh.html) ·
 [extension data](https://github.com/JiaaoWANG-ut/nep89-global-opt-benchmark/releases/tag/v1.2)
 
+**Third 100-seed extension:** [English](https://jiaaowang-ut.github.io/nep89-global-opt-benchmark/extension100c/) ·
+[中文](https://jiaaowang-ut.github.io/nep89-global-opt-benchmark/extension100c/zh.html) ·
+[ablations](https://jiaaowang-ut.github.io/nep89-global-opt-benchmark/extension100c/ablation.html) ·
+[data and isolated source](https://github.com/JiaaoWANG-ut/nep89-global-opt-benchmark/releases/tag/v1.3).
+It compares 26 methods on four manually selected systems with 100 seeds each.
+The per-ionic-step leaders are GOFEE (98.64), SurrBH (85.85), and Growth
+(76.70); scores cannot be compared directly across different system sets.
+The four new entries are two experimental method families, each with a
+hosted-move ablation, not four independent inventions. Of 400 GOFEE runs, 395
+timed out after reaching the reference window; the step ranking is not a
+wall-clock ranking. The hosted systems reuse development hosts, the source of
+the CHA CIF is unknown, and the initial regions are not confinement constraints.
+NEP89 is not DFT; the small, nonrandom sample and saved-structure checks do
+not establish physical validity, global optimality, or broad superiority.
+
 A benchmark of 22 global structure-search algorithms (12 established methods and 10 new ones written for
 this study) on 45 problems with the NEP89 foundation potential: 13 gas-phase clusters, 11 clusters
 supported on surfaces, 9 metal clusters in zeolites and 12 bulk crystals (variable cell), with 4–55

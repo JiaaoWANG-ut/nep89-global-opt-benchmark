@@ -1,0 +1,126 @@
+{
+  "problem": "cl_Cu13",
+  "problem_hash": "9afb6b94d559",
+  "problem_json_sha256": "1f50e06e8695e67cfebfd32f81cdb259a08efea9475e54b074f81ca111006a60",
+  "model": "/global/cfs/cdirs/m4517/jiaao/software/gpumd/GPUMD/potentials/nep/nep89_20250409/nep89_20250409.txt",
+  "model_sha256": "75168ece02e840e4a32644f982b78d43cba697f5b64b4c8134ab66c7a8c28be1",
+  "budget": 20000,
+  "fmax": 0.05,
+  "e_tol": 0.02,
+  "reference_cu_fcc_unrelaxed_eV_per_atom": -4.283469855541343,
+  "evaluations": 102,
+  "bad_evaluations": 0,
+  "cpu_seconds": 2.9,
+  "results": [
+    {
+      "label": "icosahedron",
+      "initial": {
+        "minimum_periodic_distance_A": 2.5561910139893698,
+        "minimum_cluster_image_distance_A": 19.651148095295444,
+        "guard_eV": 0.0,
+        "components": 1,
+        "volume_per_atom_A3": null
+      },
+      "final": {
+        "minimum_periodic_distance_A": 2.424552515039767,
+        "minimum_cluster_image_distance_A": 19.875104886378885,
+        "guard_eV": 0.0,
+        "components": 1,
+        "volume_per_atom_A3": null
+      },
+      "energy_eV": -36.94923684223214,
+      "raw_nep_eV": -36.94923684223214,
+      "converged": true,
+      "relax_evaluations": 5,
+      "fmax_eV_A": 0.013793898415037338,
+      "stress_eV_A3_max": null
+    },
+    {
+      "label": "cuboctahedron",
+      "initial": {
+        "minimum_periodic_distance_A": 2.5561910139893707,
+        "minimum_cluster_image_distance_A": 20.384999999999998,
+        "guard_eV": 0.0,
+        "components": 1,
+        "volume_per_atom_A3": null
+      },
+      "final": {
+        "minimum_periodic_distance_A": 2.4826933106948075,
+        "minimum_cluster_image_distance_A": 20.488941448802436,
+        "guard_eV": 0.0,
+        "components": 1,
+        "volume_per_atom_A3": null
+      },
+      "energy_eV": -36.03867795581926,
+      "raw_nep_eV": -36.03867795581926,
+      "converged": true,
+      "relax_evaluations": 4,
+      "fmax_eV_A": 0.019814598749830655,
+      "stress_eV_A3_max": null
+    },
+    {
+      "label": "random seed 0",
+      "initial": {
+        "minimum_periodic_distance_A": 2.2639449415427544,
+        "minimum_cluster_image_distance_A": 16.405141342069097,
+        "guard_eV": 0.0,
+        "components": 1,
+        "volume_per_atom_A3": null
+      },
+      "final": {
+        "minimum_periodic_distance_A": 2.4077757979293417,
+        "minimum_cluster_image_distance_A": 18.328120027462436,
+        "guard_eV": 0.0,
+        "components": 1,
+        "volume_per_atom_A3": null
+      },
+      "energy_eV": -35.62149420582236,
+      "raw_nep_eV": -35.62149420582236,
+      "converged": true,
+      "relax_evaluations": 46,
+      "fmax_eV_A": 0.041675672671704536,
+      "stress_eV_A3_max": null
+    },
+    {
+      "label": "random seed 1",
+      "initial": {
+        "minimum_periodic_distance_A": 2.1930996709681763,
+        "minimum_cluster_image_distance_A": 16.148948332810665,
+        "guard_eV": 0.0,
+        "components": 1,
+        "volume_per_atom_A3": null
+      },
+      "final": {
+        "minimum_periodic_distance_A": 2.3932890505645235,
+        "minimum_cluster_image_distance_A": 18.186716494726173,
+        "guard_eV": 0.0,
+        "components": 1,
+        "volume_per_atom_A3": null
+      },
+      "energy_eV": -36.21051924696633,
+      "raw_nep_eV": -36.21051924696633,
+      "converged": true,
+      "relax_evaluations": 43,
+      "fmax_eV_A": 0.03146146075414412,
+      "stress_eV_A3_max": null
+    }
+  ],
+  "rs_smoke_80_steps_each": [
+    {
+      "seed": 0,
+      "status": "ok",
+      "nsteps": 80,
+      "best_e": -35.62149420582236,
+      "bench_hash": "9afb6b94d559",
+      "alg_hash": "59141739a1e1"
+    },
+    {
+      "seed": 1,
+      "status": "ok",
+      "nsteps": 80,
+      "best_e": -36.21051924696633,
+      "bench_hash": "9afb6b94d559",
+      "alg_hash": "59141739a1e1"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "su_Pd7_MgO100",
+  "title": "Pd7 / MgO(001)",
+  "category": "surface",
+  "description": "Seven Pd atoms on a frozen 3x3 MgO(001) four-layer slab; a model of supported Pd clusters, not an experimentally specified structure.",
+  "search_symbols": [
+    "Pd",
+    "Pd",
+    "Pd",
+    "Pd",
+    "Pd",
+    "Pd",
+    "Pd"
+  ],
+  "substrate_file": "substrate.extxyz",
+  "pbc": [
+    true,
+    true,
+    true
+  ],
+  "region": {
+    "type": "box",
+    "lo": [
+      0.0,
+      0.0,
+      7.911180528087824
+    ],
+    "hi": [
+      12.609729257915237,
+      12.609729257915465,
+      13.811180528087824
+    ]
+  },
+  "budget": 30000,
+  "fmax": 0.05,
+  "e_tol": 0.02
+}

@@ -1,0 +1,30 @@
+{
+  "name": "ze_Au4_CHA",
+  "title": "Au4 @ CHA",
+  "category": "zeolite",
+  "description": "Four Au atoms initialized in a cha cage of a frozen all-silica CHA framework; an idealized confined-cluster model.",
+  "search_symbols": [
+    "Au",
+    "Au",
+    "Au",
+    "Au"
+  ],
+  "substrate_file": "substrate.extxyz",
+  "pbc": [
+    true,
+    true,
+    true
+  ],
+  "region": {
+    "type": "sphere",
+    "center": [
+      13.178228810427498,
+      0.24543399842403607,
+      9.119635543683906
+    ],
+    "radius": 2.51
+  },
+  "budget": 20000,
+  "fmax": 0.05,
+  "e_tol": 0.02
+}
