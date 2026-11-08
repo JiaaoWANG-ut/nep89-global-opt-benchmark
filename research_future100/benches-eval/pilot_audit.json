@@ -1,0 +1,1147 @@
+{
+  "candidate_count": 60,
+  "failed_checks": 0,
+  "scope": "Saved best structures only; intermediate trajectories were not saved. Initial regions are not constraints. Pair minima involve a search atom and distinct atoms under minimum image; periodic self-images are not included.",
+  "structures": [
+    {
+      "benchmark": "bu_Cu4",
+      "algorithm": "bh",
+      "seed": 30,
+      "path": "results/future-systempilot/bu_Cu4/bh/s030.json",
+      "energy_eV": -17.18775786372467,
+      "bad": [],
+      "energy_difference_eV": -1.3101477236432402e-07,
+      "guard_and_wall_eV": 0.0,
+      "min_distance_ratio": 0.9516129320521628,
+      "components": 1,
+      "within_initial_region": true,
+      "volume_ratio": 0.9526275450111898,
+      "pair_minimum_A": {
+        "Cu-Cu": 2.51225814061771
+      },
+      "max_free_force_eV_per_A": 0.0073987144389657125
+    },
+    {
+      "benchmark": "bu_Cu4",
+      "algorithm": "bh",
+      "seed": 31,
+      "path": "results/future-systempilot/bu_Cu4/bh/s031.json",
+      "energy_eV": -17.187781807013828,
+      "bad": [],
+      "energy_difference_eV": -6.690388687502491e-09,
+      "guard_and_wall_eV": 0.0,
+      "min_distance_ratio": 0.9522689170659314,
+      "components": 1,
+      "within_initial_region": true,
+      "volume_ratio": 0.9524770039480416,
+      "pair_minimum_A": {
+        "Cu-Cu": 2.513989941054059
+      },
+      "max_free_force_eV_per_A": 0.004561334981922742
+    },
+    {
+      "benchmark": "bu_Cu4",
+      "algorithm": "bh",
+      "seed": 32,
+      "path": "results/future-systempilot/bu_Cu4/bh/s032.json",
+      "energy_eV": -17.18776663742349,
+      "bad": [],
+      "energy_difference_eV": -4.769299621898426e-08,
+      "guard_and_wall_eV": 0.0,
+      "min_distance_ratio": 0.9517299626412966,
+      "components": 1,
+      "within_initial_region": true,
+      "volume_ratio": 0.952483026245253,
+      "pair_minimum_A": {
+        "Cu-Cu": 2.512567101373023
+      },
+      "max_free_force_eV_per_A": 0.012384164151043656
+    },
+    {
+      "benchmark": "bu_Cu4",
+      "algorithm": "bh",
+      "seed": 33,
+      "path": "results/future-systempilot/bu_Cu4/bh/s033.json",
+      "energy_eV": -17.18778646414615,
+      "bad": [],
+      "energy_difference_eV": 5.120220691878785e-09,
+      "guard_and_wall_eV": 0.0,
+      "min_distance_ratio": 0.9522384576095707,
+      "components": 1,
+      "within_initial_region": true,
+      "volume_ratio": 0.9525515342422695,
+      "pair_minimum_A": {
+        "Cu-Cu": 2.513909528089267
+      },
+      "max_free_force_eV_per_A": 0.007318188006701087
+    },
+    {
+      "benchmark": "bu_Cu4",
+      "algorithm": "bh",
+      "seed": 34,
+      "path": "results/future-systempilot/bu_Cu4/bh/s034.json",
+      "energy_eV": -17.187772595497872,
+      "bad": [],
+      "energy_difference_eV": -2.368647145090108e-08,
+      "guard_and_wall_eV": 0.0,
+      "min_distance_ratio": 0.9519848835004658,
+      "components": 1,
+      "within_initial_region": true,
+      "volume_ratio": 0.9518344370896937,
+      "pair_minimum_A": {
+        "Cu-Cu": 2.51324009244123
+      },
+      "max_free_force_eV_per_A": 0.00922454326829789
+    },
+    {
+      "benchmark": "bu_Cu4",
+      "algorithm": "growth",
+      "seed": 30,
+      "path": "results/future-systempilot/bu_Cu4/growth/s030.json",
+      "energy_eV": -17.187783891468296,
+      "bad": [],
+      "energy_difference_eV": -3.221035882461365e-09,
+      "guard_and_wall_eV": 0.0,
+      "min_distance_ratio": 0.952050044101434,
+      "components": 1,
+      "within_initial_region": true,
+      "volume_ratio": 0.952090082131002,
+      "pair_minimum_A": {
+        "Cu-Cu": 2.513412116427786
+      },
+      "max_free_force_eV_per_A": 0.007777370238543089
+    },
+    {
+      "benchmark": "bu_Cu4",
+      "algorithm": "growth",
+      "seed": 31,
+      "path": "results/future-systempilot/bu_Cu4/growth/s031.json",
+      "energy_eV": -17.187790298740232,
+      "bad": [],
+      "energy_difference_eV": 3.9882699809368205e-08,
+      "guard_and_wall_eV": 0.0,
+      "min_distance_ratio": 0.9523542872840859,
+      "components": 1,
+      "within_initial_region": true,
+      "volume_ratio": 0.9522931698199555,
+      "pair_minimum_A": {
+        "Cu-Cu": 2.514215318429987
+      },
+      "max_free_force_eV_per_A": 0.005974301226750557
+    },
+    {
+      "benchmark": "bu_Cu4",
+      "algorithm": "growth",
+      "seed": 32,
+      "path": "results/future-systempilot/bu_Cu4/growth/s032.json",
+      "energy_eV": -17.18778559245061,
+      "bad": [],
+      "energy_difference_eV": 3.410598381492491e-08,
+      "guard_and_wall_eV": 0.0,
+      "min_distance_ratio": 0.9521582755376571,
+      "components": 1,
+      "within_initial_region": true,
+      "volume_ratio": 0.952270358177086,
+      "pair_minimum_A": {
+        "Cu-Cu": 2.5136978474194147
+      },
+      "max_free_force_eV_per_A": 0.005257289953722063
+    },
+    {
+      "benchmark": "bu_Cu4",
+      "algorithm": "growth",
+      "seed": 33,
+      "path": "results/future-systempilot/bu_Cu4/growth/s033.json",
+      "energy_eV": -17.18778882308771,
+      "bad": [],
+      "energy_difference_eV": -1.329847165720821e-08,
+      "guard_and_wall_eV": 0.0,
+      "min_distance_ratio": 0.952316362953022,
+      "components": 1,
+      "within_initial_region": true,
+      "volume_ratio": 0.9523513994755514,
+      "pair_minimum_A": {
+        "Cu-Cu": 2.514115198195978
+      },
+      "max_free_force_eV_per_A": 0.0015793918792030499
+    },
+    {
+      "benchmark": "bu_Cu4",
+      "algorithm": "growth",
+      "seed": 34,
+      "path": "results/future-systempilot/bu_Cu4/growth/s034.json",
+      "energy_eV": -17.18779206106032,
+      "bad": [],
+      "energy_difference_eV": -5.105462719257048e-10,
+      "guard_and_wall_eV": 0.0,
+      "min_distance_ratio": 0.9524276881859917,
+      "components": 1,
+      "within_initial_region": true,
+      "volume_ratio": 0.9522704464525625,
+      "pair_minimum_A": {
+        "Cu-Cu": 2.514409096811018
+      },
+      "max_free_force_eV_per_A": 0.00015752242582637977
+    },
+    {
+      "benchmark": "bu_Mg4O4",
+      "algorithm": "bh",
+      "seed": 30,
+      "path": "results/future-systempilot/bu_Mg4O4/bh/s030.json",
+      "energy_eV": -49.313769332025885,
+      "bad": [],
+      "energy_difference_eV": -5.668049141149822e-09,
+      "guard_and_wall_eV": 0.0,
+      "min_distance_ratio": 1.014198568278612,
+      "components": 1,
+      "within_initial_region": true,
+      "volume_ratio": 0.9939650500943736,
+      "pair_minimum_A": {
+        "Mg-Mg": 2.9701187620405003,
+        "Mg-O": 2.0993910363367267,
+        "O-O": 2.970286660447102
+      },
+      "max_free_force_eV_per_A": 0.013313527344249029
+    },
+    {
+      "benchmark": "bu_Mg4O4",
+      "algorithm": "bh",
+      "seed": 31,
+      "path": "results/future-systempilot/bu_Mg4O4/bh/s031.json",
+      "energy_eV": -49.313815062806356,
+      "bad": [],
+      "energy_difference_eV": 1.9875496803933856e-07,
+      "guard_and_wall_eV": 0.0,
+      "min_distance_ratio": 1.0142543205971253,
+      "components": 1,
+      "within_initial_region": true,
+      "volume_ratio": 0.9935549437400164,
+      "pair_minimum_A": {
+        "Mg-Mg": 2.970171036424801,
+        "Mg-O": 2.099506443636049,
+        "O-O": 2.9700232805100986
+      },
+      "max_free_force_eV_per_A": 0.009667861810910977
+    },
+    {
+      "benchmark": "bu_Mg4O4",
+      "algorithm": "bh",
+      "seed": 32,
+      "path": "results/future-systempilot/bu_Mg4O4/bh/s032.json",
+      "energy_eV": -49.31384430149284,
+      "bad": [],
+      "energy_difference_eV": 1.8690492709083628e-08,
+      "guard_and_wall_eV": 0.0,
+      "min_distance_ratio": 1.0145860690385429,
+      "components": 1,
+      "within_initial_region": true,
+      "volume_ratio": 0.9934596877851708,
+      "pair_minimum_A": {
+        "Mg-Mg": 2.970556542013634,
+        "Mg-O": 2.1001931629097834,
+        "O-O": 2.971080414316819
+      },
+      "max_free_force_eV_per_A": 0.008190907015773255
+    },
+    {
+      "benchmark": "bu_Mg4O4",
+      "algorithm": "bh",
+      "seed": 33,
+      "path": "results/future-systempilot/bu_Mg4O4/bh/s033.json",
+      "energy_eV": -49.31383502958073,
+      "bad": [],
+      "energy_difference_eV": -2.991929193285614e-08,
+      "guard_and_wall_eV": 0.0,
+      "min_distance_ratio": 1.0146879629303789,
+      "components": 1,
+      "within_initial_region": true,
+      "volume_ratio": 0.9940549597387248,
+      "pair_minimum_A": {
+        "Mg-Mg": 2.971343761196271,
+        "Mg-O": 2.100404083265884,
+        "O-O": 2.9713996390728052
+      },
+      "max_free_force_eV_per_A": 0.006938847211137043
+    },
+    {
+      "benchmark": "bu_Mg4O4",
+      "algorithm": "bh",
+      "seed": 34,
+      "path": "results/future-systempilot/bu_Mg4O4/bh/s034.json",
+      "energy_eV": -49.313837450716065,
+      "bad": [],
+      "energy_difference_eV": -6.485895909236206e-08,
+      "guard_and_wall_eV": 0.0,
+      "min_distance_ratio": 1.0146459335914044,
+      "components": 1,
+      "within_initial_region": true,
+      "volume_ratio": 0.9937736779864814,
+      "pair_minimum_A": {
+        "Mg-Mg": 2.970584441723379,
+        "Mg-O": 2.100317082534207,
+        "O-O": 2.970473201046931
+      },
+      "max_free_force_eV_per_A": 0.010153551012293987
+    },
+    {
+      "benchmark": "bu_Mg4O4",
+      "algorithm": "growth",
+      "seed": 30,
+      "path": "results/future-systempilot/bu_Mg4O4/growth/s030.json",
+      "energy_eV": -49.31385979151082,
+      "bad": [],
+      "energy_difference_eV": 9.306248216489621e-09,
+      "guard_and_wall_eV": 0.0,
+      "min_distance_ratio": 1.0150432157024243,
+      "components": 1,
+      "within_initial_region": true,
+      "volume_ratio": 0.9938599048494017,
+      "pair_minimum_A": {
+        "Mg-Mg": 2.9718883461782335,
+        "Mg-O": 2.101139456504018,
+        "O-O": 2.9716292848663004
+      },
+      "max_free_force_eV_per_A": 0.0033768476746483087
+    },
+    {
+      "benchmark": "bu_Mg4O4",
+      "algorithm": "growth",
+      "seed": 31,
+      "path": "results/future-systempilot/bu_Mg4O4/growth/s031.json",
+      "energy_eV": -49.31385824563122,
+      "bad": [],
+      "energy_difference_eV": -1.513151914878108e-08,
+      "guard_and_wall_eV": 0.0,
+      "min_distance_ratio": 1.0150202359894764,
+      "components": 1,
+      "within_initial_region": true,
+      "volume_ratio": 0.993803921354548,
+      "pair_minimum_A": {
+        "Mg-Mg": 2.971764050676634,
+        "Mg-O": 2.101091888498216,
+        "O-O": 2.971687989626939
+      },
+      "max_free_force_eV_per_A": 0.0037794044278644
+    },
+    {
+      "benchmark": "bu_Mg4O4",
+      "algorithm": "growth",
+      "seed": 32,
+      "path": "results/future-systempilot/bu_Mg4O4/growth/s032.json",
+      "energy_eV": -49.31385048023756,
+      "bad": [],
+      "energy_difference_eV": -4.544773446468753e-09,
+      "guard_and_wall_eV": 0.0,
+      "min_distance_ratio": 1.0149726060849837,
+      "components": 1,
+      "within_initial_region": true,
+      "volume_ratio": 0.9933233138587774,
+      "pair_minimum_A": {
+        "Mg-Mg": 2.970977761226092,
+        "Mg-O": 2.100993294595916,
+        "O-O": 2.9709863627536226
+      },
+      "max_free_force_eV_per_A": 0.0034656385088801603
+    },
+    {
+      "benchmark": "bu_Mg4O4",
+      "algorithm": "growth",
+      "seed": 33,
+      "path": "results/future-systempilot/bu_Mg4O4/growth/s033.json",
+      "energy_eV": -49.313855507980904,
+      "bad": [],
+      "energy_difference_eV": 1.0458791166456649e-08,
+      "guard_and_wall_eV": 0.0,
+      "min_distance_ratio": 1.015228630039824,
+      "components": 1,
+      "within_initial_region": true,
+      "volume_ratio": 0.9940938256959053,
+      "pair_minimum_A": {
+        "Mg-Mg": 2.9721277625802025,
+        "Mg-O": 2.1015232641824357,
+        "O-O": 2.9718738996572522
+      },
+      "max_free_force_eV_per_A": 0.004271021587756622
+    },
+    {
+      "benchmark": "bu_Mg4O4",
+      "algorithm": "growth",
+      "seed": 34,
+      "path": "results/future-systempilot/bu_Mg4O4/growth/s034.json",
+      "energy_eV": -49.313852221086876,
+      "bad": [],
+      "energy_difference_eV": 5.74278402609707e-09,
+      "guard_and_wall_eV": 0.0,
+      "min_distance_ratio": 1.0147953513861736,
+      "components": 1,
+      "within_initial_region": true,
+      "volume_ratio": 0.9933991393021937,
+      "pair_minimum_A": {
+        "Mg-Mg": 2.971255578176506,
+        "Mg-O": 2.1006263773693794,
+        "O-O": 2.971470041469205
+      },
+      "max_free_force_eV_per_A": 0.003554517160289068
+    },
+    {
+      "benchmark": "cl_Ni13",
+      "algorithm": "bh",
+      "seed": 30,
+      "path": "results/future-systempilot/cl_Ni13/bh/s030.json",
+      "energy_eV": -54.23989493157427,
+      "bad": [],
+      "energy_difference_eV": -8.936800810488421e-08,
+      "guard_and_wall_eV": 0.0,
+      "min_distance_ratio": 0.9392975793240729,
+      "components": 1,
+      "within_initial_region": true,
+      "volume_ratio": null,
+      "pair_minimum_A": {
+        "Ni-Ni": 2.3294579967237006
+      },
+      "max_free_force_eV_per_A": 0.007397892475279284
+    },
+    {
+      "benchmark": "cl_Ni13",
+      "algorithm": "bh",
+      "seed": 31,
+      "path": "results/future-systempilot/cl_Ni13/bh/s031.json",
+      "energy_eV": -54.239898106158044,
+      "bad": [],
+      "energy_difference_eV": -3.433543582787024e-08,
+      "guard_and_wall_eV": 0.0,
+      "min_distance_ratio": 0.9395429309568312,
+      "components": 1,
+      "within_initial_region": false,
+      "volume_ratio": null,
+      "pair_minimum_A": {
+        "Ni-Ni": 2.3300664687729413
+      },
+      "max_free_force_eV_per_A": 0.006037678206509725
+    },
+    {
+      "benchmark": "cl_Ni13",
+      "algorithm": "bh",
+      "seed": 32,
+      "path": "results/future-systempilot/cl_Ni13/bh/s032.json",
+      "energy_eV": -54.23988866378511,
+      "bad": [],
+      "energy_difference_eV": 1.453877018775529e-08,
+      "guard_and_wall_eV": 0.0,
+      "min_distance_ratio": 0.9389986581813295,
+      "components": 1,
+      "within_initial_region": false,
+      "volume_ratio": null,
+      "pair_minimum_A": {
+        "Ni-Ni": 2.3287166722896973
+      },
+      "max_free_force_eV_per_A": 0.0156730844980133
+    },
+    {
+      "benchmark": "cl_Ni13",
+      "algorithm": "bh",
+      "seed": 33,
+      "path": "results/future-systempilot/cl_Ni13/bh/s033.json",
+      "energy_eV": -54.239897102534535,
+      "bad": [],
+      "energy_difference_eV": 3.237027357272382e-08,
+      "guard_and_wall_eV": 0.0,
+      "min_distance_ratio": 0.9393962446529165,
+      "components": 1,
+      "within_initial_region": true,
+      "volume_ratio": null,
+      "pair_minimum_A": {
+        "Ni-Ni": 2.3297026867392328
+      },
+      "max_free_force_eV_per_A": 0.005569770867333572
+    },
+    {
+      "benchmark": "cl_Ni13",
+      "algorithm": "bh",
+      "seed": 34,
+      "path": "results/future-systempilot/cl_Ni13/bh/s034.json",
+      "energy_eV": -54.23989509882398,
+      "bad": [],
+      "energy_difference_eV": -2.974456947413273e-08,
+      "guard_and_wall_eV": 0.0,
+      "min_distance_ratio": 0.9394500506667244,
+      "components": 1,
+      "within_initial_region": false,
+      "volume_ratio": null,
+      "pair_minimum_A": {
+        "Ni-Ni": 2.3298361256534763
+      },
+      "max_free_force_eV_per_A": 0.00846460606987662
+    },
+    {
+      "benchmark": "cl_Ni13",
+      "algorithm": "growth",
+      "seed": 30,
+      "path": "results/future-systempilot/cl_Ni13/growth/s030.json",
+      "energy_eV": -54.239908174312305,
+      "bad": [],
+      "energy_difference_eV": -2.108883023765884e-08,
+      "guard_and_wall_eV": 0.0,
+      "min_distance_ratio": 0.9395277473063298,
+      "components": 1,
+      "within_initial_region": true,
+      "volume_ratio": null,
+      "pair_minimum_A": {
+        "Ni-Ni": 2.330028813319698
+      },
+      "max_free_force_eV_per_A": 0.004875116495041263
+    },
+    {
+      "benchmark": "cl_Ni13",
+      "algorithm": "growth",
+      "seed": 31,
+      "path": "results/future-systempilot/cl_Ni13/growth/s031.json",
+      "energy_eV": -54.23990991078854,
+      "bad": [],
+      "energy_difference_eV": 4.084924398739531e-09,
+      "guard_and_wall_eV": 0.0,
+      "min_distance_ratio": 0.9395461811094252,
+      "components": 1,
+      "within_initial_region": true,
+      "volume_ratio": null,
+      "pair_minimum_A": {
+        "Ni-Ni": 2.3300745291513745
+      },
+      "max_free_force_eV_per_A": 0.004266742221600753
+    },
+    {
+      "benchmark": "cl_Ni13",
+      "algorithm": "growth",
+      "seed": 32,
+      "path": "results/future-systempilot/cl_Ni13/growth/s032.json",
+      "energy_eV": -54.2399049593802,
+      "bad": [],
+      "energy_difference_eV": 4.18278744973577e-09,
+      "guard_and_wall_eV": 0.0,
+      "min_distance_ratio": 0.9394984184004941,
+      "components": 1,
+      "within_initial_region": true,
+      "volume_ratio": null,
+      "pair_minimum_A": {
+        "Ni-Ni": 2.3299560776332253
+      },
+      "max_free_force_eV_per_A": 0.006513291992953138
+    },
+    {
+      "benchmark": "cl_Ni13",
+      "algorithm": "growth",
+      "seed": 33,
+      "path": "results/future-systempilot/cl_Ni13/growth/s033.json",
+      "energy_eV": -54.23990912272271,
+      "bad": [],
+      "energy_difference_eV": 5.013663439967786e-08,
+      "guard_and_wall_eV": 0.0,
+      "min_distance_ratio": 0.9395148246737448,
+      "components": 1,
+      "within_initial_region": true,
+      "volume_ratio": null,
+      "pair_minimum_A": {
+        "Ni-Ni": 2.329996765190887
+      },
+      "max_free_force_eV_per_A": 0.004619412441626832
+    },
+    {
+      "benchmark": "cl_Ni13",
+      "algorithm": "growth",
+      "seed": 34,
+      "path": "results/future-systempilot/cl_Ni13/growth/s034.json",
+      "energy_eV": -54.23990647991905,
+      "bad": [],
+      "energy_difference_eV": 4.321691449149512e-08,
+      "guard_and_wall_eV": 0.0,
+      "min_distance_ratio": 0.9395626983733912,
+      "components": 1,
+      "within_initial_region": true,
+      "volume_ratio": null,
+      "pair_minimum_A": {
+        "Ni-Ni": 2.3301154919660103
+      },
+      "max_free_force_eV_per_A": 0.006643136149217542
+    },
+    {
+      "benchmark": "su_Ag4_Cu111",
+      "algorithm": "bh",
+      "seed": 30,
+      "path": "results/future-systempilot/su_Ag4_Cu111/bh/s030.json",
+      "energy_eV": -408.214410494083,
+      "bad": [],
+      "energy_difference_eV": -3.731594233613578e-08,
+      "guard_and_wall_eV": 0.0,
+      "min_distance_ratio": 0.8994737026161291,
+      "components": 1,
+      "within_initial_region": false,
+      "volume_ratio": null,
+      "pair_minimum_A": {
+        "Ag-Cu": 2.4915421562466777,
+        "Ag-Ag": 2.8260127333577247
+      },
+      "max_free_force_eV_per_A": 0.005971562295516969
+    },
+    {
+      "benchmark": "su_Ag4_Cu111",
+      "algorithm": "bh",
+      "seed": 31,
+      "path": "results/future-systempilot/su_Ag4_Cu111/bh/s031.json",
+      "energy_eV": -408.2143315997688,
+      "bad": [],
+      "energy_difference_eV": 1.2445502761693206e-07,
+      "guard_and_wall_eV": 0.0,
+      "min_distance_ratio": 0.899853996075001,
+      "components": 1,
+      "within_initial_region": false,
+      "volume_ratio": null,
+      "pair_minimum_A": {
+        "Ag-Cu": 2.492595569127753,
+        "Ag-Ag": 2.8229850392093825
+      },
+      "max_free_force_eV_per_A": 0.019682988163483697
+    },
+    {
+      "benchmark": "su_Ag4_Cu111",
+      "algorithm": "bh",
+      "seed": 32,
+      "path": "results/future-systempilot/su_Ag4_Cu111/bh/s032.json",
+      "energy_eV": -408.2144200810427,
+      "bad": [],
+      "energy_difference_eV": -1.856028575275559e-08,
+      "guard_and_wall_eV": 0.0,
+      "min_distance_ratio": 0.8996288723715237,
+      "components": 1,
+      "within_initial_region": false,
+      "volume_ratio": null,
+      "pair_minimum_A": {
+        "Ag-Cu": 2.4919719764691206,
+        "Ag-Ag": 2.8243932849551965
+      },
+      "max_free_force_eV_per_A": 0.004860274883270459
+    },
+    {
+      "benchmark": "su_Ag4_Cu111",
+      "algorithm": "bh",
+      "seed": 33,
+      "path": "results/future-systempilot/su_Ag4_Cu111/bh/s033.json",
+      "energy_eV": -408.21440217675604,
+      "bad": [],
+      "energy_difference_eV": -5.3864141591475345e-08,
+      "guard_and_wall_eV": 0.0,
+      "min_distance_ratio": 0.8995905026393405,
+      "components": 1,
+      "within_initial_region": false,
+      "volume_ratio": null,
+      "pair_minimum_A": {
+        "Ag-Cu": 2.491865692310973,
+        "Ag-Ag": 2.8244347595625228
+      },
+      "max_free_force_eV_per_A": 0.00912721078976876
+    },
+    {
+      "benchmark": "su_Ag4_Cu111",
+      "algorithm": "bh",
+      "seed": 34,
+      "path": "results/future-systempilot/su_Ag4_Cu111/bh/s034.json",
+      "energy_eV": -408.21439383806916,
+      "bad": [],
+      "energy_difference_eV": 8.863594302965794e-10,
+      "guard_and_wall_eV": 0.0,
+      "min_distance_ratio": 0.8997194758069237,
+      "components": 1,
+      "within_initial_region": false,
+      "volume_ratio": null,
+      "pair_minimum_A": {
+        "Ag-Cu": 2.4922229479851787,
+        "Ag-Ag": 2.8247599951500306
+      },
+      "max_free_force_eV_per_A": 0.008592070340013924
+    },
+    {
+      "benchmark": "su_Ag4_Cu111",
+      "algorithm": "growth",
+      "seed": 30,
+      "path": "results/future-systempilot/su_Ag4_Cu111/growth/s030.json",
+      "energy_eV": -408.2144191544957,
+      "bad": [],
+      "energy_difference_eV": 1.1730605820048368e-08,
+      "guard_and_wall_eV": 0.0,
+      "min_distance_ratio": 0.8995979064941617,
+      "components": 1,
+      "within_initial_region": false,
+      "volume_ratio": null,
+      "pair_minimum_A": {
+        "Ag-Cu": 2.491886200988828,
+        "Ag-Ag": 2.82533495601849
+      },
+      "max_free_force_eV_per_A": 0.004033937874159234
+    },
+    {
+      "benchmark": "su_Ag4_Cu111",
+      "algorithm": "growth",
+      "seed": 31,
+      "path": "results/future-systempilot/su_Ag4_Cu111/growth/s031.json",
+      "energy_eV": -408.21440690145715,
+      "bad": [],
+      "energy_difference_eV": -2.462172687955899e-09,
+      "guard_and_wall_eV": 0.0,
+      "min_distance_ratio": 0.8996596947936187,
+      "components": 1,
+      "within_initial_region": false,
+      "volume_ratio": null,
+      "pair_minimum_A": {
+        "Ag-Cu": 2.492057354578324,
+        "Ag-Ag": 2.824052453921492
+      },
+      "max_free_force_eV_per_A": 0.010434991232732395
+    },
+    {
+      "benchmark": "su_Ag4_Cu111",
+      "algorithm": "growth",
+      "seed": 32,
+      "path": "results/future-systempilot/su_Ag4_Cu111/growth/s032.json",
+      "energy_eV": -408.21441957820264,
+      "bad": [],
+      "energy_difference_eV": -3.4611957744346e-09,
+      "guard_and_wall_eV": 0.0,
+      "min_distance_ratio": 0.8993077854911008,
+      "components": 1,
+      "within_initial_region": true,
+      "volume_ratio": null,
+      "pair_minimum_A": {
+        "Ag-Cu": 2.4910825658103493,
+        "Ag-Ag": 2.825133216434227
+      },
+      "max_free_force_eV_per_A": 0.004498902624969538
+    },
+    {
+      "benchmark": "su_Ag4_Cu111",
+      "algorithm": "growth",
+      "seed": 33,
+      "path": "results/future-systempilot/su_Ag4_Cu111/growth/s033.json",
+      "energy_eV": -408.2144186030496,
+      "bad": [],
+      "energy_difference_eV": -3.1871422834228724e-08,
+      "guard_and_wall_eV": 0.0,
+      "min_distance_ratio": 0.8993661572387439,
+      "components": 1,
+      "within_initial_region": false,
+      "volume_ratio": null,
+      "pair_minimum_A": {
+        "Ag-Cu": 2.4912442555513206,
+        "Ag-Ag": 2.825219214786704
+      },
+      "max_free_force_eV_per_A": 0.004649948479620494
+    },
+    {
+      "benchmark": "su_Ag4_Cu111",
+      "algorithm": "growth",
+      "seed": 34,
+      "path": "results/future-systempilot/su_Ag4_Cu111/growth/s034.json",
+      "energy_eV": -408.21442045112417,
+      "bad": [],
+      "energy_difference_eV": 3.291233952040784e-10,
+      "guard_and_wall_eV": 0.0,
+      "min_distance_ratio": 0.8994643278270432,
+      "components": 1,
+      "within_initial_region": true,
+      "volume_ratio": null,
+      "pair_minimum_A": {
+        "Ag-Cu": 2.49151618808091,
+        "Ag-Ag": 2.825176781548369
+      },
+      "max_free_force_eV_per_A": 0.0056839944895585425
+    },
+    {
+      "benchmark": "su_Au4_graphene",
+      "algorithm": "bh",
+      "seed": 30,
+      "path": "results/future-systempilot/su_Au4_graphene/bh/s030.json",
+      "energy_eV": -677.2921803470869,
+      "bad": [],
+      "energy_difference_eV": 4.217963578412309e-08,
+      "guard_and_wall_eV": 0.0,
+      "min_distance_ratio": 0.9703915049340579,
+      "components": 1,
+      "within_initial_region": false,
+      "volume_ratio": null,
+      "pair_minimum_A": {
+        "Au-C": 3.2966978232211632,
+        "Au-Au": 2.6394648934206377
+      },
+      "max_free_force_eV_per_A": 0.018432301382544723
+    },
+    {
+      "benchmark": "su_Au4_graphene",
+      "algorithm": "bh",
+      "seed": 31,
+      "path": "results/future-systempilot/su_Au4_graphene/bh/s031.json",
+      "energy_eV": -677.2921765606336,
+      "bad": [],
+      "energy_difference_eV": 1.2032387530780397e-08,
+      "guard_and_wall_eV": 0.0,
+      "min_distance_ratio": 0.9693405553679438,
+      "components": 1,
+      "within_initial_region": false,
+      "volume_ratio": null,
+      "pair_minimum_A": {
+        "Au-C": 3.2960361667332108,
+        "Au-Au": 2.6366063106008073
+      },
+      "max_free_force_eV_per_A": 0.011597651416615097
+    },
+    {
+      "benchmark": "su_Au4_graphene",
+      "algorithm": "bh",
+      "seed": 32,
+      "path": "results/future-systempilot/su_Au4_graphene/bh/s032.json",
+      "energy_eV": -677.2921666225553,
+      "bad": [],
+      "energy_difference_eV": -2.972615220642183e-08,
+      "guard_and_wall_eV": 0.0,
+      "min_distance_ratio": 0.9699978407539157,
+      "components": 1,
+      "within_initial_region": false,
+      "volume_ratio": null,
+      "pair_minimum_A": {
+        "Au-C": 3.29569472199224,
+        "Au-Au": 2.638394126850651
+      },
+      "max_free_force_eV_per_A": 0.011323770251464122
+    },
+    {
+      "benchmark": "su_Au4_graphene",
+      "algorithm": "bh",
+      "seed": 33,
+      "path": "results/future-systempilot/su_Au4_graphene/bh/s033.json",
+      "energy_eV": -677.2921923075697,
+      "bad": [],
+      "energy_difference_eV": -2.920762653957354e-08,
+      "guard_and_wall_eV": 0.0,
+      "min_distance_ratio": 0.9699410801148465,
+      "components": 1,
+      "within_initial_region": false,
+      "volume_ratio": null,
+      "pair_minimum_A": {
+        "Au-C": 3.295405221771718,
+        "Au-Au": 2.6382397379123828
+      },
+      "max_free_force_eV_per_A": 0.006204124136241866
+    },
+    {
+      "benchmark": "su_Au4_graphene",
+      "algorithm": "bh",
+      "seed": 34,
+      "path": "results/future-systempilot/su_Au4_graphene/bh/s034.json",
+      "energy_eV": -677.2921569520416,
+      "bad": [],
+      "energy_difference_eV": 6.46272155790939e-08,
+      "guard_and_wall_eV": 0.0,
+      "min_distance_ratio": 0.9701139116523497,
+      "components": 1,
+      "within_initial_region": false,
+      "volume_ratio": null,
+      "pair_minimum_A": {
+        "Au-C": 3.298753614281444,
+        "Au-Au": 2.6387098396943913
+      },
+      "max_free_force_eV_per_A": 0.02100957831810842
+    },
+    {
+      "benchmark": "su_Au4_graphene",
+      "algorithm": "growth",
+      "seed": 30,
+      "path": "results/future-systempilot/su_Au4_graphene/growth/s030.json",
+      "energy_eV": -677.2921642654364,
+      "bad": [],
+      "energy_difference_eV": -2.384012987022288e-10,
+      "guard_and_wall_eV": 0.0,
+      "min_distance_ratio": 0.9700918012469546,
+      "components": 1,
+      "within_initial_region": false,
+      "volume_ratio": null,
+      "pair_minimum_A": {
+        "Au-C": 3.2984962356237424,
+        "Au-Au": 2.6386496993917166
+      },
+      "max_free_force_eV_per_A": 0.018310244296455773
+    },
+    {
+      "benchmark": "su_Au4_graphene",
+      "algorithm": "growth",
+      "seed": 31,
+      "path": "results/future-systempilot/su_Au4_graphene/growth/s031.json",
+      "energy_eV": -677.292168286488,
+      "bad": [],
+      "energy_difference_eV": -3.030572770512663e-08,
+      "guard_and_wall_eV": 0.0,
+      "min_distance_ratio": 0.9697509161275001,
+      "components": 1,
+      "within_initial_region": false,
+      "volume_ratio": null,
+      "pair_minimum_A": {
+        "Au-C": 3.2977313272606215,
+        "Au-Au": 2.6377224918668003
+      },
+      "max_free_force_eV_per_A": 0.011154303315193407
+    },
+    {
+      "benchmark": "su_Au4_graphene",
+      "algorithm": "growth",
+      "seed": 32,
+      "path": "results/future-systempilot/su_Au4_graphene/growth/s032.json",
+      "energy_eV": -677.2921821433698,
+      "bad": [],
+      "energy_difference_eV": 7.026005732768681e-08,
+      "guard_and_wall_eV": 0.0,
+      "min_distance_ratio": 0.9701638737658825,
+      "components": 1,
+      "within_initial_region": false,
+      "volume_ratio": null,
+      "pair_minimum_A": {
+        "Au-C": 3.2960550277856555,
+        "Au-Au": 2.6388457366432005
+      },
+      "max_free_force_eV_per_A": 0.0052168766031866105
+    },
+    {
+      "benchmark": "su_Au4_graphene",
+      "algorithm": "growth",
+      "seed": 33,
+      "path": "results/future-systempilot/su_Au4_graphene/growth/s033.json",
+      "energy_eV": -677.292180534173,
+      "bad": [],
+      "energy_difference_eV": 4.717628598882584e-08,
+      "guard_and_wall_eV": 0.0,
+      "min_distance_ratio": 0.9700418359368717,
+      "components": 1,
+      "within_initial_region": false,
+      "volume_ratio": null,
+      "pair_minimum_A": {
+        "Au-C": 3.2971699090038777,
+        "Au-Au": 2.638513793748291
+      },
+      "max_free_force_eV_per_A": 0.00909200064900977
+    },
+    {
+      "benchmark": "su_Au4_graphene",
+      "algorithm": "growth",
+      "seed": 34,
+      "path": "results/future-systempilot/su_Au4_graphene/growth/s034.json",
+      "energy_eV": -677.292185605698,
+      "bad": [],
+      "energy_difference_eV": -4.809430720342789e-08,
+      "guard_and_wall_eV": 0.0,
+      "min_distance_ratio": 0.9697896972561604,
+      "components": 1,
+      "within_initial_region": false,
+      "volume_ratio": null,
+      "pair_minimum_A": {
+        "Au-C": 3.294991217654399,
+        "Au-Au": 2.6378279765367565
+      },
+      "max_free_force_eV_per_A": 0.007799305792323328
+    },
+    {
+      "benchmark": "ze_Ag4_MFI",
+      "algorithm": "bh",
+      "seed": 30,
+      "path": "results/future-systempilot/ze_Ag4_MFI/bh/s030.json",
+      "energy_eV": -2269.5156016650485,
+      "bad": [],
+      "energy_difference_eV": -1.0820303941727616e-07,
+      "guard_and_wall_eV": 0.0,
+      "min_distance_ratio": 0.9583442690589066,
+      "components": 1,
+      "within_initial_region": false,
+      "volume_ratio": null,
+      "pair_minimum_A": {
+        "Ag-O": 2.2698179941313414,
+        "Ag-Si": 2.7408080364891148,
+        "Ag-Ag": 2.779198380270829
+      },
+      "max_free_force_eV_per_A": 0.019096286576785512
+    },
+    {
+      "benchmark": "ze_Ag4_MFI",
+      "algorithm": "bh",
+      "seed": 31,
+      "path": "results/future-systempilot/ze_Ag4_MFI/bh/s031.json",
+      "energy_eV": -2269.5155897699146,
+      "bad": [],
+      "energy_difference_eV": 4.056482794112526e-08,
+      "guard_and_wall_eV": 0.0,
+      "min_distance_ratio": 0.9592654579411521,
+      "components": 1,
+      "within_initial_region": false,
+      "volume_ratio": null,
+      "pair_minimum_A": {
+        "Ag-O": 2.2776321935111885,
+        "Ag-Si": 2.739754764303663,
+        "Ag-Ag": 2.781869828029341
+      },
+      "max_free_force_eV_per_A": 0.016138943825768148
+    },
+    {
+      "benchmark": "ze_Ag4_MFI",
+      "algorithm": "bh",
+      "seed": 32,
+      "path": "results/future-systempilot/ze_Ag4_MFI/bh/s032.json",
+      "energy_eV": -2269.5154894896004,
+      "bad": [],
+      "energy_difference_eV": 6.551999831572175e-08,
+      "guard_and_wall_eV": 0.0,
+      "min_distance_ratio": 0.9577141637405447,
+      "components": 1,
+      "within_initial_region": false,
+      "volume_ratio": null,
+      "pair_minimum_A": {
+        "Ag-O": 2.271707209451407,
+        "Ag-Si": 2.733932272044009,
+        "Ag-Ag": 2.7773710748475797
+      },
+      "max_free_force_eV_per_A": 0.01721566337501819
+    },
+    {
+      "benchmark": "ze_Ag4_MFI",
+      "algorithm": "bh",
+      "seed": 33,
+      "path": "results/future-systempilot/ze_Ag4_MFI/bh/s033.json",
+      "energy_eV": -2269.752982273799,
+      "bad": [],
+      "energy_difference_eV": -1.1200290828128345e-07,
+      "guard_and_wall_eV": 0.0,
+      "min_distance_ratio": 0.9379409629925823,
+      "components": 1,
+      "within_initial_region": false,
+      "volume_ratio": null,
+      "pair_minimum_A": {
+        "Ag-O": 2.3372286334049486,
+        "Ag-Si": 2.637482551269487,
+        "Ag-Ag": 2.7200287926784887
+      },
+      "max_free_force_eV_per_A": 0.02145580284451274
+    },
+    {
+      "benchmark": "ze_Ag4_MFI",
+      "algorithm": "bh",
+      "seed": 34,
+      "path": "results/future-systempilot/ze_Ag4_MFI/bh/s034.json",
+      "energy_eV": -2269.7530236094044,
+      "bad": [],
+      "energy_difference_eV": 1.917669578688219e-09,
+      "guard_and_wall_eV": 0.0,
+      "min_distance_ratio": 0.9372070884277853,
+      "components": 1,
+      "within_initial_region": false,
+      "volume_ratio": null,
+      "pair_minimum_A": {
+        "Ag-O": 2.3394112902315323,
+        "Ag-Si": 2.637782691301883,
+        "Ag-Ag": 2.7179005564405774
+      },
+      "max_free_force_eV_per_A": 0.015371960967450625
+    },
+    {
+      "benchmark": "ze_Ag4_MFI",
+      "algorithm": "growth",
+      "seed": 30,
+      "path": "results/future-systempilot/ze_Ag4_MFI/growth/s030.json",
+      "energy_eV": -2269.7527971714244,
+      "bad": [],
+      "energy_difference_eV": 1.2369127944111824e-09,
+      "guard_and_wall_eV": 0.0,
+      "min_distance_ratio": 0.9359596098509247,
+      "components": 1,
+      "within_initial_region": false,
+      "volume_ratio": null,
+      "pair_minimum_A": {
+        "Ag-O": 2.3321897843607324,
+        "Ag-Si": 2.6315137553469765,
+        "Ag-Ag": 2.7142828685676816
+      },
+      "max_free_force_eV_per_A": 0.012981286362348632
+    },
+    {
+      "benchmark": "ze_Ag4_MFI",
+      "algorithm": "growth",
+      "seed": 31,
+      "path": "results/future-systempilot/ze_Ag4_MFI/growth/s031.json",
+      "energy_eV": -2269.7520406729805,
+      "bad": [],
+      "energy_difference_eV": 2.8820977604482323e-07,
+      "guard_and_wall_eV": 0.0,
+      "min_distance_ratio": 0.9400134259230433,
+      "components": 1,
+      "within_initial_region": false,
+      "volume_ratio": null,
+      "pair_minimum_A": {
+        "Ag-O": 2.3291469176714403,
+        "Ag-Si": 2.6375667823194933,
+        "Ag-Ag": 2.7260389351768253
+      },
+      "max_free_force_eV_per_A": 0.026169246435584093
+    },
+    {
+      "benchmark": "ze_Ag4_MFI",
+      "algorithm": "growth",
+      "seed": 32,
+      "path": "results/future-systempilot/ze_Ag4_MFI/growth/s032.json",
+      "energy_eV": -2269.750336515528,
+      "bad": [],
+      "energy_difference_eV": -1.236157913808711e-07,
+      "guard_and_wall_eV": 0.0,
+      "min_distance_ratio": 0.9351369886167433,
+      "components": 1,
+      "within_initial_region": false,
+      "volume_ratio": null,
+      "pair_minimum_A": {
+        "Ag-O": 2.3121601182298095,
+        "Ag-Si": 2.6413722640867974,
+        "Ag-Ag": 2.7118972669885557
+      },
+      "max_free_force_eV_per_A": 0.027755097206319038
+    },
+    {
+      "benchmark": "ze_Ag4_MFI",
+      "algorithm": "growth",
+      "seed": 33,
+      "path": "results/future-systempilot/ze_Ag4_MFI/growth/s033.json",
+      "energy_eV": -2269.752181429634,
+      "bad": [],
+      "energy_difference_eV": -1.1691463441820815e-07,
+      "guard_and_wall_eV": 0.0,
+      "min_distance_ratio": 0.938011807665478,
+      "components": 1,
+      "within_initial_region": false,
+      "volume_ratio": null,
+      "pair_minimum_A": {
+        "Ag-O": 2.3326905169135563,
+        "Ag-Si": 2.6391435321890206,
+        "Ag-Ag": 2.720234242229886
+      },
+      "max_free_force_eV_per_A": 0.04402955427713897
+    },
+    {
+      "benchmark": "ze_Ag4_MFI",
+      "algorithm": "growth",
+      "seed": 34,
+      "path": "results/future-systempilot/ze_Ag4_MFI/growth/s034.json",
+      "energy_eV": -2269.752510125625,
+      "bad": [],
+      "energy_difference_eV": 2.307115209987387e-08,
+      "guard_and_wall_eV": 0.0,
+      "min_distance_ratio": 0.9345026587841646,
+      "components": 1,
+      "within_initial_region": false,
+      "volume_ratio": null,
+      "pair_minimum_A": {
+        "Ag-O": 2.334759592317334,
+        "Ag-Si": 2.6339010263034464,
+        "Ag-Ag": 2.7100577104740773
+      },
+      "max_free_force_eV_per_A": 0.03155962959658237
+    }
+  ]
+}

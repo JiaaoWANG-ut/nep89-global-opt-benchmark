@@ -1,0 +1,35 @@
+{
+  "pbc": [
+    true,
+    true,
+    true
+  ],
+  "budget": 20000,
+  "fmax": 0.05,
+  "e_tol": 0.02,
+  "title": "Au4 on ideal graphene",
+  "category": "surface",
+  "description": "Au4 on an ideal frozen neutral graphene sheet; no interface accuracy or experimental structure asserted.",
+  "search_symbols": [
+    "Au",
+    "Au",
+    "Au",
+    "Au"
+  ],
+  "substrate_file": "substrate.extxyz",
+  "region": {
+    "type": "box",
+    "lo": [
+      2.0,
+      2.0,
+      11.8
+    ],
+    "hi": [
+      10.0,
+      10.0,
+      15.2
+    ]
+  },
+  "connected": true,
+  "name": "su_Au4_graphene"
+}

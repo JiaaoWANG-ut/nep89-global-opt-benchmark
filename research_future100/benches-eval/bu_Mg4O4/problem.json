@@ -1,0 +1,47 @@
+{
+  "pbc": [
+    true,
+    true,
+    true
+  ],
+  "budget": 20000,
+  "fmax": 0.05,
+  "e_tol": 0.02,
+  "title": "Mg4O4 variable-cell crystal",
+  "category": "bulk",
+  "description": "Eight-atom MgO crystal search, NEP89 plus guard; phase and minimum unknown.",
+  "search_symbols": [
+    "Mg",
+    "Mg",
+    "Mg",
+    "Mg",
+    "O",
+    "O",
+    "O",
+    "O"
+  ],
+  "cell": [
+    [
+      4.212,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      4.212,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      4.212
+    ]
+  ],
+  "variable_cell": true,
+  "volume_per_atom": 9.340607015999998,
+  "region": {
+    "type": "cell"
+  },
+  "connected": false,
+  "name": "bu_Mg4O4"
+}

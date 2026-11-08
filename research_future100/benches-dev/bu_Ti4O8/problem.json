@@ -1,0 +1,51 @@
+{
+ "name": "bu_Ti4O8",
+ "title": "TiO2 (Ti4O8) crystal",
+ "category": "bulk",
+ "description": "Crystal structure prediction of TiO2 with 4 formula units per cell (rutile, anatase, brookite-like and high-pressure polymorphs compete). guard_factor 0.80: with the default guard (0.75) NEP89 has a dense collapsed phase (about 5.5 A^3/atom, Ti-Ti 2.21 A, O-O 1.2 A, 12-18 neighbours per Ti) about 1 eV below anatase; the stronger guard (Ti-Ti >= 2.56 A, Ti-O >= 1.81 A) removes it and is zero for rutile, anatase and brookite.",
+ "search_symbols": [
+  "Ti",
+  "Ti",
+  "Ti",
+  "Ti",
+  "O",
+  "O",
+  "O",
+  "O",
+  "O",
+  "O",
+  "O",
+  "O"
+ ],
+ "cell": [
+  [
+   5.09,
+   0,
+   0
+  ],
+  [
+   0,
+   5.09,
+   0
+  ],
+  [
+   0,
+   0,
+   5.09
+  ]
+ ],
+ "pbc": [
+  true,
+  true,
+  true
+ ],
+ "variable_cell": true,
+ "volume_per_atom": 11.0,
+ "region": {
+  "type": "cell"
+ },
+ "budget": 30000,
+ "fmax": 0.05,
+ "e_tol": 0.02,
+ "guard_factor": 0.8
+}

@@ -1,0 +1,38 @@
+{
+ "name": "su_Pt8_MgO100",
+ "title": "Pt8 / MgO(001)",
+ "category": "surface",
+ "description": "Pt8 cluster on a frozen 4-layer MgO(001) slab (3x3 conventional cells, 144 atoms).",
+ "search_symbols": [
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt",
+  "Pt"
+ ],
+ "substrate_file": "substrate.extxyz",
+ "pbc": [
+  true,
+  true,
+  true
+ ],
+ "region": {
+  "type": "box",
+  "lo": [
+   0.0,
+   0.0,
+   7.911180528087824
+  ],
+  "hi": [
+   12.609729257915237,
+   12.609729257915465,
+   13.811180528087824
+  ]
+ },
+ "budget": 30000,
+ "fmax": 0.05,
+ "e_tol": 0.02
+}

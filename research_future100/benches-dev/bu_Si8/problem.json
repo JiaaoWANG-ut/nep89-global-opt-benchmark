@@ -1,0 +1,46 @@
+{
+ "name": "bu_Si8",
+ "title": "Si8 crystal",
+ "category": "bulk",
+ "description": "Crystal structure prediction, 8 Si atoms per cell.",
+ "search_symbols": [
+  "Si",
+  "Si",
+  "Si",
+  "Si",
+  "Si",
+  "Si",
+  "Si",
+  "Si"
+ ],
+ "cell": [
+  [
+   5.43,
+   0,
+   0
+  ],
+  [
+   0,
+   5.43,
+   0
+  ],
+  [
+   0,
+   0,
+   5.43
+  ]
+ ],
+ "pbc": [
+  true,
+  true,
+  true
+ ],
+ "variable_cell": true,
+ "volume_per_atom": 20.0,
+ "region": {
+  "type": "cell"
+ },
+ "budget": 20000,
+ "fmax": 0.05,
+ "e_tol": 0.02
+}

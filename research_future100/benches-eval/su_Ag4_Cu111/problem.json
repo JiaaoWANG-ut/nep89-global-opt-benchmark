@@ -1,0 +1,35 @@
+{
+  "pbc": [
+    true,
+    true,
+    true
+  ],
+  "budget": 20000,
+  "fmax": 0.05,
+  "e_tol": 0.02,
+  "title": "Ag4 on ideal Cu(111)",
+  "category": "surface",
+  "description": "Ag4 on an ideal frozen Cu(111) slab; no interface accuracy or experimental structure asserted.",
+  "search_symbols": [
+    "Ag",
+    "Ag",
+    "Ag",
+    "Ag"
+  ],
+  "substrate_file": "substrate.extxyz",
+  "region": {
+    "type": "box",
+    "lo": [
+      2.0,
+      2.0,
+      18.061363669361494
+    ],
+    "hi": [
+      9.5,
+      9.0,
+      21.461363669361493
+    ]
+  },
+  "connected": true,
+  "name": "su_Ag4_Cu111"
+}

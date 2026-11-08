@@ -1,0 +1,43 @@
+{
+  "pbc": [
+    true,
+    true,
+    true
+  ],
+  "budget": 20000,
+  "fmax": 0.05,
+  "e_tol": 0.02,
+  "title": "Cu4 variable-cell crystal",
+  "category": "bulk",
+  "description": "Four-atom elemental Cu crystal search; NEP89 plus standard guard, no known minimum asserted.",
+  "search_symbols": [
+    "Cu",
+    "Cu",
+    "Cu",
+    "Cu"
+  ],
+  "cell": [
+    [
+      3.615,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      3.615,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      3.615
+    ]
+  ],
+  "variable_cell": true,
+  "volume_per_atom": 11.810408343750002,
+  "region": {
+    "type": "cell"
+  },
+  "connected": false,
+  "name": "bu_Cu4"
+}

@@ -12,6 +12,22 @@
 [中文](https://jiaaowang-ut.github.io/nep89-global-opt-benchmark/extension100b/zh.html) ·
 [extension data](https://github.com/JiaaoWANG-ut/nep89-global-opt-benchmark/releases/tag/v1.2)
 
+**Fourth 100-seed extension:** [English](https://jiaaowang-ut.github.io/nep89-global-opt-benchmark/extension100d/) ·
+[中文](https://jiaaowang-ut.github.io/nep89-global-opt-benchmark/extension100d/zh.html) ·
+[ablations](https://jiaaowang-ut.github.io/nep89-global-opt-benchmark/extension100d/ablation.html) ·
+[data and isolated source](https://github.com/JiaaoWANG-ut/nep89-global-opt-benchmark/releases/tag/v1.4).
+Five manually selected systems and 31 methods were tested over 100 seeds each.
+The per-ionic-step leaders are GOFEE (97.73), Growth (85.70), and SurrBH
+(84.96); scores from different system sets are not directly comparable.
+The five additional entries are two experimental method families and three
+mechanism controls, not five independent inventions. Of 500 GOFEE runs, 499
+timed out after a hit; the ionic-step ranking is not a wall-clock ranking.
+Among saved candidates in the reference window, 3,055/3,055 Au4/graphene
+and 1,427/3,059 Ag4/Cu(111) structures have an atom outside the initial
+sampling box, which is not a confinement constraint. The fixed, ideal hosts,
+nonrandom selection, model limitations and unrecorded intermediate structures
+prevent claims of general physical validity or global optimality.
+
 **Third 100-seed extension:** [English](https://jiaaowang-ut.github.io/nep89-global-opt-benchmark/extension100c/) ·
 [中文](https://jiaaowang-ut.github.io/nep89-global-opt-benchmark/extension100c/zh.html) ·
 [ablations](https://jiaaowang-ut.github.io/nep89-global-opt-benchmark/extension100c/ablation.html) ·
