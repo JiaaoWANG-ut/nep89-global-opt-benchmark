@@ -1,0 +1,53 @@
+{
+  "bu_Cu4": {
+    "source": "results/future100/bu_Cu4/pso/s126.json",
+    "energy": -17.18779374599979,
+    "stored_energy": -17.187793746195517,
+    "max_free_force_eV_per_A": 4.9581703000365e-05,
+    "fmax_target_eV_per_A": 0.05,
+    "stress_voigt_eV_per_A3": [
+      -2.0482790120681923e-05,
+      -2.0482790120689058e-05,
+      -2.0482790120670596e-05,
+      5.71260952526119e-18,
+      5.585736345934062e-18,
+      6.2935149705617325e-18
+    ]
+  },
+  "bu_Mg4O4": {
+    "source": "results/future100/bu_Mg4O4/pso/s182.json",
+    "energy": -49.31386265888635,
+    "stored_energy": -49.31386265954038,
+    "max_free_force_eV_per_A": 4.414275377004801e-05,
+    "fmax_target_eV_per_A": 0.05,
+    "stress_voigt_eV_per_A3": [
+      -6.734974057649568e-06,
+      -6.734974057649568e-06,
+      -6.734974057553885e-06,
+      -1.8018384694850858e-17,
+      -1.8559699010171126e-17,
+      -1.753269637126628e-17
+    ]
+  },
+  "cl_Ni13": {
+    "source": "results/future100/cl_Ni13/gofee/s141.json",
+    "energy": -54.23991537516857,
+    "stored_energy": -54.239915376078834,
+    "max_free_force_eV_per_A": 7.253422078902018e-05,
+    "fmax_target_eV_per_A": 0.05
+  },
+  "su_Ag4_Cu111": {
+    "source": "results/future100/su_Ag4_Cu111/gofee/s143.json",
+    "energy": -408.2144284551059,
+    "stored_energy": -408.21442845520323,
+    "max_free_force_eV_per_A": 1.7931030933675345e-05,
+    "fmax_target_eV_per_A": 0.05
+  },
+  "su_Au4_graphene": {
+    "source": "results/future100/su_Au4_graphene/gofee/s194.json",
+    "energy": -677.2922110534676,
+    "stored_energy": -677.2922110537434,
+    "max_free_force_eV_per_A": 5.540247539400677e-05,
+    "fmax_target_eV_per_A": 0.05
+  }
+}

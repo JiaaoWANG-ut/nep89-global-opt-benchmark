@@ -1,0 +1,16 @@
+benchmark,family,original,variant,original_hits,variant_hits,original_ert,variant_ert,ert_original_over_variant,ratio_ci_low,ratio_ci_high,undefined_bootstrap_replicates
+bu_Cu4,Transition context,transition_contextless,transition_aos,100,100,21.02,21.02,1.0,1.0,1.0,0
+bu_Mg4O4,Transition context,transition_contextless,transition_aos,100,100,95.08,101.7,0.9349065880039331,0.853977075913738,1.020122205774829,0
+cl_Ni13,Transition context,transition_contextless,transition_aos,100,100,215.11,199.3,1.0793276467636728,0.970554026366313,1.2037737666525625,0
+su_Ag4_Cu111,Transition context,transition_contextless,transition_aos,100,100,454.82,395.06,1.151268161798208,0.892024367102102,1.4766081924701389,0
+su_Au4_graphene,Transition context,transition_contextless,transition_aos,100,100,285.67,276.32,1.0338375796178345,0.8375531799225614,1.2716258448309559,0
+bu_Cu4,Transition novelty,transition_nonovel,transition_aos,100,100,21.02,21.02,1.0,1.0,1.0,0
+bu_Mg4O4,Transition novelty,transition_nonovel,transition_aos,100,100,105.23,101.7,1.0347099311701082,0.9873610274896442,1.0890920876228651,0
+cl_Ni13,Transition novelty,transition_nonovel,transition_aos,100,100,188.41,199.3,0.9453587556447566,0.8494587234979272,1.0506627907340096,0
+su_Ag4_Cu111,Transition novelty,transition_nonovel,transition_aos,100,100,465.77,395.06,1.1789854705614335,0.9460575322839928,1.4755135715928995,0
+su_Au4_graphene,Transition novelty,transition_nonovel,transition_aos,100,100,337.47,276.32,1.2213013896931095,1.0184760366523407,1.47841210555049,0
+bu_Cu4,Response direction,response_nodirection,response_search,100,100,20.89,20.89,1.0,1.0,1.0,0
+bu_Mg4O4,Response direction,response_nodirection,response_search,100,100,107.62,106.9,1.006735266604303,0.9513697527745512,1.072959484202361,0
+cl_Ni13,Response direction,response_nodirection,response_search,100,100,215.93,207.12,1.04253572808034,0.9411916473222237,1.1575884806589698,0
+su_Ag4_Cu111,Response direction,response_nodirection,response_search,100,100,502.12,545.3,0.920814230698698,0.7976931881643341,1.0514146051760878,0
+su_Au4_graphene,Response direction,response_nodirection,response_search,100,100,1125.24,1024.29,1.0985560729871424,0.9331620659633704,1.298323349609739,0

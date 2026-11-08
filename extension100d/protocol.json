@@ -1,0 +1,42 @@
+{
+  "campaign": "future100",
+  "purpose": "Compare 26 previously evaluated methods with two additional experimental families and their three mechanism ablations on five manually selected systems.",
+  "prefix": "future100",
+  "benchmarks": ["bu_Cu4", "bu_Mg4O4", "cl_Ni13", "su_Ag4_Cu111", "su_Au4_graphene"],
+  "algorithms": [
+    "abc", "aosbh", "bh", "de", "diversity_search", "diversity_v2",
+    "egbh", "ga", "gofee", "growth", "memetic", "metabh", "mh",
+    "path_relink", "pso", "ptbh", "race", "relink_v2", "response_nodirection",
+    "response_search", "rs", "sa", "softmode", "ssw", "surr", "symm",
+    "tabu", "transition_aos", "transition_contextless", "transition_nonovel", "uspex"
+  ],
+  "seed_range_inclusive": [100, 199],
+  "capped_algorithms": ["gofee", "surr"],
+  "time_limit_seconds": 3600,
+  "capped_task_timeout_seconds": 9000,
+  "other_task_timeout_seconds": 21600,
+  "capped_seeds_per_task": 2,
+  "other_seeds_per_task": 5,
+  "budget": "Each problem's fixed budget, shared by every method; see freeze_manifest.json.",
+  "primary_measure": "Expected ionic steps to first hit; unsuccessful timeouts are charged the full ionic-step budget.",
+  "reference": "Lowest saved energy with guard plus wall <= 0.01 eV among this campaign and the archived same-hash future-systempilot records, using only the five selected systems.",
+  "pilot": "BH and Growth, seeds 30-34, nominal full budgets; the pilot seeds are disjoint from formal seeds 100-199. All 60 saved best structures from six pilot systems passed baseline checks; only five systems are included here. The full audit includes the excluded system.",
+  "selection": "Candidates were selected manually. Ag4/MFI is held out because its Ag-Si contact and framework interface remain insufficiently validated. Pd4/Al was excluded earlier after a disconnected saved candidate. Selection was not random; both exclusions and the full pilot audit are retained.",
+  "methods": {
+    "transition_aos": "Experimental transition-context adaptive basin hopping.",
+    "transition_contextless": "Ablation of transition_aos with contextual conditioning disabled.",
+    "transition_nonovel": "Ablation of transition_aos with transition-novelty reward disabled.",
+    "response_search": "Experimental relaxation-response guided population search.",
+    "response_nodirection": "Ablation of response_search with the response-guided direction disabled."
+  },
+  "limitations": [
+    "The selected systems are convenience samples, not a random or representative sample. Selection used the pilot geometry checks.",
+    "Two new experimental method families plus three controls are not five independent inventions. The methods combine established ideas; neither literature novelty nor broad superiority has been established.",
+    "Development comparisons used only five seeds on six previously used development systems; random streams can diverge after initialization.",
+    "Mg4O4 showed a 1.915 Angstrom Mg-O contact and a short initial O-O contact in an earlier small pilot, despite the final selected-system pilot passing baseline checks. These are neither proven artifacts nor independently validated chemistry.",
+    "The graphene and Cu(111) hosts are ideal frozen structures with illustrative geometry; adsorption, substrate relaxation and alloying are not independently validated.",
+    "Initial sampling regions are not confinement constraints. Intermediate trace geometries were not saved, so saved-structure checks cannot certify every recorded hit.",
+    "NEP89 is a model, not DFT; guard, force and geometry tests do not establish physical correctness or a global minimum.",
+    "GOFEE and SurrBH have a 3600-second per-seed cap; ionic-step scores are not wall-clock rankings. Scores from different system sets are not directly comparable."
+  ]
+}

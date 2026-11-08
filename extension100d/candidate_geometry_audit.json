@@ -1,0 +1,18 @@
+{
+  "candidate_count": 15444,
+  "counts_by_system": {
+    "bu_Cu4": 3110,
+    "bu_Mg4O4": 3110,
+    "cl_Ni13": 3110,
+    "su_Ag4_Cu111": 3059,
+    "su_Au4_graphene": 3055
+  },
+  "failed_checks": [],
+  "outside_initial_region": {
+    "cl_Ni13:atoms_outside_initial_region": 232,
+    "su_Ag4_Cu111:atoms_outside_initial_region": 1427,
+    "su_Au4_graphene:atoms_outside_initial_region": 3055
+  },
+  "minimum_surface_height_above_slab_top_A": 2.128976329999997,
+  "scope": "Saved best structures only; intermediate trace geometries were not saved."
+}

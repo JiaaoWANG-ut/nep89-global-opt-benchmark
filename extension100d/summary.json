@@ -1,0 +1,465 @@
+{
+  "campaign": "future100",
+  "runs": 15500,
+  "seeds": 100,
+  "seed_range_inclusive": [
+    100,
+    199
+  ],
+  "reference_campaigns": [
+    "future100",
+    "future-systempilot"
+  ],
+  "statuses": {
+    "ok": 15001,
+    "timeout": 499
+  },
+  "algorithms": {
+    "abc": {
+      "runs": 500,
+      "hits": 500,
+      "timeouts": 0
+    },
+    "aosbh": {
+      "runs": 500,
+      "hits": 500,
+      "timeouts": 0
+    },
+    "bh": {
+      "runs": 500,
+      "hits": 500,
+      "timeouts": 0
+    },
+    "de": {
+      "runs": 500,
+      "hits": 500,
+      "timeouts": 0
+    },
+    "diversity_search": {
+      "runs": 500,
+      "hits": 500,
+      "timeouts": 0
+    },
+    "diversity_v2": {
+      "runs": 500,
+      "hits": 500,
+      "timeouts": 0
+    },
+    "egbh": {
+      "runs": 500,
+      "hits": 500,
+      "timeouts": 0
+    },
+    "ga": {
+      "runs": 500,
+      "hits": 500,
+      "timeouts": 0
+    },
+    "gofee": {
+      "runs": 500,
+      "hits": 500,
+      "timeouts": 499
+    },
+    "growth": {
+      "runs": 500,
+      "hits": 500,
+      "timeouts": 0
+    },
+    "memetic": {
+      "runs": 500,
+      "hits": 500,
+      "timeouts": 0
+    },
+    "metabh": {
+      "runs": 500,
+      "hits": 500,
+      "timeouts": 0
+    },
+    "mh": {
+      "runs": 500,
+      "hits": 500,
+      "timeouts": 0
+    },
+    "path_relink": {
+      "runs": 500,
+      "hits": 500,
+      "timeouts": 0
+    },
+    "pso": {
+      "runs": 500,
+      "hits": 500,
+      "timeouts": 0
+    },
+    "ptbh": {
+      "runs": 500,
+      "hits": 500,
+      "timeouts": 0
+    },
+    "race": {
+      "runs": 500,
+      "hits": 500,
+      "timeouts": 0
+    },
+    "relink_v2": {
+      "runs": 500,
+      "hits": 500,
+      "timeouts": 0
+    },
+    "response_nodirection": {
+      "runs": 500,
+      "hits": 500,
+      "timeouts": 0
+    },
+    "response_search": {
+      "runs": 500,
+      "hits": 500,
+      "timeouts": 0
+    },
+    "rs": {
+      "runs": 500,
+      "hits": 500,
+      "timeouts": 0
+    },
+    "sa": {
+      "runs": 500,
+      "hits": 394,
+      "timeouts": 0
+    },
+    "softmode": {
+      "runs": 500,
+      "hits": 500,
+      "timeouts": 0
+    },
+    "ssw": {
+      "runs": 500,
+      "hits": 500,
+      "timeouts": 0
+    },
+    "surr": {
+      "runs": 500,
+      "hits": 500,
+      "timeouts": 0
+    },
+    "symm": {
+      "runs": 500,
+      "hits": 500,
+      "timeouts": 0
+    },
+    "tabu": {
+      "runs": 500,
+      "hits": 500,
+      "timeouts": 0
+    },
+    "transition_aos": {
+      "runs": 500,
+      "hits": 500,
+      "timeouts": 0
+    },
+    "transition_contextless": {
+      "runs": 500,
+      "hits": 500,
+      "timeouts": 0
+    },
+    "transition_nonovel": {
+      "runs": 500,
+      "hits": 500,
+      "timeouts": 0
+    },
+    "uspex": {
+      "runs": 500,
+      "hits": 500,
+      "timeouts": 0
+    }
+  },
+  "ranking": [
+    {
+      "rank": 1,
+      "algorithm": "gofee",
+      "score": 97.72700780429352,
+      "ci_low": 97.20472084622331,
+      "ci_high": 98.24929476236373
+    },
+    {
+      "rank": 2,
+      "algorithm": "growth",
+      "score": 85.70443707579881,
+      "ci_low": 84.57535001446294,
+      "ci_high": 86.83352413713467
+    },
+    {
+      "rank": 3,
+      "algorithm": "surr",
+      "score": 84.96209475864565,
+      "ci_low": 84.17357088458638,
+      "ci_high": 85.75061863270491
+    },
+    {
+      "rank": 4,
+      "algorithm": "egbh",
+      "score": 84.25185660302589,
+      "ci_low": 83.26797413631107,
+      "ci_high": 85.2357390697407
+    },
+    {
+      "rank": 5,
+      "algorithm": "softmode",
+      "score": 82.80862036389995,
+      "ci_low": 81.86761239340159,
+      "ci_high": 83.74962833439831
+    },
+    {
+      "rank": 6,
+      "algorithm": "pso",
+      "score": 82.47295952944225,
+      "ci_low": 81.19707464777254,
+      "ci_high": 83.74884441111196
+    },
+    {
+      "rank": 7,
+      "algorithm": "memetic",
+      "score": 81.99554231121766,
+      "ci_low": 80.95188435313872,
+      "ci_high": 83.0392002692966
+    },
+    {
+      "rank": 8,
+      "algorithm": "transition_aos",
+      "score": 81.49717600985767,
+      "ci_low": 80.45404480719503,
+      "ci_high": 82.5403072125203
+    },
+    {
+      "rank": 9,
+      "algorithm": "tabu",
+      "score": 81.34922388801809,
+      "ci_low": 80.35074715063868,
+      "ci_high": 82.3477006253975
+    },
+    {
+      "rank": 10,
+      "algorithm": "symm",
+      "score": 81.14698944484438,
+      "ci_low": 80.09021442594596,
+      "ci_high": 82.2037644637428
+    },
+    {
+      "rank": 11,
+      "algorithm": "transition_contextless",
+      "score": 80.96684047167827,
+      "ci_low": 79.84702808883335,
+      "ci_high": 82.08665285452318
+    },
+    {
+      "rank": 12,
+      "algorithm": "aosbh",
+      "score": 80.67751679281743,
+      "ci_low": 79.72324351906425,
+      "ci_high": 81.6317900665706
+    },
+    {
+      "rank": 13,
+      "algorithm": "uspex",
+      "score": 80.63832223383234,
+      "ci_low": 79.72023798793244,
+      "ci_high": 81.55640647973225
+    },
+    {
+      "rank": 14,
+      "algorithm": "transition_nonovel",
+      "score": 80.5055321922544,
+      "ci_low": 79.49925884619608,
+      "ci_high": 81.51180553831273
+    },
+    {
+      "rank": 15,
+      "algorithm": "relink_v2",
+      "score": 80.33549030574854,
+      "ci_low": 79.24224705970717,
+      "ci_high": 81.4287335517899
+    },
+    {
+      "rank": 16,
+      "algorithm": "race",
+      "score": 80.0887824952737,
+      "ci_low": 78.98487851555696,
+      "ci_high": 81.19268647499045
+    },
+    {
+      "rank": 17,
+      "algorithm": "ga",
+      "score": 80.08276672264208,
+      "ci_low": 79.06867599084741,
+      "ci_high": 81.09685745443674
+    },
+    {
+      "rank": 18,
+      "algorithm": "abc",
+      "score": 79.92365596025618,
+      "ci_low": 78.90334348570511,
+      "ci_high": 80.94396843480726
+    },
+    {
+      "rank": 19,
+      "algorithm": "metabh",
+      "score": 79.311591511114,
+      "ci_low": 78.33006562953393,
+      "ci_high": 80.29311739269407
+    },
+    {
+      "rank": 20,
+      "algorithm": "rs",
+      "score": 79.30705472733767,
+      "ci_low": 78.2800760079952,
+      "ci_high": 80.33403344668014
+    },
+    {
+      "rank": 21,
+      "algorithm": "de",
+      "score": 79.26652168943832,
+      "ci_low": 78.27434643615726,
+      "ci_high": 80.25869694271938
+    },
+    {
+      "rank": 22,
+      "algorithm": "diversity_v2",
+      "score": 78.57069057759617,
+      "ci_low": 77.45926075542398,
+      "ci_high": 79.68212039976835
+    },
+    {
+      "rank": 23,
+      "algorithm": "ssw",
+      "score": 77.68141872868293,
+      "ci_low": 76.50241465064978,
+      "ci_high": 78.86042280671607
+    },
+    {
+      "rank": 24,
+      "algorithm": "path_relink",
+      "score": 77.51100664526892,
+      "ci_low": 76.29721760202757,
+      "ci_high": 78.72479568851027
+    },
+    {
+      "rank": 25,
+      "algorithm": "diversity_search",
+      "score": 77.14180172712497,
+      "ci_low": 76.03269430077688,
+      "ci_high": 78.25090915347306
+    },
+    {
+      "rank": 26,
+      "algorithm": "response_search",
+      "score": 76.53277420888028,
+      "ci_low": 75.46608895947956,
+      "ci_high": 77.599459458281
+    },
+    {
+      "rank": 27,
+      "algorithm": "response_nodirection",
+      "score": 76.35943766505858,
+      "ci_low": 75.23583875811681,
+      "ci_high": 77.48303657200034
+    },
+    {
+      "rank": 28,
+      "algorithm": "bh",
+      "score": 66.29780825409854,
+      "ci_low": 65.29595252973401,
+      "ci_high": 67.29966397846307
+    },
+    {
+      "rank": 29,
+      "algorithm": "ptbh",
+      "score": 66.16373014081267,
+      "ci_low": 63.87757232059044,
+      "ci_high": 68.44988796103492
+    },
+    {
+      "rank": 30,
+      "algorithm": "mh",
+      "score": 56.210788821548284,
+      "ci_low": 54.78566153301948,
+      "ci_high": 57.63591611007709
+    },
+    {
+      "rank": 31,
+      "algorithm": "sa",
+      "score": 20.309870014542497,
+      "ci_low": 19.17158871534687,
+      "ci_high": 21.448151313738123
+    }
+  ],
+  "references": {
+    "bu_Cu4": {
+      "energy": -17.187793746195517,
+      "validation": {
+        "dE": 1.957261019924772e-10,
+        "dmin": 0.9525960422580317,
+        "eg": 0.0,
+        "comp": 1,
+        "region": true,
+        "vpa": 0.9522714237926427,
+        "frozen_fix": 0,
+        "bad": []
+      },
+      "guard_active_hits": []
+    },
+    "bu_Mg4O4": {
+      "energy": -49.31386265954038,
+      "validation": {
+        "dE": 6.540332719850994e-10,
+        "dmin": 1.015276811594203,
+        "eg": 0.0,
+        "comp": 1,
+        "region": true,
+        "vpa": 0.9937828719339727,
+        "frozen_fix": 0,
+        "bad": []
+      },
+      "guard_active_hits": []
+    },
+    "cl_Ni13": {
+      "energy": -54.239915376078834,
+      "validation": {
+        "dE": 9.102620879275491e-10,
+        "dmin": 0.9396621654205934,
+        "eg": 0.0,
+        "comp": 1,
+        "region": true,
+        "vpa": null,
+        "frozen_fix": 0,
+        "bad": []
+      },
+      "guard_active_hits": []
+    },
+    "su_Ag4_Cu111": {
+      "energy": -408.21442845520323,
+      "validation": {
+        "dE": 9.731593308970332e-11,
+        "dmin": 0.8994050648429267,
+        "eg": 0.0,
+        "comp": 1,
+        "region": true,
+        "vpa": null,
+        "frozen_fix": 0,
+        "bad": []
+      },
+      "guard_active_hits": []
+    },
+    "su_Au4_graphene": {
+      "energy": -677.2922110537434,
+      "validation": {
+        "dE": 2.758042683126405e-10,
+        "dmin": 0.9699301470588234,
+        "eg": 0.0,
+        "comp": 1,
+        "region": false,
+        "vpa": null,
+        "frozen_fix": 0,
+        "bad": []
+      },
+      "guard_active_hits": []
+    }
+  }
+}
